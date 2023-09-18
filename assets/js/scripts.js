@@ -181,7 +181,8 @@
 (function ($, root, undefined) {
   $(function () {
     "use strict";
-    var templateUrl = "http://127.0.0.1:5500/";
+    /* var templateUrl = "http://127.0.0.1:5500/"; */
+    var templateUrl = "https://machip3r.github.io/panzaverde-landingpage/";
 
     $("html").on("click", ".trigger", function () {
       $(this).parent().toggleClass("active");
