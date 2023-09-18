@@ -288,35 +288,6 @@ h6 {
     z-index: -1
 }
 
-.brush--blue::before {
-    content: "";
-    background-image: url("/wp-content/themes/fresh-n-lean/images/effects/blue-brush.svg");
-    width: 109%;
-    left: -4%
-}
-
-.brush--green::before {
-    content: "";
-    background-image: url("/wp-content/themes/fresh-n-lean/images/effects/green-brush.svg");
-    width: 135%;
-    left: -15%
-}
-
-.brush--thin-green {
-    color: initial
-}
-
-.brush--thin-green::before {
-    content: "";
-    background-image: url("/wp-content/themes/fresh-n-lean/images/effects/green-thin-brush.svg");
-    width: 100%;
-    height: 5px;
-    top: auto;
-    bottom: 0px;
-    left: 0;
-    z-index: 10
-}
-
 .clip-path--arrow-top {
     -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%, 0 0, 50% 3.5%, 100% 0);
     clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%, 0 0, 50% 3.5%, 100% 0);
@@ -1780,7 +1751,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Poppins";
     src: url("../fonts/Poppins-Black.ttf");
-    src: url("../fonts/Poppins-Black.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Black.ttf") format("ttf"), url("../fonts/Poppins-Black.ttf") format("ttf");
     font-weight: 900;
     font-style: normal;
     font-display: swap
@@ -1789,7 +1759,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Poppins";
     src: url("../fonts/Poppins-Medium.ttf");
-    src: url("../fonts/Poppins-Medium.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.ttf") format("ttf"), url("../fonts/Poppins-Medium.ttf") format("ttf");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -1798,7 +1767,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Light.ttf");
-    src: url("../fonts/Roboto-Light.ttf?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light.ttf") format("ttf"), url("../fonts/Roboto-Light.ttf") format("ttf");
     font-weight: 300;
     font-style: normal;
     font-display: swap
@@ -1807,7 +1775,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Heebo";
     src: url("../fonts/Heebo-Light.ttf");
-    src: url("../fonts/Heebo-Light.ttf?#iefix") format("embedded-opentype"), url("../fonts/Heebo-Light.ttf") format("ttf"), url("../fonts/Heebo-Light.ttf") format("ttf");
     font-weight: 300;
     font-style: normal;
     font-display: swap
@@ -1816,7 +1783,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Heebo";
     src: url("../fonts/Heebo-Bold.ttf");
-    src: url("../fonts/Heebo-Bold.ttf?#iefix") format("embedded-opentype"), url("../fonts/Heebo-Bold.ttf") format("ttf"), url("../fonts/Heebo-Bold.ttf") format("ttf");
     font-weight: bold;
     font-style: normal;
     font-display: swap
@@ -1825,7 +1791,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Poppins";
     src: url("../fonts/Poppins-Regular.ttf");
-    src: url("../fonts/Poppins-Regular.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Regular.ttf") format("ttf"), url("../fonts/Poppins-Regular.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap
@@ -1834,7 +1799,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Regular.ttf");
-    src: url("../fonts/Roboto-Regular.ttf?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular.ttf") format("ttf"), url("../fonts/Roboto-Regular.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap
@@ -1843,7 +1807,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Poppins";
     src: url("../fonts/Poppins-ExtraLightItalic.ttf");
-    src: url("../fonts/Poppins-ExtraLightItalic.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraLightItalic.ttf") format("ttf"), url("../fonts/Poppins-ExtraLightItalic.ttf") format("ttf");
     font-weight: 200;
     font-style: italic;
     font-display: swap
@@ -1852,7 +1815,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Heebo";
     src: url("../fonts/Heebo-Regular.ttf");
-    src: url("../fonts/Heebo-Regular.ttf?#iefix") format("embedded-opentype"), url("../fonts/Heebo-Regular.ttf") format("ttf"), url("../fonts/Heebo-Regular.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap
@@ -1861,7 +1823,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Poppins";
     src: url("../fonts/Poppins-LightItalic.ttf");
-    src: url("../fonts/Poppins-LightItalic.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-LightItalic.ttf") format("ttf"), url("../fonts/Poppins-LightItalic.ttf") format("ttf");
     font-weight: 300;
     font-style: italic;
     font-display: swap
@@ -1870,7 +1831,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Medium.ttf");
-    src: url("../fonts/Roboto-Medium.ttf?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.ttf") format("ttf"), url("../fonts/Roboto-Medium.ttf") format("ttf");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -1879,7 +1839,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Poppins";
     src: url("../fonts/Poppins-SemiBold.ttf");
-    src: url("../fonts/Poppins-SemiBold.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.ttf") format("ttf"), url("../fonts/Poppins-SemiBold.ttf") format("ttf");
     font-weight: 600;
     font-style: normal;
     font-display: swap
@@ -1888,7 +1847,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Bold.ttf");
-    src: url("../fonts/Roboto-Bold.ttf?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.ttf") format("ttf"), url("../fonts/Roboto-Bold.ttf") format("ttf");
     font-weight: bold;
     font-style: normal;
     font-display: swap
@@ -1897,7 +1855,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Poppins";
     src: url("../fonts/Poppins-Bold.ttf");
-    src: url("../fonts/Poppins-Bold.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Bold.ttf") format("ttf"), url("../fonts/Poppins-Bold.ttf") format("ttf");
     font-weight: bold;
     font-style: normal;
     font-display: swap
@@ -1906,7 +1863,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Black.ttf");
-    src: url("../fonts/Roboto-Black.ttf?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Black.ttf") format("ttf"), url("../fonts/Roboto-Black.ttf") format("ttf");
     font-weight: 900;
     font-style: normal;
     font-display: swap
@@ -1915,7 +1871,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Heebo";
     src: url("../fonts/Heebo-Medium.ttf");
-    src: url("../fonts/Heebo-Medium.ttf?#iefix") format("embedded-opentype"), url("../fonts/Heebo-Medium.ttf") format("ttf"), url("../fonts/Heebo-Medium.ttf") format("ttf");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -1924,7 +1879,6 @@ div[class^=pure-u] {
 @font-face {
     font-family: "Poppins";
     src: url("../fonts/Poppins-ExtraBold.ttf");
-    src: url("../fonts/Poppins-ExtraBold.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraBold.ttf") format("ttf"), url("../fonts/Poppins-ExtraBold.ttf") format("ttf");
     font-weight: 800;
     font-style: normal;
     font-display: swap
@@ -2908,8 +2862,8 @@ li.right {
 .faq-questions dt:focus,
 .faq-questions .tab-title .tab-link:focus,
 .meal-info .meal-info-container .slick-arrow.slick-next:focus,
-.service-faq-section .js-accordion li h4:focus,
-.has-accordions .js-accordion li h4:focus,
+.service-faq-section li h4:focus,
+.has-accordions li h4:focus,
 a:focus,
 .button:focus,
 .btn:focus {
@@ -2926,8 +2880,8 @@ a:focus,
 .faq-questions dt:focus-visible,
 .faq-questions .tab-title .tab-link:focus-visible,
 .meal-info .meal-info-container .slick-arrow.slick-next:focus-visible,
-.service-faq-section .js-accordion li h4:focus-visible,
-.has-accordions .js-accordion li h4:focus-visible,
+.service-faq-section li h4:focus-visible,
+.has-accordions li h4:focus-visible,
 a:focus-visible,
 .button:focus-visible,
 .btn:focus-visible {
@@ -5068,81 +5022,6 @@ tbody.collapse.in {
     color: #8c8c8c
 }
 
-.service-faq-section .js-accordion,
-.has-accordions .js-accordion {
-    counter-reset: accordionHead
-}
-
-.service-faq-section .js-accordion li,
-.has-accordions .js-accordion li {
-    position: relative;
-    counter-increment: accordionHead;
-    border-top: 1px solid #dcf2e4
-}
-
-.service-faq-section .js-accordion li h4,
-.has-accordions .js-accordion li h4 {
-    font-family: var(--font-body);
-    font-size: 14px;
-    font-weight: 500;
-    padding: 20px 45px 20px 30px;
-    cursor: pointer;
-    line-height: 1.5;
-    max-width: 780px
-}
-
-.service-faq-section .js-accordion li h4.active {
-    padding: 20px 45px 25px 30px
-}
-
-.hiw-steps__content--2 ol.js-accordion li h4:after {
-    content: url(https://freshnlean.com/wp-content/uploads/2022/04/Arrow_down_8x15.svg) !important;
-    transform: rotate(0deg) !important;
-    width: 20px !important;
-    height: 20px !important;
-    top: 15px !important
-}
-
-.hiw-steps__content--2 ol.js-accordion li h4:after.active {
-    transform: rotate(180deg) !important
-}
-
-.service-faq-section .js-accordion .accordion-header:after,
-.has-accordions .js-accordion .accordion-header:after {
-    content: url("https://freshnlean.com/wp-content/uploads/2022/04/Arrow_down_8x15.svg");
-    font-size: 50px;
-    display: inline-block;
-    position: absolute;
-    right: 2%;
-    top: 5px;
-    width: 20px;
-    height: 10px;
-    line-height: 38px;
-    font-weight: 300;
-    text-align: center;
-    color: #00bf6f;
-    transition: .25s;
-    transform-origin: 50% 50%
-}
-
-.service-faq-section .js-accordion .accordion-header.active:after,
-.has-accordions .js-accordion .accordion-header.active:after {
-    content: url("https://freshnlean.com/wp-content/uploads/2022/04/Arrow_up_8x15.svg")
-}
-
-.service-faq-section .accordion-content,
-.has-accordions .accordion-content {
-    padding: 0 30px 20px
-}
-
-.service-faq-section .accordion-content p {
-    margin-bottom: 20px
-}
-
-.service-faq-section {
-    padding: 80px 0 120px
-}
-
 .service-faq-section p,
 .service-faq-section h3,
 .service-faq-section h4,
@@ -5154,22 +5033,9 @@ tbody.collapse.in {
     .service-faq-section {
         padding: 40px 0 120px
     }
-
-    .service-faq-section .js-accordion {
-        margin-bottom: 20px
-    }
 }
 
 @media only screen and (max-width: 600px) {
-    .service-faq-section .js-accordion .accordion-header:after {
-        font-size: 30px
-    }
-
-    .service-faq-section .js-accordion li h4 {
-        padding: 15px;
-        font-size: 16px
-    }
-
     .service-faq-section p {
         font-size: 13px
     }
@@ -5590,11 +5456,6 @@ tbody.collapse.in {
 
 .clients-review-section .reviewer-icon-list+a {
     text-align: center
-}
-
-.page-id-23921 .clients-review-section {
-    order: -1;
-    background-color: #fff
 }
 
 @media only screen and (max-width: 600px) {
@@ -7214,12 +7075,6 @@ section.flip-flop-grid .flip-flop__body .text {
     }
 }
 
-@media all and (max-width: 769px) {
-    .page-id-49038 .hero-full-screen-mobile {
-        height: 70vh
-    }
-}
-
 .hero {
     height: 650px;
     width: 100%;
@@ -8776,10 +8631,6 @@ section.flip-flop-grid .flip-flop__body .text {
     margin: 5px
 }
 
-.page-id-53210 .meal-plan-tabs-v2 .meals-list-container .tab-title-container .tab-title {
-    display: block
-}
-
 .meal-variety {
     margin: auto;
     max-width: 1200px
@@ -9521,31 +9372,10 @@ section.parallax .container .content .block-right .right-container .image-3 {
     }
 }
 
-.review-carousel--content.static-review::before {
-    content: url("https://www.freshnlean.com/wp-content/uploads/2023/08/green-double-quotes.png");
-    padding: 5px;
-    position: absolute;
-    z-index: 0;
-    top: -15px;
-    left: 5px;
-    opacity: .2
-}
-
 @media all and (min-width: 769px) {
     .review-carousel--content.static-review::before {
         opacity: 1;
         left: 60px
-    }
-}
-
-@media all and (min-width: 769px) {
-    .review-carousel--content.static-review::after {
-        content: url("https://www.freshnlean.com/wp-content/uploads/2023/08/green-double-quotes.png");
-        padding: 5px;
-        position: absolute;
-        z-index: 0;
-        bottom: -15px;
-        right: 60px
     }
 }
 
@@ -10178,7 +10008,7 @@ section.steps .header {
     text-transform: initial
 }
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 1250px) {
     section.steps .header {
         font-weight: bold;
         padding: 25px 0
@@ -10197,7 +10027,7 @@ section.steps .steps-container {
     display: flex
 }
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 1250px) {
     section.steps .steps-container {
         display: block;
         padding-left: 0;
@@ -10209,7 +10039,7 @@ section.steps .steps-container .step .image {
     margin: 5px
 }
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 1250px) {
     section.steps .steps-container .step .image {
         margin: 0
     }
@@ -10223,7 +10053,7 @@ section.steps .steps-container .step .text-container {
     padding-top: 25px
 }
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 1250px) {
     section.steps .steps-container .step .text-container {
         display: none
     }
@@ -10289,7 +10119,7 @@ section.steps .mobile-text-accordion {
     padding: 0 50px
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1250px) {
     section.steps .mobile-text-accordion {
         display: none
     }
@@ -10377,7 +10207,7 @@ section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header::b
 
 section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active::before {
     color: #fff;
-    content: "−";
+    content: "âˆ’";
     font-size: 15px;
     left: 76px;
     position: absolute;
@@ -10418,58 +10248,6 @@ section.steps .button-container .btn {
 section.steps .button-container .btn:hover {
     border: 2px solid #006b4f;
     color: #006b4f
-}
-
-#black-friday section.steps .header {
-    padding-bottom: 37px
-}
-
-#black-friday section.steps .steps-container {
-    gap: 73px
-}
-
-#black-friday section.steps .steps-container .step .image {
-    margin: 0
-}
-
-#black-friday section.steps .steps-container .step .text-container {
-    padding-top: 0px !important
-}
-
-#black-friday section.steps .steps-container .step .text-container .title-container {
-    position: relative
-}
-
-#black-friday section.steps .steps-container .step .text-container .title-container h3.title::before {
-    content: "";
-    border-bottom: 3px solid #18a560;
-    width: 30px;
-    display: block;
-    bottom: 0;
-    position: absolute
-}
-
-#black-friday section.steps .steps-container .step .text-container .title-container .title {
-    border-top: none !important;
-    padding-top: 5px;
-    text-transform: initial;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 39px;
-    text-transform: initial
-}
-
-#black-friday section.steps .steps-container .step .text-container .title-container .dot {
-    display: none
-}
-
-#black-friday section.steps .steps-container .step .text-container p {
-    width: 245px;
-    padding-top: 5px;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 23px;
-    color: #000
 }
 
 .stepsV2 {
@@ -13508,96 +13286,6 @@ section.steps .button-container .btn:hover {
     transform-origin: 50% 50%
 }
 
-.page-id-56 .fancybox-content,
-.page-id-43866 .fancybox-content {
-    background-color: #0b1829;
-    padding: 0;
-    max-width: 1150px
-}
-
-.page-id-56 .fancybox-content .grid,
-.page-id-43866 .fancybox-content .grid {
-    max-height: 900px
-}
-
-@media all and (max-width: 992px) {
-
-    .page-id-56 .hidden-card__container,
-    .page-id-43866 .hidden-card__container {
-        grid-template-rows: repeat(2, minmax(0, 1fr));
-        -ms-grid-columns: none;
-        grid-template-columns: none
-    }
-}
-
-@media all and (min-width: 992px) {
-
-    .page-id-56 .hidden-card__container,
-    .page-id-43866 .hidden-card__container {
-        -ms-grid-rows: none;
-        grid-template-rows: none;
-        grid-template-columns: repeat(2, minmax(0, 1fr))
-    }
-}
-
-.page-id-56 .hidden-card__content,
-.page-id-43866 .hidden-card__content {
-    padding: 25px
-}
-
-@media all and (min-width: 992px) {
-
-    .page-id-56 .hidden-card__content,
-    .page-id-43866 .hidden-card__content {
-        padding: 80px;
-        -ms-grid-row: 1;
-        grid-row-start: 1;
-        -ms-grid-row-span: 1;
-        grid-row-end: 2
-    }
-}
-
-.page-id-56 .hidden-card__content p,
-.page-id-43866 .hidden-card__content p {
-    color: #fff
-}
-
-.page-id-56 .hidden-card__content__back-button,
-.page-id-43866 .hidden-card__content__back-button {
-    color: #00bf6f !important;
-    cursor: pointer
-}
-
-.page-id-56 .hidden-card__image,
-.page-id-43866 .hidden-card__image {
-    position: relative
-}
-
-.page-id-56 .hidden-card__image img,
-.page-id-43866 .hidden-card__image img {
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    width: 100%;
-    left: 0
-}
-
-.page-id-56 .hidden-card__image .overlay,
-.page-id-43866 .hidden-card__image .overlay {
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), #0b1829)
-}
-
-@media all and (max-width: 769px) {
-
-    .page-id-56 .hidden-card__image .overlay,
-    .page-id-43866 .hidden-card__image .overlay {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #0b1829);
-        top: 1px;
-        height: 100%;
-        width: 100%
-    }
-}
-
 @media all and (min-width: 431px) {
     .ceo-layout {
         max-width: 860px;
@@ -16382,16 +16070,6 @@ section.steps .button-container .btn:hover {
     padding: 10px
 }
 
-.location-page section.steps .steps-container .step .text-container .title-container .bolt,
-#whole30-meal-delivery section.steps .steps-container .step .text-container .title-container .bolt {
-    content: url("/wp-content/themes/fresh-n-lean/images/icons/bolt-sm.svg");
-    position: absolute;
-    height: 100%;
-    top: -32px;
-    width: 23px;
-    background-color: #fff
-}
-
 .location-page section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header,
 #whole30-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header {
     letter-spacing: .79px;
@@ -16405,12 +16083,6 @@ section.steps .button-container .btn:hover {
 #whole30-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle,
 #whole30-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle {
     background-color: #fff
-}
-
-.location-page section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header::before,
-#whole30-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header::before {
-    content: url("/wp-content/themes/fresh-n-lean/images/icons/bolt.svg");
-    left: -44px
 }
 
 .location-page section.steps .button-container a.btn.primary.small,
@@ -16603,10 +16275,6 @@ section.steps .button-container .btn:hover {
     display: none
 }
 
-.page-id-58306 .mealpopup .mealpop-cta__container a {
-    width: 100% !important
-}
-
 .page-template-default .site-content .content-area {
     padding: 80px 0
 }
@@ -16670,82 +16338,6 @@ section.steps .button-container .btn:hover {
     font-size: 12px;
     width: 2em;
     margin-left: -2em
-}
-
-.page-id-478 .content-area .site-main {
-    text-align: center
-}
-
-@media only screen and (max-width: 1250px) {
-    .page-id-478 .content-area .site-main .container {
-        margin: 50px
-    }
-}
-
-.page-id-478 .content-area .site-main .container .entry-header h1 {
-    text-align: left
-}
-
-@media only screen and (max-width: 768px) {
-    .page-id-478 .content-area .site-main .container .entry-header h1 {
-        text-align: center
-    }
-}
-
-.page-id-478 .content-area .site-main .container .entry-content {
-    display: flex;
-    padding: 50px 0
-}
-
-@media only screen and (max-width: 768px) {
-    .page-id-478 .content-area .site-main .container .entry-content {
-        display: block
-    }
-}
-
-.page-id-478 .content-area .site-main .container .entry-content .col {
-    flex: 1 1 33.3%
-}
-
-@media only screen and (max-width: 768px) {
-    .page-id-478 .content-area .site-main .container .entry-content .col {
-        padding: 10px 0
-    }
-}
-
-.page-id-478 .content-area .site-main .container .entry-content .col h4 {
-    padding: 20px 0;
-    text-align: left
-}
-
-@media only screen and (max-width: 768px) {
-    .page-id-478 .content-area .site-main .container .entry-content .col h4 {
-        text-align: center
-    }
-}
-
-.page-id-478 .content-area .site-main .container .entry-content .col .col-content {
-    text-align: left
-}
-
-@media only screen and (max-width: 768px) {
-    .page-id-478 .content-area .site-main .container .entry-content .col .col-content {
-        text-align: center
-    }
-}
-
-.page-id-478 .content-area .site-main .container .entry-content .col .col-content ul {
-    margin-left: 0
-}
-
-.page-id-478 .content-area .site-main .container .entry-content .col .col-content ul li::before {
-    display: none
-}
-
-.page-id-478 .content-area .site-main .container .entry-content .col .col-content ul li a {
-    margin: 5px 0;
-    text-decoration: none;
-    width: 100%
 }
 
 #faq-page .hero {
@@ -18331,67 +17923,6 @@ section.steps .button-container .btn:hover {
     color: #fff !important
 }
 
-.page-id-36615 .menu-header-menu-container #primary-menu .menu-item-18930 a:hover {
-    background: #ffbf00;
-    color: #000
-}
-
-.page-id-36615 .hero-full .hero-cta-container .hero-cta a.btn:hover {
-    background: #ffbf00;
-    color: #000
-}
-
-.page-id-36615 section.steps .button-container .btn {
-    background: #00bf6f;
-    border: none;
-    color: #fff;
-    max-width: 300px;
-    padding: 24px 0;
-    width: 100%;
-    margin-bottom: 25px
-}
-
-.page-id-36615 section.steps .button-container .btn:hover {
-    background: #ffbf00;
-    color: #000
-}
-
-.page-id-36615 .meal-info .meal-info-container .block-right .block-container .meal-info-body .btn:hover {
-    background: #ffbf00;
-    color: #000
-}
-
-.page-id-36615 .save-hours .save-hours-cointainer .block-left .block-container .button-container .btn:hover {
-    background: #ffbf00;
-    color: #000
-}
-
-.page-id-36615 .image-and-text-cta .block-right .content .btn:hover {
-    background: #ffbf00;
-    color: #000
-}
-
-.page-id-36615 section.parallax .container .block-left .btn {
-    background: #00bf6f;
-    border: 2px solid #00bf6f;
-    color: #fff;
-    max-width: 300px;
-    padding: 24px 0;
-    width: 100%;
-    margin-bottom: 25px
-}
-
-.page-id-36615 section.parallax .container .block-left .btn:hover {
-    background: #ffbf00;
-    border: 2px solid #ffbf00;
-    color: #000
-}
-
-.page-id-36615 .meal-plan-tabs .meals-list-container .tab-content .meals-plan-container .meals .block-right .block-container .btn:hover {
-    background: #ffbf00;
-    color: #000
-}
-
 .page-template-homepage .meal-info .meal-info-container .block-right .block-container .meal-slider .meals-slide .meal-macros {
     border-top: 1px solid #8f95a3;
     border-bottom: none;
@@ -19244,44 +18775,6 @@ section.steps .button-container .btn:hover {
     border-radius: 3px
 }
 
-.hiw-steps__content--2 ol.js-accordion {
-    border-bottom: 1px #d9dbec solid
-}
-
-.hiw-steps__content--2 ol.js-accordion li {
-    border-top: 1px #d9dbec solid;
-    padding: 15px 0px;
-    position: relative
-}
-
-.hiw-steps__content--2 ol.js-accordion li h4 {
-    width: 87%
-}
-
-.hiw-steps__content--2 ol.js-accordion li h4.active:after {
-    transform: rotate(-90deg);
-    right: 0%
-}
-
-.hiw-steps__content--2 ol.js-accordion li h4:after {
-    content: "›";
-    display: inline-block;
-    position: absolute;
-    right: 2%;
-    top: 2px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    transform: rotate(90deg);
-    color: #00bf6f;
-    transition: .25s;
-    transform-origin: 50% 50%
-}
-
-.hiw-steps__content--2 ol.js-accordion li p {
-    padding: 10px 0
-}
-
 .hiw-steps__content--2 .btn {
     margin-top: 25px
 }
@@ -19317,150 +18810,6 @@ section.steps .button-container .btn:hover {
     .hiw-steps__scroll {
         display: none
     }
-}
-
-#keto-meal-delivery .hero-full .hero-cta-container .hero-cta .btn {
-    background-color: #ffb83c;
-    color: #000
-}
-
-#keto-meal-delivery .hero-full .hero-cta-container .hero-cta .btn:hover {
-    background-color: #da8c00
-}
-
-@media all and (min-width: 769px) {
-
-    #keto-meal-delivery .hero-full .hero-cta-container .hero-cta .header,
-    #keto-meal-delivery .hero-full .hero-cta-container .hero-cta .sub-header-container .sub-header {
-        color: #fff
-    }
-}
-
-#keto-meal-delivery .column-image-and-text {
-    background-color: #fff5d6
-}
-
-#keto-meal-delivery .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading {
-    color: #000
-}
-
-#keto-meal-delivery .meal-info .meal-info-container .block-right .block-container .meal-info-body .btn,
-#keto-meal-delivery section.service-faq-section .service-faq-section-container .btn {
-    background-color: #ffb83c;
-    color: #000
-}
-
-#keto-meal-delivery .meal-info .meal-info-container .block-right .block-container .meal-info-body .btn:hover,
-#keto-meal-delivery section.service-faq-section .service-faq-section-container .btn:hover {
-    background-color: #da8c00
-}
-
-#keto-meal-delivery section.parallax .container .content .block-left .btn {
-    border: 2px solid #9d641b;
-    color: #9d641b
-}
-
-#keto-meal-delivery section.parallax .container .content .block-left .btn:hover {
-    border: 2px solid #da8c00;
-    color: #da8c00
-}
-
-#keto-meal-delivery .clients-review-section,
-#keto-meal-delivery .press-icon-container {
-    background-color: #fff5d6 !important
-}
-
-#keto-meal-delivery section.service-faq-section .service-faq-section-container .link,
-#keto-meal-delivery .steps-body a,
-#keto-meal-delivery .service-faq-section .js-accordion .accordion-header:after,
-#keto-meal-delivery .has-accordions .js-accordion .accordion-header:after,
-#keto-meal-delivery .meal-variety .meals-list-container .tab-content .meals-container .meals .meal-description .category {
-    filter: hue-rotate(265deg) brightness(1)
-}
-
-#keto-meal-delivery .service-faq-section .js-accordion li,
-#keto-meal-delivery .has-accordions .js-accordion li {
-    border-top: 1px solid #9d641b
-}
-
-#keto-meal-delivery .meal-variety .meals-list-container .tab-title .current {
-    border-bottom: 1px solid #9d641b !important
-}
-
-#keto-meal-delivery .meal-variety .meals-list-container .tab-title .tab-link:hover {
-    border-bottom: 1px solid #fff5d6 !important
-}
-
-@media all and (max-width: 769px) {
-    #keto-meal-delivery section.service-faq-section .service-faq-section-container .btn {
-        display: none
-    }
-}
-
-#keto-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail::after,
-#keto-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #9d641b 0%, #9d641b 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-#keto-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle,
-#keto-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle,
-#keto-meal-delivery ul.slick-dots .slick-active button {
-    background-color: #9d641b
-}
-
-#keto-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active {
-    color: #9d641b
-}
-
-#keto-meal-delivery .steps .steps-container .title {
-    border-top: 1px solid #9d641b
-}
-
-#keto-meal-delivery .steps .steps-container .dot {
-    background-image: radial-gradient(circle at center, #9d641b 5px, transparent 5px)
-}
-
-#keto-meal-delivery .steps .steps-container .single-step .trail:after {
-    background-image: linear-gradient(to top, #9d641b 0%, #9d641b 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-#keto-meal-delivery .steps .button-container .btn {
-    border: 1px solid #9d641b;
-    color: #9d641b
-}
-
-#keto-meal-delivery .steps .button-container .btn:hover {
-    border: 1px solid #9d641b
-}
-
-.page-id-33531 .product-benefits--ppc {
-    background-color: #1b3b76
-}
-
-.page-id-33531 .product-benefits--ppc .benefit-list .benefit-list__item .primary {
-    color: #fff
-}
-
-.page-id-33531 .product-benefits--ppc .benefit-list .benefit-list__item p {
-    color: #fff
-}
-
-.page-id-33531 .press-icon-container {
-    background-color: #e7eaec
-}
-
-.page-id-33531 .ppc-reviews-bg {
-    background-color: #1b3b76
-}
-
-.page-id-33531 .ppc-reviews-bg .ppc-reviews h4 {
-    color: #fff
 }
 
 #legacy-seo .column-image-and-text {
@@ -19533,16 +18882,6 @@ section.steps .button-container .btn:hover {
     #locations-page .locations-tabs .locations-content .tab-image .locations-images button.slick-next {
         top: 100%
     }
-}
-
-#locations-page .locations-tabs .locations-content .tab-image .locations-images button.slick-next:after {
-    background: url("/wp-content/uploads/2019/09/inside-store-button.png") no-repeat;
-    display: inline-block;
-    height: 40px;
-    width: 200px;
-    margin-right: 5px;
-    content: "";
-    background-size: 200px 30px
 }
 
 .locations-tabs .locations-tab-container {
@@ -20368,278 +19707,6 @@ section.steps .button-container .btn:hover {
     }
 }
 
-#low-carb-page .hero .content-txt {
-    text-align: initial;
-    max-width: 550px
-}
-
-@media all and (max-width: 992px) {
-    #low-carb-page .hero .content-txt {
-        text-align: center;
-        padding: 0
-    }
-}
-
-#low-carb-page .hero .content-txt h1 {
-    color: #000;
-    text-transform: initial;
-    margin-bottom: 5px
-}
-
-@media all and (max-width: 992px) {
-    #low-carb-page .hero .content-txt h1 {
-        text-align: center
-    }
-}
-
-#low-carb-page .hero .content-txt h2 {
-    text-transform: initial
-}
-
-#low-carb-page .hero .content-txt h4 {
-    color: #414141
-}
-
-#low-carb-page .hero .content .container {
-    text-align: right
-}
-
-@media all and (max-width: 992px) {
-    #low-carb-page .hero .content .container {
-        text-align: center;
-        padding: 25px 0
-    }
-}
-
-#low-carb-page .hero .content .container .primary {
-    background-color: #00bf6f;
-    width: 100%;
-    padding: 22px 24px !important
-}
-
-#low-carb-page .hero .content .container .primary:hover {
-    background-color: #068e67
-}
-
-#low-carb-page .column-image-and-text {
-    background-color: #00263e
-}
-
-#low-carb-page .column-image-and-text .heading {
-    color: #fff
-}
-
-#low-carb-page .meal-plan-tabs-v2 .tab-title {
-    justify-content: start
-}
-
-#low-carb-page .meal-plan-tabs-v2 .tab-link {
-    margin: 0 30px
-}
-
-@media all and (max-width: 992px) {
-    #low-carb-page .meal-plan-tabs-v2 .tab-link {
-        margin: 0px
-    }
-}
-
-#low-carb-page .flip-flop-grid {
-    padding-top: 80px
-}
-
-#low-carb-page .flip-flop-grid .heading {
-    max-width: 300px
-}
-
-@media all and (max-width: 431px) {
-    #low-carb-page .flip-flop-grid .heading {
-        margin: auto
-    }
-}
-
-#low-carb-page .press-icon-container,
-#low-carb-page .performance-bg {
-    background-color: #414141
-}
-
-#low-carb-page .press-icon-container .customer-reviews h2,
-#low-carb-page .performance-bg .customer-reviews h2 {
-    color: #fff
-}
-
-#low-carb-page .service-faq-section-container .site-content a {
-    color: #789dd1;
-    border: 1px solid #d9dbec
-}
-
-#low-carb-page .service-faq-section .js-accordion li {
-    border-top: 1px solid #d9dbec
-}
-
-#low-carb-page .service-faq-section .js-accordion .accordion-header:after {
-    color: #789dd1
-}
-
-@media all and (min-width: 769px) {
-    #low-carb-page-b .hero-full .hero-cta-container .hero-cta .header {
-        color: #fff
-    }
-}
-
-@media all and (min-width: 769px) {
-    #low-carb-page-b .hero-full .hero-cta-container .hero-cta .sub-header {
-        color: #fff
-    }
-}
-
-#low-carb-page-b .hero-full .hero-cta-container .hero-cta a.btn {
-    background-color: #00bf6f;
-    color: #fff;
-    max-width: 375px
-}
-
-@media all and (max-width: 431px) {
-    #low-carb-page-b .hero-full .hero-cta-container .hero-cta a.btn {
-        max-width: 330px
-    }
-}
-
-#low-carb-page-b .column-image-and-text {
-    background-color: #00263e
-}
-
-#low-carb-page-b .column-image-and-text .column-image-and-text-container {
-    filter: invert(1) brightness(5)
-}
-
-#low-carb-page-b .meal-plan-tabs-v2 .tab-title {
-    justify-content: start
-}
-
-@media all and (min-width: 769px) {
-    #low-carb-page-b .meal-plan-tabs-v2 .tab-title {
-        padding-left: 70px
-    }
-}
-
-#low-carb-page-b section.steps .steps-container .step .text-container .title-container .dot {
-    background-image: radial-gradient(circle at center, #8ad3ab 5px, transparent 5px)
-}
-
-#low-carb-page-b section.steps .steps-container .step .text-container .title-container .title {
-    border-top: 1px solid #8ad3ab
-}
-
-#low-carb-page-b section.steps .mobile-text-accordion .homepage-js-accordion li .step-container .single-step .main-container .accordion-header.active {
-    color: #00bf6f
-}
-
-#low-carb-page-b section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle {
-    background-color: #96d4ab
-}
-
-#low-carb-page-b section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle:after {
-    background-image: linear-gradient(to top, #96d4c0 0%, #96d4c0 100%, transparent 100%)
-}
-
-#low-carb-page-b section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail::after,
-#low-carb-page-b section.steps #keto-page section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #96d4c0 0%, #96d4c0 100%, transparent 100%)
-}
-
-#low-carb-page-b section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle,
-#low-carb-page-b section.steps #keto-page ul.slick-dots .slick-active button {
-    background-color: #96d4c0
-}
-
-#low-carb-page-b section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail::after,
-#low-carb-page-b section.steps #keto-page section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #96d4c0 0%, #96d4c0 100%, transparent 100%)
-}
-
-#low-carb-page-b section.steps .button-container a.btn {
-    border: 1px solid #00bf6f;
-    color: #00bf6f
-}
-
-#low-carb-page-b .meal-info-container {
-    display: none
-}
-
-#low-carb-page-b .parallax {
-    display: none
-}
-
-#low-carb-page-b .meal-variety .tabs .meals-list-container .tab-title {
-    width: 30%
-}
-
-@media all and (max-width: 769px) {
-    #low-carb-page-b .meal-variety .tabs .meals-list-container .tab-title {
-        width: 80%
-    }
-}
-
-#low-carb-page-b .meal-variety .tabs .meals-list-container .tab-title .tab-link {
-    white-space: nowrap;
-    overflow: hidden
-}
-
-#low-carb-page-b .meal-variety .tabs .meals-list-container .tab-title .current {
-    border-bottom: 1px solid #00bf6f !important
-}
-
-#low-carb-page-b .meal-variety .meals-list-container .tab-content .meals-container .meals .meal-description .category {
-    color: #00bf6f !important
-}
-
-#low-carb-page-b .clients-review-section {
-    background-color: #f2fdf7 !important
-}
-
-#low-carb-page-b .clients-review-section .container .press-icon-container {
-    background-color: #f2fdf7 !important
-}
-
-#low-carb-page-b .service-faq-section .container .service-faq-section-container .center a {
-    color: #00bf6f !important
-}
-
-#low-carb-page-b .service-faq-section .js-accordion li,
-#low-carb-page-b .service-faq-section #keto-page .has-accordions .js-accordion li {
-    border-top: 1px solid #96d4c0
-}
-
-#low-carb-page-b .service-faq-section .js-accordion .accordion-header:after,
-#low-carb-page-b .service-faq-section #keto-page .has-accordions .js-accordion .accordion-header:after,
-#low-carb-page-b .service-faq-section #keto-page .meal-variety .meals-list-container .tab-content .meals-container .meals .meal-description .category {
-    color: #00bf6f !important
-}
-
-#low-carb-page-b .service-faq-section .container .service-faq-section-container .m-top.center a.btn.primary.small {
-    background-color: #00bf6f;
-    color: #fff !important
-}
-
-#low-carb-page-b .flip-flop-grid .home-steps .step-grid__content h3 {
-    font-style: normal;
-    color: #000;
-    letter-spacing: 0;
-    margin-bottom: 0px
-}
-
-#low-carb-page-b .flip-flop-grid .steps .step-grid__content {
-    max-width: 450px
-}
-
-#low-carb-page-b .flip-flop-grid .home-steps .step-grid__content .steps-body {
-    margin: 0 0 25px 0
-}
-
-#low-carb-page-b .flip-flop-grid .home-steps .step-grid__content .steps-body p.sub-heading {
-    margin-bottom: 25px
-}
-
 #lunch-campaign .hero-full .hero-cta-container .hero-cta {
     background-color: #fff;
     border-radius: 10px;
@@ -21427,152 +20494,6 @@ section.steps .button-container .btn:hover {
 #media-kit-page .mk-assets .download-button:hover img {
     margin-right: 0px;
     transition-duration: .3s
-}
-
-#mediterranean-diet-meal-delivery .hero-full .hero-cta-container .hero-cta .btn {
-    background-color: #093ac1;
-    color: #fff
-}
-
-#mediterranean-diet-meal-delivery .hero-full .hero-cta-container .hero-cta .btn:hover {
-    background-color: #002ca3
-}
-
-@media all and (min-width: 769px) {
-
-    #mediterranean-diet-meal-delivery .hero-full .hero-cta-container .hero-cta .header,
-    #mediterranean-diet-meal-delivery .hero-full .hero-cta-container .hero-cta .sub-header-container .sub-header {
-        color: #fff
-    }
-}
-
-#mediterranean-diet-meal-delivery .column-image-and-text {
-    background-color: #c6d5ff
-}
-
-#mediterranean-diet-meal-delivery .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading {
-    color: #000
-}
-
-#mediterranean-diet-meal-delivery .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .image {
-    margin: 0 auto;
-    padding: 0 13px
-}
-
-#mediterranean-diet-meal-delivery .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .image img {
-    -o-object-fit: contain;
-    object-fit: contain
-}
-
-@media all and (max-width: 769px) {
-    #mediterranean-diet-meal-delivery .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading {
-        font-size: 12px;
-        font-weight: 500;
-        letter-spacing: .3px;
-        line-height: 15px;
-        font-family: "Roboto", Helvetica, Arial, sans-serif
-    }
-}
-
-@media all and (min-width: 769px) {
-    #mediterranean-diet-meal-delivery .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading {
-        text-align: left
-    }
-}
-
-#mediterranean-diet-meal-delivery .meal-info .meal-info-container .block-right .block-container .meal-info-body .btn,
-#mediterranean-diet-meal-delivery section.service-faq-section .service-faq-section-container .btn {
-    background-color: #093ac1;
-    color: #fff
-}
-
-#mediterranean-diet-meal-delivery .meal-info .meal-info-container .block-right .block-container .meal-info-body .btn:hover,
-#mediterranean-diet-meal-delivery section.service-faq-section .service-faq-section-container .btn:hover {
-    background-color: #002ca3
-}
-
-#mediterranean-diet-meal-delivery section.parallax .container .content .block-left .btn {
-    border: 2px solid #093ac1;
-    color: #093ac1
-}
-
-#mediterranean-diet-meal-delivery section.parallax .container .content .block-left .btn:hover {
-    border: 2px solid #002ca3;
-    color: #002ca3
-}
-
-#mediterranean-diet-meal-delivery .clients-review-section,
-#mediterranean-diet-meal-delivery .press-icon-container {
-    background-color: #c6d5ff !important
-}
-
-#mediterranean-diet-meal-delivery section.service-faq-section .service-faq-section-container .link,
-#mediterranean-diet-meal-delivery .steps-body a,
-#mediterranean-diet-meal-delivery .service-faq-section .js-accordion .accordion-header:after,
-#mediterranean-diet-meal-delivery .has-accordions .js-accordion .accordion-header:after,
-#mediterranean-diet-meal-delivery .meal-variety .meals-list-container .tab-content .meals-container .meals .meal-description .category {
-    color: #093ac1 !important
-}
-
-#mediterranean-diet-meal-delivery .service-faq-section .js-accordion li,
-#mediterranean-diet-meal-delivery .has-accordions .js-accordion li {
-    border-top: 1px solid #093ac1
-}
-
-#mediterranean-diet-meal-delivery .meal-variety .meals-list-container .tab-title .current {
-    border-bottom: 1px solid #093ac1 !important
-}
-
-#mediterranean-diet-meal-delivery .meal-variety .meals-list-container .tab-title .tab-link:hover {
-    border-bottom: 1px solid #093ac1 !important
-}
-
-@media all and (max-width: 769px) {
-    #mediterranean-diet-meal-delivery section.service-faq-section .service-faq-section-container .btn {
-        display: none
-    }
-}
-
-#mediterranean-diet-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail::after,
-#mediterranean-diet-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #093ac1 0%, #093ac1 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-#mediterranean-diet-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle,
-#mediterranean-diet-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle,
-#mediterranean-diet-meal-delivery ul.slick-dots .slick-active button {
-    background-color: #093ac1
-}
-
-#mediterranean-diet-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active {
-    color: #093ac1
-}
-
-#mediterranean-diet-meal-delivery .steps .steps-container .title {
-    border-top: 1px solid #093ac1
-}
-
-#mediterranean-diet-meal-delivery .steps .steps-container .dot {
-    background-image: radial-gradient(circle at center, #093ac1 5px, transparent 5px)
-}
-
-#mediterranean-diet-meal-delivery .steps .steps-container .single-step .trail:after {
-    background-image: linear-gradient(to top, #093ac1 0%, #093ac1 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-#mediterranean-diet-meal-delivery .steps .button-container .btn {
-    border: 1px solid #093ac1;
-    color: #093ac1
-}
-
-#mediterranean-diet-meal-delivery .steps .button-container .btn:hover {
-    border: 1px solid #093ac1
 }
 
 .menu-page .btt-container a {
@@ -24110,14 +23031,6 @@ section.steps .button-container .btn:hover {
     text-align: center
 }
 
-#paleo-meal-delivery .service-faq-section-container .js-accordion .accordion-header:after {
-    filter: hue-rotate(242deg) brightness(0.6)
-}
-
-#paleo-meal-delivery .service-faq-section-container .js-accordion li {
-    border-top: 1px solid #ce762f !important
-}
-
 #paleo-meal-delivery .service-faq-section .link {
     color: #ce762f !important
 }
@@ -24243,49 +23156,6 @@ section.steps .button-container .btn:hover {
     backface-visibility: hidden;
     transform: rotateY(180deg);
     padding-top: 25px
-}
-
-#paleo-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail::after,
-#paleo-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #ce762f 0%, #ce762f 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-#paleo-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle,
-#paleo-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle,
-#paleo-meal-delivery ul.slick-dots .slick-active button {
-    background-color: #ce762f
-}
-
-#paleo-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active {
-    color: #ce762f
-}
-
-#paleo-meal-delivery .steps .steps-container .title {
-    border-top: 1px solid #ce762f
-}
-
-#paleo-meal-delivery .steps .steps-container .dot {
-    background-image: radial-gradient(circle at center, #ce762f 5px, transparent 5px)
-}
-
-#paleo-meal-delivery .steps .steps-container .single-step .trail:after {
-    background-image: linear-gradient(to top, #ce762f 0%, #ce762f 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-#paleo-meal-delivery .steps .button-container .btn {
-    border: 1px solid #ce762f;
-    background-color: #ce762f;
-    color: #fff
-}
-
-#paleo-meal-delivery .steps .button-container .btn:hover {
-    background-color: #c05200
 }
 
 .customer-reviews {
@@ -24596,15 +23466,6 @@ section.steps .button-container .btn:hover {
     padding-bottom: 0
 }
 
-.page-id-34152 .site-header,
-.page-id-37626 .site-header {
-    display: block
-}
-
-.page-id-37626 #main-footer {
-    display: block
-}
-
 .page-template-ppc .mealpopup .mealpop-cta__container a {
     width: 100% !important
 }
@@ -24721,10 +23582,6 @@ section.steps .button-container .btn:hover {
 .page-template-ppc-tm87-chre .column-image-and-text.column-image-and-text--ppc .image-and-text-block .image img {
     width: 400px;
     filter: brightness(0) invert(1)
-}
-
-.page-id-50719 .meal-plan-tabs-v2 {
-    display: none
 }
 
 .cta-banner--ppc {
@@ -24867,366 +23724,6 @@ section.steps .button-container .btn:hover {
 .benefit-list__item p {
     max-width: 250px;
     text-align: center
-}
-
-.page-id-28976 #tastefreshketo .hero-full .hero-cta-container .hero-cta .btn {
-    background-color: #ffb83c;
-    color: #000
-}
-
-.page-id-28976 #tastefreshketo .hero-full .hero-cta-container .hero-cta .btn:hover {
-    background-color: #da8c00
-}
-
-.page-id-28976 #tastefreshketo .column-image-and-text {
-    background-color: #fff5d6
-}
-
-.page-id-28976 #tastefreshketo .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading,
-.page-id-28976 #tastefreshketo .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .description {
-    color: #000 !important
-}
-
-.page-id-28976 #tastefreshketo section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail::after,
-.page-id-28976 #tastefreshketo section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #da8c00 0%, #da8c00 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-.page-id-28976 #tastefreshketo section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle,
-.page-id-28976 #tastefreshketo section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle,
-.page-id-28976 #tastefreshketo ul.slick-dots .slick-active button {
-    background-color: #da8c00
-}
-
-.page-id-28976 #tastefreshketo section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active {
-    color: #da8c00
-}
-
-.page-id-28976 #tastefreshketo .steps .steps-container .title {
-    border-top: 1px solid #da8c00
-}
-
-.page-id-28976 #tastefreshketo .steps .steps-container .dot {
-    background-image: radial-gradient(circle at center, #da8c00 5px, transparent 5px)
-}
-
-.page-id-28976 #tastefreshketo .steps .steps-container .single-step .trail:after {
-    background-image: linear-gradient(to top, #da8c00 0%, #da8c00 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-.page-id-28976 #tastefreshketo .steps .button-container .btn {
-    border: 1px solid #da8c00;
-    color: #da8c00
-}
-
-.page-id-28976 #tastefreshketo .steps .button-container .btn:hover {
-    border: 1px solid #da8c00
-}
-
-.page-id-28976 #tastefreshketo .step .step-grid__content--tm87 h2:before {
-    color: #ffb83c
-}
-
-.page-id-28976 #tastefreshketo .step-list-item--tm87:before {
-    content: url(https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/bolt/Keto_Bolt.svg)
-}
-
-.page-id-28976 #tastefreshketo .press-icon-container {
-    background-color: #fceab3
-}
-
-.page-id-28976 #tastefreshketo .clients-review-section {
-    background-color: #fff5d6
-}
-
-.page-id-28976 #tastefreshketo .footer-cta-banner__content a {
-    background-color: #ffb83c;
-    color: #000
-}
-
-.page-id-28976 #tastefreshketo .footer-cta-banner__content a:hover {
-    background-color: #da8c00
-}
-
-.page-id-57911 #tastefreshmediterranean .hero-full .hero-cta-container .hero-cta .btn {
-    background-color: #093ac1;
-    color: #fff
-}
-
-.page-id-57911 #tastefreshmediterranean .hero-full .hero-cta-container .hero-cta .btn:hover {
-    background-color: #002ca3
-}
-
-.page-id-57911 #tastefreshmediterranean .column-image-and-text {
-    background-color: #93abf0
-}
-
-.page-id-57911 #tastefreshmediterranean .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading,
-.page-id-57911 #tastefreshmediterranean .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .description {
-    color: #000 !important
-}
-
-.page-id-57911 #tastefreshmediterranean .column-image-and-text.column-image-and-text--ppc .image-and-text-block .image img {
-    filter: brightness(0) invert(0)
-}
-
-.page-id-57911 #tastefreshmediterranean section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail::after,
-.page-id-57911 #tastefreshmediterranean section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #002ca3 0%, #002ca3 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-.page-id-57911 #tastefreshmediterranean section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle,
-.page-id-57911 #tastefreshmediterranean section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle,
-.page-id-57911 #tastefreshmediterranean ul.slick-dots .slick-active button {
-    background-color: #002ca3
-}
-
-.page-id-57911 #tastefreshmediterranean section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active {
-    color: #002ca3
-}
-
-.page-id-57911 #tastefreshmediterranean .steps .steps-container .title {
-    border-top: 1px solid #002ca3
-}
-
-.page-id-57911 #tastefreshmediterranean .steps .steps-container .dot {
-    background-image: radial-gradient(circle at center, #002ca3 5px, transparent 5px)
-}
-
-.page-id-57911 #tastefreshmediterranean .steps .steps-container .single-step .trail:after {
-    background-image: linear-gradient(to top, #002ca3 0%, #002ca3 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-.page-id-57911 #tastefreshmediterranean .steps .button-container .btn {
-    border: 1px solid #002ca3;
-    color: #002ca3
-}
-
-.page-id-57911 #tastefreshmediterranean .steps .button-container .btn:hover {
-    border: 1px solid #002ca3
-}
-
-.page-id-57911 #tastefreshmediterranean .step .step-grid__content--tm87 h2:before {
-    color: #093ac1
-}
-
-.page-id-57911 #tastefreshmediterranean .step-list-item--tm87:before {
-    content: url(https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/bolt/Med_Bolt.svg)
-}
-
-.page-id-57911 #tastefreshmediterranean .press-icon-container {
-    background-color: #93abf0
-}
-
-.page-id-57911 #tastefreshmediterranean .clients-review-section {
-    background-color: #c6d5ff
-}
-
-.page-id-57911 #tastefreshmediterranean .footer-cta-banner__content a {
-    background-color: #093ac1;
-    color: #fff
-}
-
-.page-id-57911 #tastefreshmediterranean .footer-cta-banner__content a:hover {
-    background-color: #002ca3
-}
-
-.page-id-54981 #tastefreshpaleo .hero-full .hero-cta-container .hero-cta .btn {
-    background-color: #ce762f;
-    color: #fff
-}
-
-.page-id-54981 #tastefreshpaleo .hero-full .hero-cta-container .hero-cta .btn:hover {
-    background-color: #c05200
-}
-
-.page-id-54981 #tastefreshpaleo .column-image-and-text {
-    background-color: #4c463f
-}
-
-.page-id-54981 #tastefreshpaleo .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading,
-.page-id-54981 #tastefreshpaleo .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .description {
-    color: #fff !important
-}
-
-.page-id-54981 #tastefreshpaleo .column-image-and-text.column-image-and-text--ppc .image-and-text-block .image img {
-    filter: brightness(0) invert(1)
-}
-
-.page-id-54981 #tastefreshpaleo section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail::after,
-.page-id-54981 #tastefreshpaleo section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #c05200 0%, #c05200 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-.page-id-54981 #tastefreshpaleo section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle,
-.page-id-54981 #tastefreshpaleo section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle,
-.page-id-54981 #tastefreshpaleo ul.slick-dots .slick-active button {
-    background-color: #c05200
-}
-
-.page-id-54981 #tastefreshpaleo section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active {
-    color: #c05200
-}
-
-.page-id-54981 #tastefreshpaleo .steps .steps-container .title {
-    border-top: 1px solid #c05200
-}
-
-.page-id-54981 #tastefreshpaleo .steps .steps-container .dot {
-    background-image: radial-gradient(circle at center, #c05200 5px, transparent 5px)
-}
-
-.page-id-54981 #tastefreshpaleo .steps .steps-container .single-step .trail:after {
-    background-image: linear-gradient(to top, #c05200 0%, #c05200 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-.page-id-54981 #tastefreshpaleo .steps .button-container .btn {
-    border: 1px solid #c05200;
-    color: #c05200
-}
-
-.page-id-54981 #tastefreshpaleo .steps .button-container .btn:hover {
-    border: 1px solid #c05200
-}
-
-.page-id-54981 #tastefreshpaleo .step .step-grid__content--tm87 h2:before {
-    color: #ce762f
-}
-
-.page-id-54981 #tastefreshpaleo .step-list-item--tm87:before {
-    content: url(https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/bolt/Paleo_Bolt.svg)
-}
-
-.page-id-54981 #tastefreshpaleo .press-icon-list img {
-    filter: brightness(0) invert(1)
-}
-
-.page-id-54981 #tastefreshpaleo .press-icon-container {
-    background-color: #c05200
-}
-
-.page-id-54981 #tastefreshpaleo .clients-review-section {
-    background-color: #ce762f
-}
-
-.page-id-54981 #tastefreshpaleo .clients-review-section h4 {
-    color: #fff
-}
-
-.page-id-54981 #tastefreshpaleo .footer-cta-banner__content a {
-    background-color: #ce762f;
-    color: #fff
-}
-
-.page-id-54981 #tastefreshpaleo .footer-cta-banner__content a:hover {
-    background-color: #c05200
-}
-
-.page-id-54980 #tastefreshprotein .hero-full .hero-cta-container .hero-cta .btn {
-    background-color: #c44c42;
-    color: #fff
-}
-
-.page-id-54980 #tastefreshprotein .hero-full .hero-cta-container .hero-cta .btn:hover {
-    background-color: #a90000
-}
-
-.page-id-54980 #tastefreshprotein .column-image-and-text {
-    background-color: #c44c42
-}
-
-.page-id-54980 #tastefreshprotein .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading,
-.page-id-54980 #tastefreshprotein .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .description {
-    color: #fff !important
-}
-
-.page-id-54980 #tastefreshprotein section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail::after,
-.page-id-54980 #tastefreshprotein section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #a90000 0%, #a90000 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-.page-id-54980 #tastefreshprotein section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle,
-.page-id-54980 #tastefreshprotein section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle,
-.page-id-54980 #tastefreshprotein ul.slick-dots .slick-active button {
-    background-color: #a90000
-}
-
-.page-id-54980 #tastefreshprotein section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active {
-    color: #a90000
-}
-
-.page-id-54980 #tastefreshprotein .steps .steps-container .title {
-    border-top: 1px solid #a90000
-}
-
-.page-id-54980 #tastefreshprotein .steps .steps-container .dot {
-    background-image: radial-gradient(circle at center, #a90000 5px, transparent 5px)
-}
-
-.page-id-54980 #tastefreshprotein .steps .steps-container .single-step .trail:after {
-    background-image: linear-gradient(to top, #a90000 0%, #a90000 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-.page-id-54980 #tastefreshprotein .steps .button-container .btn {
-    border: 1px solid #a90000;
-    color: #a90000
-}
-
-.page-id-54980 #tastefreshprotein .steps .button-container .btn:hover {
-    border: 1px solid #a90000
-}
-
-.page-id-54980 #tastefreshprotein .step .step-grid__content--tm87 h2:before {
-    color: #c44c42
-}
-
-.page-id-54980 #tastefreshprotein .step-list-item--tm87:before {
-    content: url(https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/bolt/Protein_Bolt.svg)
-}
-
-.page-id-54980 #tastefreshprotein .press-icon-list img {
-    filter: brightness(0) invert(1)
-}
-
-.page-id-54980 #tastefreshprotein .press-icon-container {
-    background-color: #c44c42
-}
-
-.page-id-54980 #tastefreshprotein .clients-review-section {
-    background-color: #fff
-}
-
-.page-id-54980 #tastefreshprotein .footer-cta-banner__content a {
-    background-color: #c44c42;
-    color: #fff
-}
-
-.page-id-54980 #tastefreshprotein .footer-cta-banner__content a:hover {
-    background-color: #a90000
 }
 
 .ppc-reviews {
@@ -25511,95 +24008,6 @@ section.steps .button-container .btn:hover {
     }
 }
 
-.page-id-53210 #tastefreshvegan .hero-full .hero-cta-container .hero-cta .btn {
-    background-color: #7f9466;
-    color: #000
-}
-
-.page-id-53210 #tastefreshvegan .hero-full .hero-cta-container .hero-cta .btn:hover {
-    background-color: #425a31
-}
-
-.page-id-53210 #tastefreshvegan .column-image-and-text {
-    background-color: #d6e0cd
-}
-
-.page-id-53210 #tastefreshvegan .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading,
-.page-id-53210 #tastefreshvegan .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .description {
-    color: #000 !important
-}
-
-.page-id-53210 #tastefreshvegan .column-image-and-text.column-image-and-text--ppc .image-and-text-block .image img {
-    filter: brightness(0) invert(0)
-}
-
-.page-id-53210 #tastefreshvegan section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail::after,
-.page-id-53210 #tastefreshvegan section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #425a31 0%, #425a31 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-.page-id-53210 #tastefreshvegan section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle,
-.page-id-53210 #tastefreshvegan section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle,
-.page-id-53210 #tastefreshvegan ul.slick-dots .slick-active button {
-    background-color: #425a31
-}
-
-.page-id-53210 #tastefreshvegan section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active {
-    color: #425a31
-}
-
-.page-id-53210 #tastefreshvegan .steps .steps-container .title {
-    border-top: 1px solid #425a31
-}
-
-.page-id-53210 #tastefreshvegan .steps .steps-container .dot {
-    background-image: radial-gradient(circle at center, #425a31 5px, transparent 5px)
-}
-
-.page-id-53210 #tastefreshvegan .steps .steps-container .single-step .trail:after {
-    background-image: linear-gradient(to top, #425a31 0%, #425a31 100%, transparent 100%);
-    background-position: right 0;
-    background-size: 2px 15px;
-    background-repeat: repeat-y
-}
-
-.page-id-53210 #tastefreshvegan .steps .button-container .btn {
-    border: 1px solid #425a31;
-    color: #425a31
-}
-
-.page-id-53210 #tastefreshvegan .steps .button-container .btn:hover {
-    border: 1px solid #425a31
-}
-
-.page-id-53210 #tastefreshvegan .step .step-grid__content--tm87 h2:before {
-    color: #7f9466
-}
-
-.page-id-53210 #tastefreshvegan .step-list-item--tm87:before {
-    content: url(https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/icons/bolt-vegan-s.svg)
-}
-
-.page-id-53210 #tastefreshvegan .press-icon-container {
-    background-color: #c6d1ba
-}
-
-.page-id-53210 #tastefreshvegan .clients-review-section {
-    background-color: #d6e0cd
-}
-
-.page-id-53210 #tastefreshvegan .footer-cta-banner__content a {
-    background-color: #7f9466;
-    color: #000
-}
-
-.page-id-53210 #tastefreshvegan .footer-cta-banner__content a:hover {
-    background-color: #425a31
-}
-
 #fitness-meal-delivery .column-image-and-text {
     background-color: #c44c42
 }
@@ -25725,219 +24133,6 @@ section.steps .button-container .btn:hover {
 
     .column-image-text-description.mobile-dropdown .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container p.description {
         padding: 20px
-    }
-}
-
-#fitness-meal-delivery .hero-full .hero-cta-container .hero-cta .header {
-    text-transform: uppercase
-}
-
-@media all and (min-width: 769px) {
-
-    #fitness-meal-delivery .hero-full .hero-cta-container .hero-cta .header,
-    #fitness-meal-delivery .hero-full .hero-cta-container .hero-cta .sub-header-container .sub-header {
-        color: #fff
-    }
-}
-
-#fitness-meal-delivery .hero-full .hero-cta-container .hero-cta .btn {
-    background-color: #c44c42;
-    border: 1px solid #c44c42
-}
-
-#fitness-meal-delivery .hero-full .hero-cta-container .hero-cta .press-icon-container {
-    background-color: #333
-}
-
-#fitness-meal-delivery .column-image-and-text {
-    background-color: #c44c42
-}
-
-#fitness-meal-delivery .meal-gallery .button {
-    border: 1px solid #c44c42;
-    color: #fff;
-    background-color: #c44c42
-}
-
-#fitness-meal-delivery .meal-gallery .button:hover {
-    color: #c44c42;
-    background-color: transparent
-}
-
-#fitness-meal-delivery .press-icon-container {
-    background-color: #c44c42
-}
-
-#fitness-meal-delivery .press-icon-container .press-icon-list li img {
-    filter: brightness(0) invert(1)
-}
-
-#fitness-meal-delivery .customer-reviews,
-#fitness-meal-delivery .performance-bg {
-    background-color: #fff
-}
-
-#fitness-meal-delivery .customer-reviews h2 {
-    color: #000
-}
-
-#fitness-meal-delivery .meal-gallery h2 {
-    color: #000 !important
-}
-
-#fitness-meal-delivery section.steps .button-container .btn {
-    border: 1px solid #c44c42;
-    color: #c44c42
-}
-
-#fitness-meal-delivery section.steps .button-container .btn:hover {
-    background-color: #c44c42;
-    color: #fff
-}
-
-#fitness-meal-delivery section.steps .steps-container .step .text-container .title-container .title {
-    border-top: 1px solid #c44c42
-}
-
-#fitness-meal-delivery section.steps .steps-container .step .text-container .title-container .dot {
-    background-image: radial-gradient(circle at center, #c44c42 5px, transparent 5px)
-}
-
-#fitness-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active {
-    color: #c44c42
-}
-
-#fitness-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle {
-    background-color: #c44c42
-}
-
-#fitness-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail .button-toggle:after {
-    background-image: linear-gradient(to top, #c44c42 0%, #c44c42 100%, transparent 100%)
-}
-
-#fitness-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last .button-toggle {
-    background-color: #c44c42
-}
-
-#fitness-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail:after {
-    background-image: linear-gradient(to top, #c44c42 0%, #c44c42 100%, transparent 100%)
-}
-
-#fitness-meal-delivery .meal-variety .meals-list-container .tab-title .current {
-    border-bottom: 1px solid #c44c42 !important
-}
-
-#fitness-meal-delivery .meal-variety .meals-list-container .tab-content .meals-container .meals .meal-description .category {
-    color: #c44c42
-}
-
-#fitness-meal-delivery .reason-text-container .btn--protein {
-    background-color: #c44c42;
-    border: 1px solid #c44c42;
-    color: #fff
-}
-
-#fitness-meal-delivery .reason-text-container .btn--protein:hover {
-    color: #c44c42 !important;
-    background-color: transparent !important
-}
-
-#fitness-meal-delivery .service-faq-section .js-accordion li,
-#fitness-meal-delivery .has-accordions .js-accordion li {
-    border-top: 1px solid #c44c42
-}
-
-#fitness-meal-delivery .service-faq-section .js-accordion .accordion-header:after,
-#fitness-meal-delivery .has-accordions .js-accordion .accordion-header:after {
-    filter: hue-rotate(216deg) brightness(0.8)
-}
-
-@media(max-width: 769px) {
-
-    #fitness-meal-delivery #fitness-meal-delivery h1,
-    #fitness-meal-delivery #fitness-meal-delivery p.sub-header,
-    #fitness-meal-delivery .block-lg.customer-reviews h2 {
-        color: #000 !important
-    }
-}
-
-#fitness-meal-delivery .service-faq-section a {
-    background-color: #c44c42;
-    color: #fff
-}
-
-#fitness-meal-delivery section.steps .mobile-text-accordion .homepage-js-accordion .step-container .single-step .trail-last::after {
-    background-image: linear-gradient(to top, #c44c42 0%, #c44c42 100%, transparent 100%)
-}
-
-@media all and (max-width: 769px) {
-    #fitness-meal-delivery .meal-info .meal-info-container .block-right .block-container .meal-info-body {
-        flex-direction: column-reverse
-    }
-}
-
-#fitness-meal-delivery .compare {
-    padding-top: 80px
-}
-
-#fitness-meal-delivery .hero {
-    background-color: #000
-}
-
-@media all and (max-width: 769px) {
-    #fitness-meal-delivery .hero {
-        margin-bottom: 0;
-        padding-bottom: 40px
-    }
-}
-
-@media all and (max-width: 769px) {
-    #fitness-meal-delivery .hero .content {
-        text-align: center
-    }
-}
-
-@media all and (min-width: 992px) {
-    #fitness-meal-delivery .hero .content {
-        text-align: left
-    }
-}
-
-#fitness-meal-delivery .hero .content-txt {
-    background-color: transparent
-}
-
-#fitness-meal-delivery .hero .content-txt h1 {
-    padding-bottom: 16px;
-    text-transform: uppercase
-}
-
-@media all and (min-width: 769px) {
-    #fitness-meal-delivery .hero .content-txt h1 {
-        width: 570px
-    }
-}
-
-#fitness-meal-delivery .hero .content-txt * {
-    color: #fff
-}
-
-@media all and (max-width: 769px) {
-    #fitness-meal-delivery .hero .content-txt h4 {
-        margin-top: 20px
-    }
-}
-
-@media all and (min-width: 992px) {
-
-    #fitness-meal-delivery .hero .content-txt h1,
-    #fitness-meal-delivery .hero .content-txt h4 {
-        color: #fff;
-        text-align: left
-    }
-
-    #fitness-meal-delivery .hero .content-txt .btn {
-        margin-top: 40px
     }
 }
 
@@ -28451,7 +26646,7 @@ section.steps .button-container .btn:hover {
 }
 
 #senior-page .steps-container .step .text-container .title-container .title {
-    font-family: "poppins", Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
     font-size: 35px;
     padding: 10px 0 15px;
     border: none
@@ -28478,7 +26673,7 @@ section.steps .button-container .btn:hover {
     }
 }
 
-@media all and (min-width: 993px) {
+@media all and (min-width: 1250px) {
     #senior-page .steps .mobile-text-accordion {
         padding: initial
     }
@@ -31667,16 +29862,6 @@ section.steps .button-container .btn:hover {
         font-size: 40px;
         line-height: 45px
     }
-}
-
-#whole30-meal-delivery .service-faq-section .js-accordion li,
-#whole30-meal-delivery .has-accordions .js-accordion li {
-    border-top: 1px solid #dcecef
-}
-
-#whole30-meal-delivery .service-faq-section .js-accordion .accordion-header:after,
-#whole30-meal-delivery .has-accordions .js-accordion .accordion-header:after {
-    color: #60b5c1
 }
 
 @media(max-width: 769px) {

@@ -26,9 +26,9 @@
     <script type='text/javascript' src='assets/js/jquery.min.js' id='jquery-core-js'></script>
     <script type='text/javascript' src='assets/js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
 
-    <!-- <link rel='stylesheet' id='fresh-n-lean-style-css' href='main-cleaned.css' type='text/css' media='all' /> -->
+    <link rel='stylesheet' id='panza-verde-style-css' href='assets/css/main-cleaned.css' type='text/css' media='all' />
 
-    <link rel="preload" href="assets/fonts/Poppins-Regular.ttf" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="assets/fonts/Poppins-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
     <script type="text/javascript">
         window.criteo_q = window.criteo_q || [];
@@ -48,30 +48,6 @@
         #main-header .logo {
             padding-top: 15px;
             padding-bottom: 15px
-        }
-
-        div#grsf-widget {
-            display: none !important;
-        }
-
-        #vegan .clients-review-section .container .trustpilot-heading {
-            padding-bottom: 50 px;
-            display: none;
-        }
-
-        #keto-page .clients-review-section,
-        #vegan .clients-review-section {
-            padding: 0 0 0 !important;
-        }
-
-        #keto-page .trustpilot-heading {
-            display: none !important;
-        }
-
-        #protein-page .customer-reviews,
-        #protein-page .performance-bg {
-            background-color: #fff;
-            display: none;
         }
     </style>
     <noscript>
@@ -121,10 +97,6 @@
                                     </li>
                                 </ul>
                             </div>
-                            <nav id="site-navigation" class="main-navigation">
-                                <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button> -->
-                                <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Blog Header</button> -->
-                            </nav><!-- #site-navigation -->
                         </div>
                     </div>
                 </div>
@@ -248,6 +220,28 @@
                                         </p>
                                     </div>
                                 </div>
+                                <div class="step">
+                                    <div class="image"><img width="582" height="464"
+                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20582%20464'%3E%3C/svg%3E"
+                                            class="attachment-full size-full" alt="Meal Prep Delivery" loading="lazy"
+                                            data-lazy-srcset="http://127.0.0.1:5500/assets/img/gray.png 582w, http://127.0.0.1:5500/assets/img/gray.png 300w"
+                                            data-lazy-sizes="(max-width: 582px) 100vw, 582px"
+                                            data-lazy-src="http://127.0.0.1:5500/assets/img/gray.png" /><noscript><img
+                                                width="582" height="464" src="http://127.0.0.1:5500/assets/img/gray.png"
+                                                class="attachment-full size-full" alt="Meal Prep Delivery"
+                                                loading="lazy"
+                                                srcset="http://127.0.0.1:5500/assets/img/gray.png 582w, http://127.0.0.1:5500/assets/img/gray.png 300w"
+                                                sizes="(max-width: 582px) 100vw, 582px" /></noscript></div>
+                                    <div class="text-container">
+                                        <div class="title-container">
+                                            <h3 class="title">Repeat</h3>
+                                            <div class="dot"></div>
+                                        </div>
+                                        <p class="body">
+                                        <p>Every week, pre-made meals are delivered to your door, nationwide.</p>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="mobile-text-accordion">
                                 <ol class="homepage-js-accordion">
@@ -310,13 +304,32 @@
                                     <li>
                                         <div class="step-container">
                                             <div class="single-step">
-                                                <div class="trail-last">
+                                                <div class="trail">
                                                     <div class="button-toggle step-four"></div>
                                                 </div>
                                                 <div class="main-container">
                                                     <div id="step-4" data-slide="4" class="accordion-header">Repeat
                                                     </div>
                                                     <div id="step-4-content" class="accordion-content">
+                                                        <div class="body">
+                                                            <p>Every week, pre-made meals are delivered to your door,
+                                                                nationwide.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="step-container">
+                                            <div class="single-step">
+                                                <div class="trail-last">
+                                                    <div class="button-toggle step-five"></div>
+                                                </div>
+                                                <div class="main-container">
+                                                    <div id="step-5" data-slide="5" class="accordion-header">Repeat
+                                                    </div>
+                                                    <div id="step-5-content" class="accordion-content">
                                                         <div class="body">
                                                             <p>Every week, pre-made meals are delivered to your door,
                                                                 nationwide.</p>
@@ -340,69 +353,29 @@
                                         <li class="tab-link protein current" id="protein" data-plan="protein"
                                             data-textcolor="white">
                                             <a id="tab-0-rebrand" href="#menu-protein" class="protein text-white">
-                                                <img data-no-lazy="1"
-                                                    src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/icons/bolt-protein.svg"
-                                                    alt="" class="protein">
                                                 <strong>Protein+</strong>
                                             </a>
                                         </li>
                                         <li class="tab-link keto " id="keto" data-plan="keto" data-textcolor="black">
                                             <a id="tab-1-rebrand" href="#menu-keto" class="keto text-black">
-                                                <img data-no-lazy="1"
-                                                    src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/icons/bolt-keto.svg"
-                                                    alt="" class="keto">
                                                 <strong>Keto</strong>
                                             </a>
                                         </li>
                                         <li class="tab-link paleo " id="paleo" data-plan="paleo" data-textcolor="white">
                                             <a id="tab-2-rebrand" href="#menu-paleo" class="paleo text-white">
-                                                <img data-no-lazy="1"
-                                                    src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/icons/bolt-paleo.svg"
-                                                    alt="" class="paleo">
                                                 <strong>Paleo</strong>
                                             </a>
                                         </li>
                                         <li class="tab-link vegan-s " id="vegan-s" data-plan="vegan-s"
                                             data-textcolor="black">
                                             <a id="tab-3-rebrand" href="#menu-vegan-s" class="vegan-s text-black">
-                                                <img data-no-lazy="1"
-                                                    src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/icons/bolt-vegan-s.svg"
-                                                    alt="" class="vegan-s">
                                                 <strong>Vegan Standard</strong>
-                                            </a>
-                                        </li>
-                                        <li class="tab-link whole30 " id="whole30" data-plan="whole30"
-                                            data-textcolor="white">
-                                            <a id="tab-4-rebrand" href="#menu-whole30" class="whole30 text-white">
-                                                <img data-no-lazy="1"
-                                                    src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/icons/bolt-whole30.svg"
-                                                    alt="" class="whole30">
-                                                <strong>Whole30 Approved<span class="trademark">®</span></strong>
-                                            </a>
-                                        </li>
-                                        <li class="tab-link mediterranean " id="mediterranean" data-plan="mediterranean"
-                                            data-textcolor="black">
-                                            <a id="tab-5-rebrand" href="#menu-mediterranean"
-                                                class="mediterranean text-black">
-                                                <img data-no-lazy="1"
-                                                    src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/icons/bolt-mediterranean.svg"
-                                                    alt="" class="mediterranean">
-                                                <strong>Mediterranean Diet</strong>
-                                            </a>
-                                        </li>
-                                        <li class="tab-link vegan-l " id="vegan-l" data-plan="vegan-l"
-                                            data-textcolor="black">
-                                            <a id="tab-6-rebrand" href="#menu-vegan-l" class="vegan-l text-black">
-                                                <img data-no-lazy="1"
-                                                    src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/icons/bolt-vegan-l.svg"
-                                                    alt="" class="vegan-l">
-                                                <strong>Vegan Low Carb</strong>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="tab-content " id="menu-protein"
-                                    data-background="https://www.freshnlean.com/wp-content/uploads/2022/06/Background-protein-scaled.jpg">
+                                    data-background="http://127.0.0.1:5500/assets/img/gray.png">
                                     <div class="meals-plan-container text-white">
                                         <div
                                             class="meals desktop:gap-0.5 desktop:grid desktop:grid-cols-2 desktop:h-[800px]">
@@ -412,8 +385,8 @@
                                                 <div class="meal-name">
                                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                         alt="protein logo" class="logo protein w-[50%]"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/protein.svg"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/protein.svg"
+                                                        data-lazy-src="http://127.0.0.1:5500/assets/img/transparent.png"><noscript><img
+                                                            src="http://127.0.0.1:5500/assets/img/transparent.png"
                                                             alt="protein logo" class="logo protein w-[50%]"></noscript>
                                                 </div>
                                                 <div class="meal-description">
@@ -429,8 +402,8 @@
                                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                         alt="plated-meal"
                                                         class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/uploads/2021/03/Meal-Plan-plate-protein.png"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/uploads/2021/03/Meal-Plan-plate-protein.png"
+                                                        data-lazy-src="http://127.0.0.1:5500/assets/img/transparent.png"><noscript><img
+                                                            src="http://127.0.0.1:5500/assets/img/transparent.png"
                                                             alt="plated-meal"
                                                             class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"></noscript>
                                                 </div>
@@ -463,14 +436,12 @@
                                                     </div>
                                                 </div>
                                                 <div class="cta-container">
-                                                    <a data-gtm='
-                                                                        { "event": "start_meal", "button_text": "Learn More", "plan_name": "protein", "order_starts": "1" }
-                                 ' href="https://www.freshnlean.com/fitness-meal-delivery/"
-                                                        class="btn small border-btn--protein">Learn More</a>
-                                                    <a data-gtm='
-                                                                        { "event": "cta_click", "button_text": "Start Meal Plan", "url": "https://order.freshnlean.com/fnl/plans/protein" }
-                                 ' href="https://order.freshnlean.com/fnl/plans/protein"
-                                                        class="btn small btn--protein">Start Meal Plan</a>
+                                                    <a data-gtm='{ "event": "start_meal", "button_text": "Learn More", "plan_name": "protein", "order_starts": "1" }'
+                                                        href="#" class="btn small border-btn--protein">Learn More</a>
+                                                    <!-- <a data-gtm='{ "event": "cta_click", "button_text": "Start Meal Plan", "url": "https://order.freshnlean.com/fnl/plans/protein" }'
+                                                        href="#" class="btn small btn--protein">Start Meal Plan</a> -->
+                                                    <a data-gtm='{ "event": "cta_click", "button_text": "Start Meal Plan", "url": "#" }'
+                                                        href="#" class="btn small btn--protein">Start Meal Plan</a>
                                                 </div>
                                                 <div class="append-here text-white" data-planname="protein"></div>
                                             </div>
@@ -479,7 +450,7 @@
                                 </div>
 
                                 <div class="tab-content current" id="menu-keto"
-                                    data-background="https://www.freshnlean.com/wp-content/uploads/2022/06/Background-keto-scaled.jpg">
+                                    data-background="http://127.0.0.1:5500/assets/img/gray.png">
                                     <div class="meals-plan-container text-black">
                                         <div
                                             class="meals desktop:gap-0.5 desktop:grid desktop:grid-cols-2 desktop:h-[800px]">
@@ -488,8 +459,8 @@
                                                 <div class="meal-name">
                                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                         alt="keto logo" class="logo keto w-[50%]"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/keto.svg"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/keto.svg"
+                                                        data-lazy-src="http://127.0.0.1:5500/assets/img/transparent.png"><noscript><img
+                                                            src="http://127.0.0.1:5500/assets/img/transparent.png"
                                                             alt="keto logo" class="logo keto w-[50%]"></noscript>
                                                 </div>
                                                 <div class="meal-description">
@@ -503,8 +474,8 @@
                                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                         alt="plated-meal"
                                                         class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/uploads/2021/03/Meal-Plan-plate-keto.png"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/uploads/2021/03/Meal-Plan-plate-keto.png"
+                                                        data-lazy-src="http://127.0.0.1:5500/assets/img/transparent.png"><noscript><img
+                                                            src="http://127.0.0.1:5500/assets/img/transparent.png"
                                                             alt="plated-meal"
                                                             class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"></noscript>
                                                 </div>
@@ -537,13 +508,10 @@
                                                     </div>
                                                 </div>
                                                 <div class="cta-container">
-                                                    <a data-gtm='
-                                                                        { "event": "start_meal", "button_text": "Learn More", "plan_name": "keto", "order_starts": "1" }
-                                 ' href="https://www.freshnlean.com/keto-meal-delivery/"
-                                                        class="btn small border-btn--keto">Learn More</a>
-                                                    <a data-gtm='
-                                                                        { "event": "cta_click", "button_text": "Start Meal Plan", "url": "https://order.freshnlean.com/fnl/plans/keto" }
-                                 ' href="https://order.freshnlean.com/fnl/plans/keto" class="btn small btn--keto">Start
+                                                    <a data-gtm='{ "event": "start_meal", "button_text": "Learn More", "plan_name": "keto", "order_starts": "1" }'
+                                                        href="#" class="btn small border-btn--keto">Learn More</a>
+                                                    <a data-gtm='{ "event": "cta_click", "button_text": "Start Meal Plan", "url": "#" }'
+                                                        href="#" class="btn small btn--keto">Start
                                                         Meal Plan</a>
                                                 </div>
                                                 <div class="append-here text-black" data-planname="keto"></div>
@@ -552,7 +520,7 @@
                                     </div>
                                 </div>
                                 <div class="tab-content " id="menu-paleo"
-                                    data-background="https://www.freshnlean.com/wp-content/uploads/2022/06/Background-paleo.jpg">
+                                    data-background="http://127.0.0.1:5500/assets/img/gray.png">
                                     <div class="meals-plan-container text-white">
                                         <div
                                             class="meals desktop:gap-0.5 desktop:grid desktop:grid-cols-2 desktop:h-[800px]">
@@ -561,8 +529,8 @@
                                                 <div class="meal-name">
                                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                         alt="paleo logo" class="logo paleo w-[50%]"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/paleo.svg"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/paleo.svg"
+                                                        data-lazy-src="http://127.0.0.1:5500/assets/img/transparent.png"><noscript><img
+                                                            src="http://127.0.0.1:5500/assets/img/transparent.png"
                                                             alt="paleo logo" class="logo paleo w-[50%]"></noscript>
                                                 </div>
                                                 <div class="meal-description">
@@ -576,8 +544,8 @@
                                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                         alt="plated-meal"
                                                         class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/uploads/2021/03/Meal-Plan-plate-paleo.png"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/uploads/2021/03/Meal-Plan-plate-paleo.png"
+                                                        data-lazy-src="http://127.0.0.1:5500/assets/img/transparent.png"><noscript><img
+                                                            src="http://127.0.0.1:5500/assets/img/transparent.png"
                                                             alt="plated-meal"
                                                             class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"></noscript>
                                                 </div>
@@ -610,14 +578,10 @@
                                                     </div>
                                                 </div>
                                                 <div class="cta-container">
-                                                    <a data-gtm='
-                                                                        { "event": "start_meal", "button_text": "Learn More", "plan_name": "paleo", "order_starts": "1" }
-                                 ' href="https://www.freshnlean.com/paleo-meal-delivery/"
-                                                        class="btn small border-btn--paleo">Learn More</a>
-                                                    <a data-gtm='
-                                                                        { "event": "cta_click", "button_text": "Start Meal Plan", "url": "https://order.freshnlean.com/fnl/plans/paleo" }
-                                 ' href="https://order.freshnlean.com/fnl/plans/paleo"
-                                                        class="btn small btn--paleo">Start Meal Plan</a>
+                                                    <a data-gtm='{ "event": "start_meal", "button_text": "Learn More", "plan_name": "paleo", "order_starts": "1" }'
+                                                        href="#" class="btn small border-btn--paleo">Learn More</a>
+                                                    <a data-gtm='{ "event": "cta_click", "button_text": "Start Meal Plan", "url": "#" }'
+                                                        href="#" class="btn small btn--paleo">Start Meal Plan</a>
                                                 </div>
                                                 <div class="append-here text-white" data-planname="paleo"></div>
                                             </div>
@@ -625,7 +589,7 @@
                                     </div>
                                 </div>
                                 <div class="tab-content " id="menu-vegan-s"
-                                    data-background="https://www.freshnlean.com/wp-content/uploads/2022/06/Background-vegan-s-scaled.jpg">
+                                    data-background="http://127.0.0.1:5500/assets/img/gray.png">
                                     <div class="meals-plan-container text-black">
                                         <div
                                             class="meals desktop:gap-0.5 desktop:grid desktop:grid-cols-2 desktop:h-[800px]">
@@ -634,8 +598,8 @@
                                                 <div class="meal-name">
                                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                         alt="vegan-s logo" class="logo vegan-s w-[50%]"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/vegan-s.svg"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/vegan-s.svg"
+                                                        data-lazy-src="http://127.0.0.1:5500/assets/img/transparent.png"><noscript><img
+                                                            src="http://127.0.0.1:5500/assets/img/transparent.png"
                                                             alt="vegan-s logo" class="logo vegan-s w-[50%]"></noscript>
                                                 </div>
                                                 <div class="meal-description">
@@ -650,8 +614,8 @@
                                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                         alt="plated-meal"
                                                         class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/uploads/2021/03/Meal-Plan-plate-vegan-LC.png"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/uploads/2021/03/Meal-Plan-plate-vegan-LC.png"
+                                                        data-lazy-src="http://127.0.0.1:5500/assets/img/transparent.png"><noscript><img
+                                                            src="http://127.0.0.1:5500/assets/img/transparent.png"
                                                             alt="plated-meal"
                                                             class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"></noscript>
                                                 </div>
@@ -684,328 +648,18 @@
                                                     </div>
                                                 </div>
                                                 <div class="cta-container">
-                                                    <a data-gtm='
-                                                                        { "event": "start_meal", "button_text": "Learn More", "plan_name": "vegan-s", "order_starts": "1" }
-                                 ' href="https://www.freshnlean.com/vegan-meal-delivery/"
-                                                        class="btn small border-btn--vegan-s">Learn More</a>
-                                                    <a data-gtm='
-                                                                        { "event": "cta_click", "button_text": "Start Meal Plan", "url": "https://order.freshnlean.com/veganmenu/plans/vegan-standard" }
-                                 ' href="https://order.freshnlean.com/veganmenu/plans/vegan-standard"
-                                                        class="btn small btn--vegan-s">Start Meal Plan</a>
+                                                    <a data-gtm='{ "event": "start_meal", "button_text": "Learn More", "plan_name": "vegan-s", "order_starts": "1" }'
+                                                        href="#" class="btn small border-btn--vegan-s">Learn More</a>
+                                                    <a data-gtm='{ "event": "cta_click", "button_text": "Start Meal Plan", "url": "#" }'
+                                                        href="#" class="btn small btn--vegan-s">Start Meal Plan</a>
                                                 </div>
                                                 <div class="append-here text-black" data-planname="vegan-s"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-content " id="menu-whole30"
-                                    data-background="https://www.freshnlean.com/wp-content/uploads/2022/06/Background-whole30.jpg">
-                                    <div class="meals-plan-container text-white">
-                                        <div
-                                            class="meals desktop:gap-0.5 desktop:grid desktop:grid-cols-2 desktop:h-[800px]">
-                                            <div
-                                                class="block-container block-left-top whole30 desktop:col-span-1 desktop:col-start-1 desktop:row-span-1 px-small desktop:px-medium pt-large my-auto">
-                                                <div class="meal-name">
-                                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                        alt="whole30 logo" class="logo whole30 w-[50%]"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/whole30.svg"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/whole30.svg"
-                                                            alt="whole30 logo" class="logo whole30 w-[50%]"></noscript>
-                                                </div>
-                                                <div class="meal-description">
-                                                    <p>The meal plan designed to reset your health.</p>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="block-right desktop:col-span-1 desktop:col-start-2 desktop:row-span-2">
-                                                <div class="primary-image h-[800px]">
-                                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                        alt="plated-meal"
-                                                        class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/uploads/2021/08/Whole30-plated-meal.png"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/uploads/2021/08/Whole30-plated-meal.png"
-                                                            alt="plated-meal"
-                                                            class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"></noscript>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="block-container block-left-bottom whole30 desktop:col-span-1 desktop:col-start-1 desktop:row-span-1 desktop:row-start-2 px-small desktop:px-medium">
-                                                <div class="meal-macros">
-                                                    <div class="table-title">
-                                                        <h6 class="table-title__text white">
-                                                            Average Macros
-                                                        </h6>
-                                                    </div>
-                                                    <div class="macros-container relative">
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Protein</h6>
-                                                            <div class="macro-value">31g</div>
-                                                        </div>
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Carbs</h6>
-                                                            <div class="macro-value">20g</div>
-                                                        </div>
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Fat</h6>
-                                                            <div class="macro-value">25g</div>
-                                                        </div>
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Cal</h6>
-                                                            <div class="macro-value">430</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="cta-container">
-                                                    <a data-gtm='
-                                                                        { "event": "start_meal", "button_text": "Learn More", "plan_name": "whole30", "order_starts": "1" }
-                                 ' href="https://www.freshnlean.com/whole30/"
-                                                        class="btn small border-btn--whole30">Learn More</a>
-                                                    <a data-gtm='
-                                                                        { "event": "cta_click", "button_text": "Start Meal Plan", "url": "https://order.freshnlean.com/wholethirty/plans/wta" }
-                                 ' href="https://order.freshnlean.com/wholethirty/plans/wta"
-                                                        class="btn small btn--whole30">Start Meal Plan</a>
-                                                </div>
-                                                <div class="append-here text-white" data-planname="whole30"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-content " id="menu-mediterranean"
-                                    data-background="https://www.freshnlean.com/wp-content/uploads/2022/06/Background-mediterranean.jpg">
-                                    <div class="meals-plan-container text-black">
-                                        <div
-                                            class="meals desktop:gap-0.5 desktop:grid desktop:grid-cols-2 desktop:h-[800px]">
-
-                                            <div
-                                                class="block-container block-left-top mediterranean desktop:col-span-1 desktop:col-start-1 desktop:row-span-1 px-small desktop:px-medium pt-large my-auto">
-                                                <div class="meal-name">
-                                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                        alt="mediterranean logo" class="logo mediterranean w-[50%]"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/mediterranean.svg"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/mediterranean.svg"
-                                                            alt="mediterranean logo"
-                                                            class="logo mediterranean w-[50%]"></noscript>
-                                                </div>
-                                                <div class="meal-description">
-                                                    <p>Organic whole foods, healthy fats, and fresh, wild-caught fish.
-                                                        Everything you need for a healthy lifestyle.</p>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="block-right desktop:col-span-1 desktop:col-start-2 desktop:row-span-2">
-                                                <div class="primary-image h-[800px]">
-                                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                        alt="plated-meal"
-                                                        class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/uploads/2022/03/Meal-Plan-plate-Meddiet.png"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/uploads/2022/03/Meal-Plan-plate-Meddiet.png"
-                                                            alt="plated-meal"
-                                                            class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"></noscript>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="block-container block-left-bottom mediterranean desktop:col-span-1 desktop:col-start-1 desktop:row-span-1 desktop:row-start-2 px-small desktop:px-medium">
-                                                <div class="meal-macros">
-                                                    <div class="table-title">
-                                                        <h6 class="table-title__text black">
-                                                            Average Macros
-                                                        </h6>
-                                                    </div>
-                                                    <div class="macros-container relative">
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Protein</h6>
-                                                            <div class="macro-value">25g</div>
-                                                        </div>
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Carbs</h6>
-                                                            <div class="macro-value">29g</div>
-                                                        </div>
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Fat</h6>
-                                                            <div class="macro-value">25g</div>
-                                                        </div>
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Cal</h6>
-                                                            <div class="macro-value">446</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="cta-container">
-                                                    <a data-gtm='
-                                                                        { "event": "start_meal", "button_text": "Learn More", "plan_name": "mediterranean", "order_starts": "1" }
-                                 ' href="https://www.freshnlean.com/mediterranean-diet-meal-delivery/"
-                                                        class="btn small border-btn--mediterranean">Learn More</a>
-                                                    <a data-gtm='
-                                                                        { "event": "cta_click", "button_text": "Start Meal Plan", "url": "https://order.freshnlean.com/fnl/plans/mediterranean-diet" }
-                                 ' href="https://order.freshnlean.com/fnl/plans/mediterranean-diet"
-                                                        class="btn small btn--mediterranean">Start Meal Plan</a>
-                                                </div>
-                                                <div class="append-here text-black" data-planname="mediterranean"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-content " id="menu-vegan-l"
-                                    data-background="https://www.freshnlean.com/wp-content/uploads/2022/06/Background-vegan-l-scaled.jpg">
-                                    <div class="meals-plan-container text-black">
-                                        <div
-                                            class="meals desktop:gap-0.5 desktop:grid desktop:grid-cols-2 desktop:h-[800px]">
-
-                                            <div
-                                                class="block-container block-left-top vegan-l desktop:col-span-1 desktop:col-start-1 desktop:row-span-1 px-small desktop:px-medium pt-large my-auto">
-                                                <div class="meal-name">
-                                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                        alt="vegan-l logo" class="logo vegan-l w-[50%]"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/vegan-l.svg"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/mealplans/logos/vegan-l.svg"
-                                                            alt="vegan-l logo" class="logo vegan-l w-[50%]"></noscript>
-                                                </div>
-                                                <div class="meal-description">
-                                                    <p>An incredibly simple way to a low carb, low calorie plant-based
-                                                        diet.</p>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="block-right desktop:col-span-1 desktop:col-start-2 desktop:row-span-2">
-                                                <div class="primary-image h-[800px]">
-                                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                        alt="plated-meal"
-                                                        class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/uploads/2021/03/Meal-Plan-plate-vegan.png"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/uploads/2021/03/Meal-Plan-plate-vegan.png"
-                                                            alt="plated-meal"
-                                                            class="max-w-[1000px] w-full desktop:w-[140%] bottom-0 desktop:mb-[-100px] desktop:pt-large desktop:pl-medium"></noscript>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="block-container block-left-bottom vegan-l desktop:col-span-1 desktop:col-start-1 desktop:row-span-1 desktop:row-start-2 px-small desktop:px-medium">
-                                                <div class="meal-macros">
-                                                    <div class="table-title">
-                                                        <h6 class="table-title__text black">
-                                                            Average Macros
-                                                        </h6>
-                                                    </div>
-                                                    <div class="macros-container relative">
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Protein</h6>
-                                                            <div class="macro-value">13g</div>
-                                                        </div>
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Carbs</h6>
-                                                            <div class="macro-value">33g</div>
-                                                        </div>
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Fat</h6>
-                                                            <div class="macro-value">11g</div>
-                                                        </div>
-                                                        <div class="macros-container__column">
-                                                            <h6 class="macro-name">Cal</h6>
-                                                            <div class="macro-value">295</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="cta-container">
-                                                    <a data-gtm='
-                                                                        { "event": "start_meal", "button_text": "Learn More", "plan_name": "vegan-l", "order_starts": "1" }
-                                 ' href="https://www.freshnlean.com/low-carb-vegan-meal-delivery/"
-                                                        class="btn small border-btn--vegan-l">Learn More</a>
-                                                    <a data-gtm='
-                                                                        { "event": "cta_click", "button_text": "Start Meal Plan", "url": "https://order.freshnlean.com/fnl/plans/vegan-low-carb" }
-                                 ' href="https://order.freshnlean.com/fnl/plans/vegan-low-carb"
-                                                        class="btn small btn--vegan-l">Start Meal Plan</a>
-                                                </div>
-                                                <div class="append-here text-black" data-planname="vegan-l"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </section>
-                        <div class="popup_background" style="display: none;"></div>
-                        <div id="mealpopup" class="mealpopup" style="display: none;">
-                            <div class="mealpop" tab-index="-1">
-                                <button type="button" tab-index="0" data-fancybox-close=""
-                                    class="fancybox-button fancybox-close-small" title="Close"><svg
-                                        xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
-                                        <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
-                                    </svg></button>
-                                <div class="mealpop-images">
-                                    <div>
-                                        <div class="main-image">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mealpop-content">
-                                    <div class="mealpop-header">
-                                        <div class="mealpop-plan"></div>
-                                        <div class="mealpop-name">
-                                            <h4 aria-label="Meal Name">Loading...</h4>
-                                        </div>
-                                        <div class="mealpop-benefits">
-                                        </div>
-                                    </div>
-                                    <div class="mealpop-stats">
-                                        <div class="mealpop-calories">
-                                            <div class="render-calories">
-                                            </div>
-                                            <h4>CALORIES</h4>
-                                        </div>
-                                        <div class="mealpop-macros">
-                                            <div class="mealpop-protein">
-                                                <h3 aria-label="Meal Protein Total">Loading...</h3>
-                                                <h4>PROTEIN</h4>
-                                            </div>
-                                            <div class="mealpop-fat">
-                                                <h3 aria-label="Meal Fat Total">Loading...</h3>
-                                                <h4>FAT</h4>
-                                            </div>
-                                            <div class="mealpop-carb">
-                                                <h3 aria-label="Meal Carbs Total">Loading...</h3>
-                                                <h4 aria-label="Meal Carb Title">Loading...</h4>
-                                            </div>
-
-                                        </div>
-                                        <div class="mealpop-protein">
-                                            <img src=""
-                                                onError="this.onerror=null; this.src='../../images/menu/icons/plant-icon.svg';" />
-                                        </div>
-                                    </div>
-                                    <div class="mealpop-cta__container">
-
-                                    </div>
-                                    <button class="mealpop-more__button w-full" tab-index="0">INGREDIENTS &
-                                        MORE</button>
-                                </div>
-                                <div class="mealpop-more">
-                                    <div class="mealpop-more__info" style="display:none">
-                                        <div class="mealpop-info__container">
-                                            <div class="mealpop-info__ingredients">
-                                                <h4>Ingredients</h4>
-                                                <p></p>
-                                            </div>
-                                            <div class="mealpop-info__heating">
-                                                <div class="title-container">
-                                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                        alt="icon for heating"
-                                                        data-lazy-src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/menu/icons/heating-icon.svg"><noscript><img
-                                                            src="https://www.freshnlean.com/wp-content/themes/fresh-n-lean/images/menu/icons/heating-icon.svg"
-                                                            alt="icon for heating"></noscript>
-                                                    <h4> Heating Instruction</h4>
-                                                </div>
-                                                <p>Microwave: Peel a corner of protective film (1/4-1/2 inch). Heat 2-3
-                                                    minutes. Time may vary depending on microwave.</p>
-                                                <p>Conventional Oven: Transfer meal to oven-safe dish, heat for 7
-                                                    minutes at 350 F or until desired temperature is reached.</p>
-                                                <p>Stove Top: Transfer to pot, heat to desired temperature.</p>
-                                            </div>
-                                            <div class="mealpop-info__facts">
-                                                <img src="" alt="" class="nutrition-fact-img" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <section class="container my-xlarge image-and-text-cta">
                             <div class="cta left my-xlarge desktop:grid desktop:grid-cols-2 desktop:grid-rows-7">
                                 <div
@@ -1022,14 +676,14 @@
                                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201188%201024'%3E%3C/svg%3E"
                                             class="attachment-full size-full" alt="Healthy chicken and veggies entree"
                                             loading="lazy"
-                                            data-lazy-srcset="https://www.freshnlean.com/wp-content/uploads/2019/12/Freshly-cooked-healthy-chicken-plate.jpg 1188w, https://www.freshnlean.com/wp-content/uploads/2019/12/Freshly-cooked-healthy-chicken-plate-800x690.jpg 800w, https://www.freshnlean.com/wp-content/uploads/2019/12/Freshly-cooked-healthy-chicken-plate-1024x883.jpg 1024w, https://www.freshnlean.com/wp-content/uploads/2019/12/Freshly-cooked-healthy-chicken-plate-768x662.jpg 768w"
+                                            data-lazy-srcset="http://127.0.0.1:5500/assets/img/gray.png 1188w, http://127.0.0.1:5500/assets/img/gray.png 800w, http://127.0.0.1:5500/assets/img/gray.png 1024w, http://127.0.0.1:5500/assets/img/gray.png 768w"
                                             data-lazy-sizes="(max-width: 1188px) 100vw, 1188px"
-                                            data-lazy-src="https://www.freshnlean.com/wp-content/uploads/2019/12/Freshly-cooked-healthy-chicken-plate.jpg" /><noscript><img
+                                            data-lazy-src="http://127.0.0.1:5500/assets/img/gray.png" /><noscript><img
                                                 width="1188" height="1024"
-                                                src="https://www.freshnlean.com/wp-content/uploads/2019/12/Freshly-cooked-healthy-chicken-plate.jpg"
+                                                src="http://127.0.0.1:5500/assets/img/gray.png"
                                                 class="attachment-full size-full"
                                                 alt="Healthy chicken and veggies entree" loading="lazy"
-                                                srcset="https://www.freshnlean.com/wp-content/uploads/2019/12/Freshly-cooked-healthy-chicken-plate.jpg 1188w, https://www.freshnlean.com/wp-content/uploads/2019/12/Freshly-cooked-healthy-chicken-plate-800x690.jpg 800w, https://www.freshnlean.com/wp-content/uploads/2019/12/Freshly-cooked-healthy-chicken-plate-1024x883.jpg 1024w, https://www.freshnlean.com/wp-content/uploads/2019/12/Freshly-cooked-healthy-chicken-plate-768x662.jpg 768w"
+                                                srcset="http://127.0.0.1:5500/assets/img/gray.png 1188w, http://127.0.0.1:5500/assets/img/gray.png 800w, http://127.0.0.1:5500/assets/img/gray.png 1024w, http://127.0.0.1:5500/assets/img/gray.png 768w"
                                                 sizes="(max-width: 1188px) 100vw, 1188px" /></noscript>
                                     </div>
                                 </div>
@@ -1059,9 +713,8 @@
                                                     </span></p>
                                             </div>
                                         </div>
-                                        <a data-gtm='{ "event": "cta_click", "button_text": "View Meal Plans", "url": "https://www.freshnlean.com/meal-plans/" }'
-                                            href="https://www.freshnlean.com/meal-plans/"
-                                            class="max-w-[330px] w-full btn btn--primary">
+                                        <a data-gtm='{ "event": "cta_click", "button_text": "View Meal Plans", "url": "#" }'
+                                            href="#" class="max-w-[330px] w-full btn btn--primary">
                                             View Meal Plans
                                         </a>
                                     </div>
@@ -1081,14 +734,14 @@
                                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201162%201162'%3E%3C/svg%3E"
                                             class="attachment-full size-full" alt="Steak Meal With Vegetables"
                                             loading="lazy"
-                                            data-lazy-srcset="https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56.jpg 1162w, https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56-800x800.jpg 800w, https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56-1024x1024.jpg 1024w, https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56-150x150.jpg 150w, https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56-768x768.jpg 768w"
+                                            data-lazy-srcset="http://127.0.0.1:5500/assets/img/gray.png 1162w, http://127.0.0.1:5500/assets/img/gray.pngg 800w, http://127.0.0.1:5500/assets/img/gray.png 1024w, http://127.0.0.1:5500/assets/img/gray.png 150w, http://127.0.0.1:5500/assets/img/gray.png 768w"
                                             data-lazy-sizes="(max-width: 1162px) 100vw, 1162px"
-                                            data-lazy-src="https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56.jpg" /><noscript><img
+                                            data-lazy-src="http://127.0.0.1:5500/assets/img/gray.png" /><noscript><img
                                                 width="1162" height="1162"
-                                                src="https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56.jpg"
+                                                src="http://127.0.0.1:5500/assets/img/gray.png"
                                                 class="attachment-full size-full" alt="Steak Meal With Vegetables"
                                                 loading="lazy"
-                                                srcset="https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56.jpg 1162w, https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56-800x800.jpg 800w, https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56-1024x1024.jpg 1024w, https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56-150x150.jpg 150w, https://www.freshnlean.com/wp-content/uploads/2023/03/MicrosoftTeams-image-56-768x768.jpg 768w"
+                                                srcset="http://127.0.0.1:5500/assets/img/gray.png 1162w, http://127.0.0.1:5500/assets/img/gray.pngg 800w, http://127.0.0.1:5500/assets/img/gray.png 1024w, http://127.0.0.1:5500/assets/img/gray.png 150w, http://127.0.0.1:5500/assets/img/gray.png 768w"
                                                 sizes="(max-width: 1162px) 100vw, 1162px" /></noscript>
                                     </div>
                                 </div>
@@ -1107,9 +760,8 @@
                                                     kitchen, to your plate.</p>
                                             </div>
                                         </div>
-                                        <a data-gtm='{ "event": "cta_click", "button_text": "Our Mission", "url": "https://www.freshnlean.com/about-us/" }'
-                                            href="https://www.freshnlean.com/about-us/"
-                                            class="max-w-[330px] w-full btn border-btn--bulk">
+                                        <a data-gtm='{ "event": "cta_click", "button_text": "Our Mission", "url": "#" }'
+                                            href="#" class="max-w-[330px] w-full btn border-btn--bulk">
                                             Our Mission
                                         </a>
                                     </div>
@@ -1126,35 +778,24 @@
                                         delivery services which require cooking and cleaning, our meals are delivered
                                         ready to eat in 3 minutes. Our goal is to make healthy eating simple and fun,
                                         without skimping on flavor. Have a question about our delivery service?</p>
-                                    <div class="center">
-                                        <a data-gtm='{
-                                        "event": "cta_click",
-                                        "button_text": "See all FAQs",
-                                        "url": "https://www.freshnlean.com/faqs/"
-                                        }' href="https://www.freshnlean.com/faqs/" class="link">See all FAQs</a>
+                                    <div class="accordion-header" onclick="toggleAccordion(1)">
+                                        Question 1
+                                        <div class="accordion-content" id="content1">
+                                            Answer 1
+                                        </div>
                                     </div>
-                                    <div class="tabs">
-                                        <div class="tab">
-                                          <input type="radio" id="rd1" name="rd">
-                                          <label class="tab-label" for="rd1">Item 1</label>
-                                          <div class="tab-content">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, facilis.
-                                          </div>
+                                    <div class="accordion-header" onclick="toggleAccordion(2)">
+                                        Question 2
+                                        <div class="accordion-content" id="content2">
+                                            Answer 2
                                         </div>
-                                        <div class="tab">
-                                          <input type="radio" id="rd2" name="rd">
-                                          <label class="tab-label" for="rd2">Item 2</label>
-                                          <div class="tab-content">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, aut.
-                                          </div>
+                                    </div>
+                                    <div class="accordion-header" onclick="toggleAccordion(3)">
+                                        Question 3
+                                        <div class="accordion-content" id="content3">
+                                            Answer 3
                                         </div>
-                                        <div class="tab">
-                                          <input type="radio" id="rd3" name="rd">
-                                          <label for="rd3" class="tab-close">Close others &times;</label>
-                                        </div>
-                                      </div>
-                                </div>
-                            </div>
+                                    </div>
                         </section>
                     </div>
                 </main>
@@ -1166,9 +807,9 @@
                 <div class="contact-block-container desktop:basis-1/4">
                     <div
                         class="contact-block text-[#231f20] desktop:border-b border-solid border-[#e7eaec] text-[13px] font-semibold leading-normal mb-small text-center desktop:text-left mb-small">
-                        <a href="tel:888-420-4080">(888) 420-4080</a>
+                        <a href="tel:888-420-4080">(123) 456 7890</a>
                         <div class="email uppercase mb-small"><a
-                                href="mailto:hello@freshnlean.com">hello@freshnlean.com</a></div>
+                                href="mailto:hello@freshnlean.com">hello@panzaverde.com.mx</a></div>
                     </div>
                     <div class="subscription-container tablet-h">
                         <div class="subscription-text text-[#414141] text-[16px] italic font-extralight leading-normal">
@@ -1177,12 +818,6 @@
                             <div class="klaviyo-form-NuDcGc"></div>
                         </div>
                     </div>
-                    <div class="app-store-icon mt-large tablet-h">
-                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                            alt="comin soon"
-                            data-lazy-src="/wp-content/uploads/2019/06/Coming-soon-app-icon.svg"><noscript><img
-                                src="/wp-content/uploads/2019/06/Coming-soon-app-icon.svg" alt="comin soon"></noscript>
-                    </div>
                 </div>
                 <div class="menu-footer-menu-container w-[75%] tablet-h">
                     <ul id="menu-footer" class="flex text-center">
@@ -1190,40 +825,13 @@
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-307">
                             <a>Meal Prep Delivery</a>
                             <ul class="sub-menu">
-                                <li id="menu-item-33017"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33017"><a
-                                        href="https://www.freshnlean.com/keto-meal-delivery/">Keto Meal Delivery</a>
-                                </li>
-                                <li id="menu-item-37622"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37622"><a
-                                        href="https://www.freshnlean.com/vegan-meal-delivery/">Plant-Based Meal
-                                        Delivery</a>
-                                </li>
-                                <li id="menu-item-23450"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23450"><a
-                                        href="/paleo-meal-delivery/">Paleo Meal Delivery</a>
-                                </li>
-                                <li id="menu-item-51543"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51543"><a
-                                        href="https://www.freshnlean.com/low-carb-meal-delivery/">Low-Carb Meal
-                                        Delivery</a>
-                                </li>
-                                <li id="menu-item-38797"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38797"><a
-                                        href="https://www.freshnlean.com/fitness-meal-delivery/">Protein+ Meal
-                                        Delivery</a>
-                                </li>
-                                <li id="menu-item-55988"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55988"><a
-                                        href="https://www.freshnlean.com/whole30/">Whole30 Meal Delivery</a>
-                                </li>
                                 <li id="menu-item-36193"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36193"><a
-                                        href="/menu/">Weekly Menu</a>
+                                        href="#">Weekly Menu</a>
                                 </li>
                                 <li id="menu-item-36194"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36194"><a
-                                        href="/meal-plans/">All Meal Prep Plans</a>
+                                        href="#">All Meal Prep Plans</a>
                                 </li>
                             </ul>
                         </li>
@@ -1233,61 +841,11 @@
                             <ul class="sub-menu">
                                 <li id="menu-item-49223"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49223"><a
-                                        href="https://www.freshnlean.com/about-us/">About Us</a>
-                                </li>
-                                <li id="menu-item-49217"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49217"><a
-                                        href="https://www.freshnlean.com/careers/">Careers</a>
-                                </li>
-                                <li id="menu-item-68842"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68842"><a
-                                        href="https://www.freshnlean.com/food-safety/">Food Safety</a>
-                                </li>
-                                <li id="menu-item-29499"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29499"><a
-                                        href="https://www.freshnlean.com/testimonials/">Testimonials</a>
+                                        href="#">About Us</a>
                                 </li>
                                 <li id="menu-item-54745"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54745"><a
-                                        href="https://www.freshnlean.com/how-it-works/">How It Works</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-309"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-309">
-                            <a>Support</a>
-                            <ul class="sub-menu">
-                                <li id="menu-item-20026"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20026"><a
-                                        href="https://www.freshnlean.com/faqs/">FAQs</a>
-                                </li>
-                                <li id="menu-item-53616"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53616"><a
-                                        target="_blank" rel="noopener"
-                                        href="https://orders.freshnlean.com/fnl/giftcards">Buy A Gift Card</a>
-                                </li>
-                                <li id="menu-item-51222"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51222"><a
-                                        href="https://freshnlean.aspireiq.com/join/Fresh%20N%20Lean%20Collaboration?clientId=sSP1V2IHbGFJ5YYk2pSklexPwon3rEKp">Influencer
-                                        Application</a>
-                                </li>
-                                <li id="menu-item-52989"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52989"><a
-                                        href="https://help.freshnlean.com/hc/en-us/requests/new">Contact Us</a>
-                                </li>
-                                <li id="menu-item-49222"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49222"><a
-                                        href="https://www.freshnlean.com/press/">Press</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-310"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-310">
-                            <a>Explore</a>
-                            <ul class="sub-menu">
-                                <li id="menu-item-20140"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20140"><a
-                                        href="https://www.freshnlean.com/blog/">Blog</a>
+                                        href="#">How It Works</a>
                                 </li>
                             </ul>
                         </li>
@@ -1300,37 +858,11 @@
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-307">
                                 <a>Meal Prep Delivery</a>
                                 <ul class="sub-menu">
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33017">
-                                        <a href="https://www.freshnlean.com/keto-meal-delivery/">Keto Meal Delivery</a>
-                                    </li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37622">
-                                        <a href="https://www.freshnlean.com/vegan-meal-delivery/">Plant-Based Meal
-                                            Delivery</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23450">
-                                        <a href="/paleo-meal-delivery/">Paleo Meal Delivery</a>
-                                    </li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51543">
-                                        <a href="https://www.freshnlean.com/low-carb-meal-delivery/">Low-Carb Meal
-                                            Delivery</a>
-                                    </li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38797">
-                                        <a href="https://www.freshnlean.com/fitness-meal-delivery/">Protein+ Meal
-                                            Delivery</a>
-                                    </li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55988">
-                                        <a href="https://www.freshnlean.com/whole30/">Whole30 Meal Delivery</a>
-                                    </li>
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36193">
-                                        <a href="/menu/">Weekly Menu</a>
+                                        <a href="#">Weekly Menu</a>
                                     </li>
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36194">
-                                        <a href="/meal-plans/">All Meal Prep Plans</a>
+                                        <a href="#">All Meal Prep Plans</a>
                                     </li>
                                 </ul>
                             </li>
@@ -1340,59 +872,11 @@
                                 <ul class="sub-menu">
                                     <li
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49223">
-                                        <a href="https://www.freshnlean.com/about-us/">About Us</a>
-                                    </li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49217">
-                                        <a href="https://www.freshnlean.com/careers/">Careers</a>
-                                    </li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68842">
-                                        <a href="https://www.freshnlean.com/food-safety/">Food Safety</a>
-                                    </li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29499">
-                                        <a href="https://www.freshnlean.com/testimonials/">Testimonials</a>
+                                        <a href="#">About Us</a>
                                     </li>
                                     <li
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54745">
-                                        <a href="https://www.freshnlean.com/how-it-works/">How It Works</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-309">
-                                <a>Support</a>
-                                <ul class="sub-menu">
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20026">
-                                        <a href="https://www.freshnlean.com/faqs/">FAQs</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53616">
-                                        <a target="_blank" rel="noopener"
-                                            href="https://orders.freshnlean.com/fnl/giftcards">Buy A Gift Card</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51222">
-                                        <a
-                                            href="https://freshnlean.aspireiq.com/join/Fresh%20N%20Lean%20Collaboration?clientId=sSP1V2IHbGFJ5YYk2pSklexPwon3rEKp">Influencer
-                                            Application</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52989">
-                                        <a href="https://help.freshnlean.com/hc/en-us/requests/new">Contact Us</a>
-                                    </li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49222">
-                                        <a href="https://www.freshnlean.com/press/">Press</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-310">
-                                <a>Explore</a>
-                                <ul class="sub-menu">
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20140">
-                                        <a href="https://www.freshnlean.com/blog/">Blog</a>
+                                        <a href="#">How It Works</a>
                                     </li>
                                 </ul>
                             </li>
@@ -1404,16 +888,8 @@
         <div
             class="rights bg-[#fbfbfb] text-[#414141] pt-small pb-large font-extralight leading-normal	text-[12px] px-[30px]">
             <div class="container text-center desktop:flex desktop:text-left justify-between">
-                <div class="site-info desktop:pr-large desktop:w-[33%]">
-                    <a href="/sitemap/">Sitemap</a> | <a href="/accessibility/">Accessibility</a> | <a
-                        href="/locations/">Delivery
-                        Locations</a> | <a href="/privacy-policy/">Privacy Policy</a> | <a
-                        href="/terms-of-service/">Terms of
-                        Service</a> | <a href="/wp-content/uploads/2022/05/Animal-Equality.pdf">Better Chicken
-                        Commitment</a>
-                </div>
-                <div class="copyright desktop:w-[33%]">
-                    Fresh n' Lean &copy; 2023 | All Rights Reserved.
+                <div class="copyright desktop:w-[50%]">
+                    Panza Verde &copy; 2023 | All Rights Reserved.
                 </div>
                 <div class="subscription-container-mobile pt-large tablet-s">
                     <div class="subscription-text text-[#414141] text-[16px] italic font-extralight leading-loose">Get
@@ -1426,77 +902,35 @@
                     <div class="social-links">
                         <div class="icon-container flex">
                             <div class="icon flex items-center my-0 mx-[10px]">
-                                <a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/freshnlean"
-                                    class="facebook text-[30px]">
+                                <a target="_blank" rel="noreferrer noopener" href="#" class="facebook text-[30px]">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                         alt="Facebook"
-                                        data-lazy-src="/wp-content/uploads/2019/06/Facebook-icon.svg"><noscript><img
-                                            src="/wp-content/uploads/2019/06/Facebook-icon.svg"
-                                            alt="Facebook"></noscript>
+                                        data-lazy-src="http://127.0.0.1:5500/assets/img/gray.png"><noscript><img
+                                            src="http://127.0.0.1:5500/assets/img/gray.png" alt="Facebook"></noscript>
                                 </a>
                             </div>
                             <div class="icon flex items-center my-0 mx-[10px]">
-                                <a target="_blank" rel="noreferrer noopener"
-                                    href="https://www.youtube.com/channel/UCjeIuDk6Qas4F7pM_U-zfcw"
-                                    class="youtube text-[30px]">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                        alt="Youtube"
-                                        data-lazy-src="/wp-content/uploads/2019/06/Youtube-icon.svg"><noscript><img
-                                            src="/wp-content/uploads/2019/06/Youtube-icon.svg" alt="Youtube"></noscript>
-                                </a>
-                            </div>
-                            <div class="icon flex items-center my-0 mx-[10px]">
-                                <a target="_blank" rel="noreferrer noopener"
-                                    href="https://www.instagram.com/freshnlean/" class="instagram text-[30px]">
+                                <a target="_blank" rel="noreferrer noopener" href="#" class="instagram text-[30px]">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                         alt="Instagram"
-                                        data-lazy-src="/wp-content/uploads/2019/06/Instagram-icon.svg"><noscript><img
-                                            src="/wp-content/uploads/2019/06/Instagram-icon.svg"
-                                            alt="Instagram"></noscript>
-                                </a>
-                            </div>
-                            <div class="icon flex items-center my-0 mx-[10px]">
-                                <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/freshnlean"
-                                    class="twitter text-[30px]">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                        alt="Twitter"
-                                        data-lazy-src="/wp-content/uploads/2022/02/twitter-icon1.svg"><noscript><img
-                                            src="/wp-content/uploads/2022/02/twitter-icon1.svg"
-                                            alt="Twitter"></noscript>
-                                </a>
-                            </div>
-                            <div class="icon flex items-center">
-                                <a target="_blank" rel="noreferrer noopener"
-                                    href="https://www.pinterest.com/freshnlean/" class="pinterest text-[30px]">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                        alt="Pinterest"
-                                        data-lazy-src="/wp-content/uploads/2019/06/Pinterest-icon.svg"><noscript><img
-                                            src="/wp-content/uploads/2019/06/Pinterest-icon.svg"
-                                            alt="Pinterest"></noscript>
+                                        data-lazy-src="http://127.0.0.1:5500/assets/img/gray.png"><noscript><img
+                                            src="http://127.0.0.1:5500/assets/img/gray.png" alt="Instagram"></noscript>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="app-store-icon-mobile text-center tablet-s">
-                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                    alt="comin soon" class="inline m-auto"
-                    data-lazy-src="/wp-content/uploads/2019/06/Coming-soon-app-icon.svg"><noscript><img
-                        src="/wp-content/uploads/2019/06/Coming-soon-app-icon.svg" alt="comin soon"
-                        class="inline m-auto"></noscript>
-            </div>
         </div>
     </div>
 
+    <script type='text/javascript' src='assets/js/main-cleaned.js'></script>
     <script type='text/javascript' src='assets/js/css-vars-ponyfill.min.js' id='css-polyfill-js'></script>
     <script type='text/javascript' src='assets/js/navigation.js'></script>
     <script type='text/javascript' src='assets/js/skip-link-focus-fix.js'></script>
     <script type='text/javascript' src='assets/js/tabby.min.js'></script>
     <script type='text/javascript' src='assets/js/tabby.polyfills.min.js'></script>
     <script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
-    <script type='text/javascript' src='assets/js/print.min.js'></script>
-    <script type='text/javascript' src='assets/js/clipboard.min.js'></script>
     <script type='text/javascript' src='assets/js/slick.min.js'></script>
     <script type='text/javascript' src='assets/js/easyResponsiveTabs.js'></script>
     <script type='text/javascript' src='assets/js/jquery.fancybox.min.js'></script>
@@ -1505,8 +939,6 @@
     <script type='text/javascript' src='assets/js/ScrollMagic.min.js'></script>
     <script type='text/javascript' src='assets/js/gsap.min.js'></script>
     <script type='text/javascript' src='assets/js/animation.gsap.min.js'></script>
-    <script type='text/javascript' src='assets/js/debug.addIndicators.min.js'></script>
-    <script type='text/javascript' src='assets/js/wp-embed.min.js' id='wp-embed-js'></script>
     <script>
         window.lazyLoadOptions = {
             elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
@@ -1517,36 +949,29 @@
             class_loaded: "lazyloaded",
             threshold: 300,
             callback_loaded: function (element) {
-                if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") {
-                    if (element.classList.contains("lazyloaded")) {
-                        if (typeof window.jQuery != "undefined") {
-                            if (jQuery.fn.fitVids) {
+                if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible")
+                    if (element.classList.contains("lazyloaded"))
+                        if (typeof window.jQuery != "undefined")
+                            if (jQuery.fn.fitVids)
                                 jQuery(element).parent().fitVids();
-                            }
-                        }
-                    }
-                }
             }
         };
 
         window.addEventListener('LazyLoad::Initialized', function (e) {
-            var lazyLoadInstance = e.detail.instance;
+            let lazyLoadInstance = e.detail.instance;
 
             if (window.MutationObserver) {
-                var observer = new MutationObserver(function (mutations) {
-                    var image_count = 0;
-                    var iframe_count = 0;
-                    var rocketlazy_count = 0;
+                let observer = new MutationObserver(function (mutations) {
+                    let image_count = 0;
+                    let iframe_count = 0;
+                    let rocketlazy_count = 0;
 
                     mutations.forEach(function (mutation) {
                         for (i = 0; i < mutation.addedNodes.length; i++) {
-                            if (typeof mutation.addedNodes[ i ].getElementsByTagName !== 'function') {
+                            if (typeof mutation.addedNodes[ i ].getElementsByTagName !== 'function')
                                 return;
-                            }
-
-                            if (typeof mutation.addedNodes[ i ].getElementsByClassName !== 'function') {
+                            if (typeof mutation.addedNodes[ i ].getElementsByClassName !== 'function')
                                 return;
-                            }
 
                             images = mutation.addedNodes[ i ].getElementsByTagName('img');
                             is_image = mutation.addedNodes[ i ].tagName == "IMG";
@@ -1558,13 +983,11 @@
                             iframe_count += iframes.length;
                             rocketlazy_count += rocket_lazy.length;
 
-                            if (is_image) {
+                            if (is_image)
                                 image_count += 1;
-                            }
 
-                            if (is_iframe) {
+                            if (is_iframe)
                                 iframe_count += 1;
-                            }
                         }
                     });
 
@@ -1573,12 +996,13 @@
                     }
                 });
 
-                var b = document.getElementsByTagName("body")[ 0 ];
-                var config = { childList: true, subtree: true };
+                let b = document.getElementsByTagName("body")[ 0 ];
+                let config = { childList: true, subtree: true };
 
                 observer.observe(b, config);
             }
-        }, false);</script>
+        }, false);
+    </script>
     <script data-no-minify="1" async src="assets/js/lazyload.min.js"></script>
     <style>
         body {
