@@ -1,0 +1,363 @@
+/* GENERAL */
+
+
+/* MAIN */
+
+
+/* HEADER */
+/* NAV */
+#main-header #primary-menu {
+    transition: transform 200ms ease-in-out
+}
+
+@media all and (max-width: 769px) {
+    #main-header #primary-menu {
+        display: block
+    }
+}
+
+#main-header .performance-icon {
+    background-image: url("https://www.freshnlean.com/wp-content/uploads/2019/04/Performance-Icon.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 7px
+}
+
+#main-header .performance-icon a {
+    color: #1d3a6c
+}
+
+@media all and (max-width: 992px) {
+    #main-header .performance-icon {
+        padding-left: 25px
+    }
+}
+
+#main-header .sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    z-index: 99;
+    background: #fff;
+    box-shadow: 0 4px 26px 0 rgba(0, 0, 0, .04);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+@media all and (max-width: 431px) {
+    #main-header .sticky {
+        padding: 0
+    }
+}
+
+@media all and (max-width: 769px) {
+    #main-header .container {
+        padding: 0 10px;
+        height: 60px;
+        display: flex;
+        align-items: center
+    }
+}
+
+#main-header .logo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    top: auto;
+    transform: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    vertical-align: middle;
+    height: 60px
+}
+
+@media all and (min-width: 431px)and (max-width: 992px) {
+    #main-header .logo {
+        max-width: 100%
+    }
+}
+
+#main-header ul li.order-button a {
+    color: #00bf6f
+}
+
+#main-header ul li a {
+    display: flex
+}
+
+#main-header ul li a div {
+    height: 11px;
+    width: 14px
+}
+
+#main-header ul li a div img {
+    height: 11px;
+    padding-right: 4px;
+    display: inline
+}
+
+#main-header #close {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    z-index: 10;
+    width: 25px
+}
+
+#main-header .menu-header-menu-container,
+#main-header .menu-header-menu-promo-container,
+#main-header .menu-blog-menu-container {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center
+}
+
+#main-header ul {
+    float: right;
+    position: relative;
+    margin: 0;
+    display: flex;
+    align-items: center
+}
+
+@media all and (max-width: 769px) {
+    #main-header ul {
+        position: absolute;
+        background: #fff;
+        width: 200px;
+        right: -300px;
+        top: 58px;
+        transform: translateY(0%);
+        padding: 20px 0
+    }
+}
+
+#main-header ul li {
+    display: inline-block;
+    margin-left: 53px;
+    margin-top: 6px;
+    font-size: 18px;
+    margin: 0 1px
+}
+
+@media all and (max-width: 769px) {
+    #main-header ul li {
+        width: 100%;
+        font-size: 16px
+    }
+
+    #main-header ul li :last-child() {
+        padding: 0 !important
+    }
+}
+
+#main-header ul li a {
+    font-family: "Industry", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .9rem;
+    letter-spacing: 1.2px;
+    padding: 12px 20px
+}
+
+@media all and (max-width: 992px) {
+    #main-header ul li a {
+        padding: 12px 15px
+    }
+}
+
+@media all and (max-width: 769px) {
+
+    #main-header .menu-header-menu-container.open #primary-menu,
+    #main-header .menu-blog-menu-container.open #primary-menu {
+        transform: translateX(-280px);
+        z-index: 4
+    }
+}
+
+#main-header .counter {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    transform: translateY(100%)
+}
+
+#main-header .counter .content {
+    background: green;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center
+}
+
+#main-header .counter h4 {
+    font-size: 16px
+}
+
+#main-header .counter h4 i {
+    font-size: 18px;
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+    padding-left: 10px
+}
+
+@media all and (max-width: 769px) {
+    #main-header .counter h4 {
+        font-size: 14px
+    }
+
+    #main-header .counter h4 i {
+        font-size: 16px
+    }
+}
+
+.fixed-padding {
+    height: 162px
+}
+
+@media all and (max-width: 769px) {
+    .fixed-padding {
+        height: 60px
+    }
+}
+
+#main-header.site-header--test .order-button {
+    background-color: #00bf6f;
+    text-align: center;
+    width: auto;
+    margin: 10px
+}
+
+#main-header.site-header--test .order-button a {
+    color: #fff;
+    font-weight: 700
+}
+
+#main-header.site-header--test .order-button img {
+    display: none
+}
+
+@media all and (max-width: 769px) {
+    #main-header.site-header--test .order-button {
+        border-radius: 7px;
+        max-width: 140px
+    }
+}
+
+@media all and (max-width: 769px) {
+    #main-header.site-header--test .container .content-start {
+        flex-direction: row-reverse
+    }
+
+    #main-header.site-header--test .container .content-start .logo-container {
+        width: 88%
+    }
+
+    #main-header.site-header--test .container .content-start .logo-container a {
+        max-width: 70%;
+        width: 100%
+    }
+
+    #main-header.site-header--test .container .content-start .logo-container .orderButton {
+        display: block;
+        margin: auto 0;
+        max-width: 140px
+    }
+
+    #main-header.site-header--test .container .content-start .logo-container .orderButton button {
+        font-weight: 700;
+        letter-spacing: .5px;
+        font-size: 13px;
+        line-height: 15px
+    }
+
+    #main-header.site-header--test .container .content-start .side-bar {
+        width: 10%
+    }
+
+    #main-header.site-header--test #primary-menu {
+        right: auto;
+        left: -300px
+    }
+}
+
+@media all and (max-width: 769px)and (max-width: 769px) {
+
+    #main-header.site-header--test .menu-header-menu-container.open #primary-menu,
+    #main-header.site-header--test .menu-blog-menu-container.open #primary-menu {
+        transform: translateX(290px)
+    }
+}
+
+#main-header .sticky.new-navbar {
+    background-color: transparent
+}
+
+#main-header .sticky.new-navbar .cta-container {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content
+}
+
+#main-header .sticky.new-navbar .logo {
+    filter: invert(1) brightness(1.5) hue-rotate(177deg)
+}
+
+#main-header .sticky.new-navbar .side-bar #primary-menu {
+    background-color: beige;
+    top: 0;
+    left: -300px
+}
+
+@media all and (min-width: 769px) {
+    #main-header .sticky.new-navbar .side-bar #primary-menu {
+        position: initial;
+        height: initial;
+        background-color: initial;
+        color: #fff
+    }
+}
+
+@media all and (max-width: 769px) {
+    #main-header .sticky.new-navbar .side-bar .menu-header-menu-container.open #primary-menu {
+        transform: translateX(290px);
+        z-index: 10
+    }
+}
+
+#main-header .sticky.new-navbar.bg-white {
+    position: fixed;
+    transition: all .2s ease-in-out;
+    color: #3d3d3d;
+    background-color: #fff;
+    box-shadow: 0 4px 26px 0 rgba(0, 0, 0, .04)
+}
+
+#main-header .sticky.new-navbar.bg-white .logo-container a img.logo {
+    filter: initial
+}
+
+#main-header .sticky.new-navbar.bg-white .menu-header-menu-container #primary-menu {
+    color: #3d3d3d
+}
+
+/* FAQ */
+/* Accordion */
+.accordion-header {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+}
+
+.accordion-content {
+    display: none;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
