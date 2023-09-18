@@ -92,7 +92,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-    -webkit-appearance: button
+    -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
@@ -957,14 +957,12 @@ div[class^=pure-u] {
 
 @media all and (min-width: 769px) {
     .grid-t-2 {
-        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media all and (min-width: 431px) {
     .grid-m-2 {
-        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -1780,25 +1778,9 @@ div[class^=pure-u] {
 }
 
 @font-face {
-    font-family: "icomoon";
-    src: url("libs/icon-fonts/icomoon.ttf?6xxlzi");
-    src: url("libs/icon-fonts/icomoon.ttf?6xxlzi#iefix") format("embedded-opentype"), url("libs/icon-fonts/icomoon.woff?6xxlzi") format("woff"), url("libs/icon-fonts/icomoon.svg?6xxlzi#icomoon") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Glyphicons Halflings";
-    src: url("../fonts/glyphicons-halflings-regular.ttf");
-    src: url("../fonts/glyphicons-halflings-regular.ttf?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.ttf") format("ttf"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
-    font-display: swap
-}
-
-@font-face {
     font-family: "Poppins";
-    src: url("fonts/Poppins-Black.ttf");
-    src: url("fonts/Poppins-Black.ttf?#iefix") format("embedded-opentype"), url("fonts/Poppins-Black.ttf") format("ttf"), url("fonts/Poppins-Black.woff") format("woff");
+    src: url("../fonts/Poppins-Black.ttf");
+    src: url("../fonts/Poppins-Black.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Black.ttf") format("ttf"), url("../fonts/Poppins-Black.ttf") format("ttf");
     font-weight: 900;
     font-style: normal;
     font-display: swap
@@ -1806,53 +1788,17 @@ div[class^=pure-u] {
 
 @font-face {
     font-family: "Poppins";
-    src: url("fonts/Poppins-Medium.ttf");
-    src: url("fonts/Poppins-Medium.ttf?#iefix") format("embedded-opentype"), url("fonts/Poppins-Medium.ttf") format("ttf"), url("fonts/Poppins-Medium.woff") format("woff");
+    src: url("../fonts/Poppins-Medium.ttf");
+    src: url("../fonts/Poppins-Medium.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.ttf") format("ttf"), url("../fonts/Poppins-Medium.ttf") format("ttf");
     font-weight: 500;
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-LightItalic.ttf");
-    src: url("fonts/OpenSans-LightItalic.ttf?#iefix") format("embedded-opentype"), url("fonts/OpenSans-LightItalic.ttf") format("ttf"), url("fonts/OpenSans-LightItalic.woff") format("woff");
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-ExtraBoldItalic.ttf");
-    src: url("fonts/OpenSans-ExtraBoldItalic.ttf?#iefix") format("embedded-opentype"), url("fonts/OpenSans-ExtraBoldItalic.ttf") format("ttf"), url("fonts/OpenSans-ExtraBoldItalic.woff") format("woff");
-    font-weight: 800;
-    font-style: italic;
-    font-display: swap
-}
-
-@font-face {
     font-family: "Roboto";
-    src: url("fonts/Roboto-Light.ttf");
-    src: url("fonts/Roboto-Light.ttf?#iefix") format("embedded-opentype"), url("fonts/Roboto-Light.ttf") format("ttf"), url("fonts/Roboto-Light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-SemiBold.ttf");
-    src: url("fonts/OpenSans-SemiBold.ttf?#iefix") format("embedded-opentype"), url("fonts/OpenSans-SemiBold.ttf") format("ttf"), url("fonts/OpenSans-SemiBold.woff") format("woff");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Heebo";
-    src: url("fonts/Heebo-Light.ttf");
-    src: url("fonts/Heebo-Light.ttf?#iefix") format("embedded-opentype"), url("fonts/Heebo-Light.ttf") format("ttf"), url("fonts/Heebo-Light.woff") format("woff");
+    src: url("../fonts/Roboto-Light.ttf");
+    src: url("../fonts/Roboto-Light.ttf?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light.ttf") format("ttf"), url("../fonts/Roboto-Light.ttf") format("ttf");
     font-weight: 300;
     font-style: normal;
     font-display: swap
@@ -1860,26 +1806,26 @@ div[class^=pure-u] {
 
 @font-face {
     font-family: "Heebo";
-    src: url("fonts/Heebo-Bold.ttf");
-    src: url("fonts/Heebo-Bold.ttf?#iefix") format("embedded-opentype"), url("fonts/Heebo-Bold.ttf") format("ttf"), url("fonts/Heebo-Bold.woff") format("woff");
+    src: url("../fonts/Heebo-Light.ttf");
+    src: url("../fonts/Heebo-Light.ttf?#iefix") format("embedded-opentype"), url("../fonts/Heebo-Light.ttf") format("ttf"), url("../fonts/Heebo-Light.ttf") format("ttf");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Heebo";
+    src: url("../fonts/Heebo-Bold.ttf");
+    src: url("../fonts/Heebo-Bold.ttf?#iefix") format("embedded-opentype"), url("../fonts/Heebo-Bold.ttf") format("ttf"), url("../fonts/Heebo-Bold.ttf") format("ttf");
     font-weight: bold;
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-Regular.ttf");
-    src: url("fonts/OpenSans-Regular.ttf?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Regular.ttf") format("ttf"), url("fonts/OpenSans-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
     font-family: "Poppins";
-    src: url("fonts/Poppins-Regular.ttf");
-    src: url("fonts/Poppins-Regular.ttf?#iefix") format("embedded-opentype"), url("fonts/Poppins-Regular.ttf") format("ttf"), url("fonts/Poppins-Regular.woff") format("woff");
+    src: url("../fonts/Poppins-Regular.ttf");
+    src: url("../fonts/Poppins-Regular.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Regular.ttf") format("ttf"), url("../fonts/Poppins-Regular.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap
@@ -1887,8 +1833,8 @@ div[class^=pure-u] {
 
 @font-face {
     font-family: "Roboto";
-    src: url("fonts/Roboto-Regular.ttf");
-    src: url("fonts/Roboto-Regular.ttf?#iefix") format("embedded-opentype"), url("fonts/Roboto-Regular.ttf") format("ttf"), url("fonts/Roboto-Regular.woff") format("woff");
+    src: url("../fonts/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto-Regular.ttf?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular.ttf") format("ttf"), url("../fonts/Roboto-Regular.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap
@@ -1896,8 +1842,8 @@ div[class^=pure-u] {
 
 @font-face {
     font-family: "Poppins";
-    src: url("fonts/Poppins-ExtraLightItalic.ttf");
-    src: url("fonts/Poppins-ExtraLightItalic.ttf?#iefix") format("embedded-opentype"), url("fonts/Poppins-ExtraLightItalic.ttf") format("ttf"), url("fonts/Poppins-ExtraLightItalic.woff") format("woff");
+    src: url("../fonts/Poppins-ExtraLightItalic.ttf");
+    src: url("../fonts/Poppins-ExtraLightItalic.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraLightItalic.ttf") format("ttf"), url("../fonts/Poppins-ExtraLightItalic.ttf") format("ttf");
     font-weight: 200;
     font-style: italic;
     font-display: swap
@@ -1905,17 +1851,8 @@ div[class^=pure-u] {
 
 @font-face {
     font-family: "Heebo";
-    src: url("fonts/Heebo-Regular.ttf");
-    src: url("fonts/Heebo-Regular.ttf?#iefix") format("embedded-opentype"), url("fonts/Heebo-Regular.ttf") format("ttf"), url("fonts/Heebo-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Bree Serif";
-    src: url("fonts/BreeSerif-Regular.ttf");
-    src: url("fonts/BreeSerif-Regular.ttf?#iefix") format("embedded-opentype"), url("fonts/BreeSerif-Regular.ttf") format("ttf"), url("fonts/BreeSerif-Regular.woff") format("woff");
+    src: url("../fonts/Heebo-Regular.ttf");
+    src: url("../fonts/Heebo-Regular.ttf?#iefix") format("embedded-opentype"), url("../fonts/Heebo-Regular.ttf") format("ttf"), url("../fonts/Heebo-Regular.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap
@@ -1923,62 +1860,26 @@ div[class^=pure-u] {
 
 @font-face {
     font-family: "Poppins";
-    src: url("fonts/Poppins-LightItalic.ttf");
-    src: url("fonts/Poppins-LightItalic.ttf?#iefix") format("embedded-opentype"), url("fonts/Poppins-LightItalic.ttf") format("ttf"), url("fonts/Poppins-LightItalic.woff") format("woff");
+    src: url("../fonts/Poppins-LightItalic.ttf");
+    src: url("../fonts/Poppins-LightItalic.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-LightItalic.ttf") format("ttf"), url("../fonts/Poppins-LightItalic.ttf") format("ttf");
     font-weight: 300;
     font-style: italic;
     font-display: swap
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-Light.ttf");
-    src: url("fonts/OpenSans-Light.ttf?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Light.ttf") format("ttf"), url("fonts/OpenSans-Light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
     font-family: "Roboto";
-    src: url("fonts/Roboto-Medium.ttf");
-    src: url("fonts/Roboto-Medium.ttf?#iefix") format("embedded-opentype"), url("fonts/Roboto-Medium.ttf") format("ttf"), url("fonts/Roboto-Medium.woff") format("woff");
+    src: url("../fonts/Roboto-Medium.ttf");
+    src: url("../fonts/Roboto-Medium.ttf?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.ttf") format("ttf"), url("../fonts/Roboto-Medium.ttf") format("ttf");
     font-weight: 500;
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-Bold.ttf");
-    src: url("fonts/OpenSans-Bold.ttf?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Bold.ttf") format("ttf"), url("fonts/OpenSans-Bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-ExtraBold.ttf");
-    src: url("fonts/OpenSans-ExtraBold.ttf?#iefix") format("embedded-opentype"), url("fonts/OpenSans-ExtraBold.ttf") format("ttf"), url("fonts/OpenSans-ExtraBold.woff") format("woff");
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-BoldItalic.ttf");
-    src: url("fonts/OpenSans-BoldItalic.ttf?#iefix") format("embedded-opentype"), url("fonts/OpenSans-BoldItalic.ttf") format("ttf"), url("fonts/OpenSans-BoldItalic.woff") format("woff");
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap
-}
-
-@font-face {
     font-family: "Poppins";
-    src: url("fonts/Poppins-SemiBold.ttf");
-    src: url("fonts/Poppins-SemiBold.ttf?#iefix") format("embedded-opentype"), url("fonts/Poppins-SemiBold.ttf") format("ttf"), url("fonts/Poppins-SemiBold.woff") format("woff");
+    src: url("../fonts/Poppins-SemiBold.ttf");
+    src: url("../fonts/Poppins-SemiBold.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.ttf") format("ttf"), url("../fonts/Poppins-SemiBold.ttf") format("ttf");
     font-weight: 600;
     font-style: normal;
     font-display: swap
@@ -1986,8 +1887,8 @@ div[class^=pure-u] {
 
 @font-face {
     font-family: "Roboto";
-    src: url("fonts/Roboto-Bold.ttf");
-    src: url("fonts/Roboto-Bold.ttf?#iefix") format("embedded-opentype"), url("fonts/Roboto-Bold.ttf") format("ttf"), url("fonts/Roboto-Bold.woff") format("woff");
+    src: url("../fonts/Roboto-Bold.ttf");
+    src: url("../fonts/Roboto-Bold.ttf?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.ttf") format("ttf"), url("../fonts/Roboto-Bold.ttf") format("ttf");
     font-weight: bold;
     font-style: normal;
     font-display: swap
@@ -1995,44 +1896,17 @@ div[class^=pure-u] {
 
 @font-face {
     font-family: "Poppins";
-    src: url("fonts/Poppins-Bold.ttf");
-    src: url("fonts/Poppins-Bold.ttf?#iefix") format("embedded-opentype"), url("fonts/Poppins-Bold.ttf") format("ttf"), url("fonts/Poppins-Bold.woff") format("woff");
+    src: url("../fonts/Poppins-Bold.ttf");
+    src: url("../fonts/Poppins-Bold.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Bold.ttf") format("ttf"), url("../fonts/Poppins-Bold.ttf") format("ttf");
     font-weight: bold;
     font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-Italic.ttf");
-    src: url("fonts/OpenSans-Italic.ttf?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Italic.ttf") format("ttf"), url("fonts/OpenSans-Italic.woff") format("woff");
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Amatic SC";
-    src: url("fonts/AmaticSC-Bold.ttf");
-    src: url("fonts/AmaticSC-Bold.ttf?#iefix") format("embedded-opentype"), url("fonts/AmaticSC-Bold.ttf") format("ttf"), url("fonts/AmaticSC-Bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-SemiBoldItalic.ttf");
-    src: url("fonts/OpenSans-SemiBoldItalic.ttf?#iefix") format("embedded-opentype"), url("fonts/OpenSans-SemiBoldItalic.ttf") format("ttf"), url("fonts/OpenSans-SemiBoldItalic.woff") format("woff");
-    font-weight: 600;
-    font-style: italic;
     font-display: swap
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url("fonts/Roboto-Black.ttf");
-    src: url("fonts/Roboto-Black.ttf?#iefix") format("embedded-opentype"), url("fonts/Roboto-Black.ttf") format("ttf"), url("fonts/Roboto-Black.woff") format("woff");
+    src: url("../fonts/Roboto-Black.ttf");
+    src: url("../fonts/Roboto-Black.ttf?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Black.ttf") format("ttf"), url("../fonts/Roboto-Black.ttf") format("ttf");
     font-weight: 900;
     font-style: normal;
     font-display: swap
@@ -2040,8 +1914,8 @@ div[class^=pure-u] {
 
 @font-face {
     font-family: "Heebo";
-    src: url("fonts/Heebo-Medium.ttf");
-    src: url("fonts/Heebo-Medium.ttf?#iefix") format("embedded-opentype"), url("fonts/Heebo-Medium.ttf") format("ttf"), url("fonts/Heebo-Medium.woff") format("woff");
+    src: url("../fonts/Heebo-Medium.ttf");
+    src: url("../fonts/Heebo-Medium.ttf?#iefix") format("embedded-opentype"), url("../fonts/Heebo-Medium.ttf") format("ttf"), url("../fonts/Heebo-Medium.ttf") format("ttf");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -2049,26 +1923,13 @@ div[class^=pure-u] {
 
 @font-face {
     font-family: "Poppins";
-    src: url("fonts/Poppins-ExtraBold.ttf");
-    src: url("fonts/Poppins-ExtraBold.ttf?#iefix") format("embedded-opentype"), url("fonts/Poppins-ExtraBold.ttf") format("ttf"), url("fonts/Poppins-ExtraBold.woff") format("woff");
+    src: url("../fonts/Poppins-ExtraBold.ttf");
+    src: url("../fonts/Poppins-ExtraBold.ttf?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraBold.ttf") format("ttf"), url("../fonts/Poppins-ExtraBold.ttf") format("ttf");
     font-weight: 800;
     font-style: normal;
     font-display: swap
 }
 
-@font-face {
-    font-family: "United Sans";
-    src: url("fonts/United-Sans-SemiCond-Bold.ttf");
-    src: url("fonts/United-Sans-SemiCond-Bold.ttft?#iefix") format("embedded-opentype"), url("fonts/United-Sans-SemiCond-Bold.ttf") format("ttf"), url("fonts/United-Sans-SemiCond-Bold.woff") format("woff");
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "DIN";
-    src: url("fonts/D-DINCondensed-Bold.otf")
-}
-
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -2080,11 +1941,6 @@ div[class^=pure-u] {
     }
 }
 
-@font-face {
-    font-family: "Abolition";
-    src: url("fonts/Abolition.ttf")
-}
-
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -2094,58 +1950,6 @@ div[class^=pure-u] {
     body {
         font-weight: lighter !important
     }
-}
-
-@font-face {
-    font-family: "NotoSans";
-    src: url("fonts/NotoSans-Regular.ttf");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "NotoSans";
-    src: url("fonts/NotoSans-Italic.ttf");
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "NotoSans";
-    src: url("fonts/NotoSans-Bold.ttf");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "NotoSans";
-    src: url("fonts/NotoSans-BoldItalic.ttf");
-    font-weight: 700;
-    font-style: italic;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "NotoSans";
-    src: url("fonts/NotoSans-Black.ttf");
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "NotoSans";
-    src: url("fonts/NotoSans-BlackItalic.ttf");
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap
-}
-
-.abolition {
-    font-family: "Abolition", Helvetica, Arial, sans-serif
 }
 
 #reviews-page .hero {
@@ -3148,25 +2952,6 @@ img {
 
 .d-none {
     display: none !important
-}
-
-@font-face {
-    font-family: "Glyphicons Halflings";
-    src: url("../fonts/glyphicons-halflings-regular.ttf");
-    src: url("../fonts/glyphicons-halflings-regular.ttf?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.ttf") format("ttf"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
-    font-display: swap
-}
-
-.glyphicon {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: "Glyphicons Halflings";
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
 }
 
 .glyphicon-asterisk:before {
@@ -7964,7 +7749,6 @@ section.flip-flop-grid .flip-flop__body .text {
     .macro-animate__text {
         grid-template-columns: 30% 70%;
         -ms-grid-columns: 30% 70%;
-        -ms-grid-rows: auto [2];
         grid-template-rows: repeat(2, auto);
         max-width: 600px;
         grid-column: 2/3;
@@ -13711,7 +13495,6 @@ section.steps .button-container .btn:hover {
 
 @media all and (min-width: 431px) {
     .card-layout {
-        -ms-grid-columns: (minmax(0, 1fr))[2];
         grid-template-columns: repeat(2, minmax(0, 1fr))
     }
 }
@@ -13741,7 +13524,6 @@ section.steps .button-container .btn:hover {
 
     .page-id-56 .hidden-card__container,
     .page-id-43866 .hidden-card__container {
-        -ms-grid-rows: (minmax(0, 1fr))[2];
         grid-template-rows: repeat(2, minmax(0, 1fr));
         -ms-grid-columns: none;
         grid-template-columns: none
@@ -13754,7 +13536,6 @@ section.steps .button-container .btn:hover {
     .page-id-43866 .hidden-card__container {
         -ms-grid-rows: none;
         grid-template-rows: none;
-        -ms-grid-columns: (minmax(0, 1fr))[2];
         grid-template-columns: repeat(2, minmax(0, 1fr))
     }
 }
@@ -15559,7 +15340,6 @@ section.steps .button-container .btn:hover {
 
 @media all and (min-width: 769px) {
     .press-title {
-        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
         margin: 0 auto
     }
@@ -17332,9 +17112,7 @@ section.steps .button-container .btn:hover {
         display: grid;
         display: -ms-grid-;
         padding-right: 15px;
-        -ms-grid-columns: auto [8];
         grid-template-columns: repeat(8, auto);
-        -ms-grid-rows: auto [8];
         grid-template-rows: repeat(8, auto)
     }
 }
@@ -17427,9 +17205,7 @@ section.steps .button-container .btn:hover {
         grid-row: 1/2;
         display: -ms-grid;
         display: grid;
-        -ms-grid-columns: auto [8];
         grid-template-columns: repeat(8, auto);
-        -ms-grid-rows: auto [8];
         grid-template-rows: repeat(8, auto);
         padding-right: 15px
     }
@@ -23624,10 +23400,8 @@ section.steps .button-container .btn:hover {
 }
 
 #paleo-meal-delivery .paleo-grid__text .paleo-text-header {
-    -ms-grid-columns: auto [2];
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[2];
     grid-template-columns: repeat(2, auto)
 }
 
@@ -23691,9 +23465,7 @@ section.steps .button-container .btn:hover {
         -ms-grid-row: 1;
         display: grid;
         display: -ms-grid;
-        -ms-grid-columns: auto [10];
         grid-template-columns: repeat(10, auto);
-        -ms-grid-rows: auto [10];
         grid-template-rows: repeat(10, auto)
     }
 }
@@ -26368,7 +26140,6 @@ section.steps .button-container .btn:hover {
 
 @media all and (min-width: 769px) {
     .protein-macro .macro-grid .nutrition-guide__stats .bar-container {
-        -ms-grid-columns: 1fr [3];
         grid-template-columns: repeat(3, 1fr)
     }
 }
@@ -26749,7 +26520,6 @@ section.steps .button-container .btn:hover {
         display: -ms-grid-;
         -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-        -ms-grid-rows: auto [6];
         grid-template-rows: repeat(6, auto);
         padding-left: 20px
     }
@@ -26837,9 +26607,7 @@ section.steps .button-container .btn:hover {
         grid-row: 1/2;
         display: -ms-grid;
         display: grid;
-        -ms-grid-columns: auto [8];
         grid-template-columns: repeat(8, auto);
-        -ms-grid-rows: auto [8];
         grid-template-rows: repeat(8, auto);
         padding-right: 15px
     }
@@ -30506,7 +30274,6 @@ section.steps .button-container .btn:hover {
 
 @media all and (min-width: 769px) {
     .great_deal__grid {
-        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
         padding: 0;
     }

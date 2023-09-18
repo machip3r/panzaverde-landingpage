@@ -213,7 +213,7 @@ function resizeContent() {
     $('.accordion-content').hide();
     $('.accordion-container').removeClass('mobile').addClass('desktop');
     $('.desktop-content p').text(contentLoad);
-    $('.desktop-content').show(); 
+    $('.desktop-content').show();
 
   }else {
     $('.value-props > div').removeClass('container');
@@ -260,14 +260,14 @@ window.addEventListener("resize", debounce( resizeContent, 150));
         e.preventDefault();
         var color = $(this).data('color');
         var tabId = $(this).attr('href');
-       
+
         $(".comparison__item").css("display", "none");
         $(".tab-links a").css({"color" : "#bcc2d1" , "border-bottom" : "none"});
 
         $(tabId).css("display", "block");
         $(this).css({"color" : color , "border-bottom" : "2px solid" + color});
 
- 
+
       })
     }
 
@@ -1086,9 +1086,9 @@ if (document.getElementById("meal-plan-quiz-container")) {
   var debounceShowMobileMenu = debounce(showMobileMenu, 3000);
   window.addEventListener("resize", debounceShowMobileMenu);
 
-  
 
-  
+
+
 
 
   function addStickyButt(planName) {
@@ -1109,11 +1109,11 @@ if (document.getElementById("meal-plan-quiz-container")) {
       planName = 'low-carb';
       planCTA = 'https://orders.freshnlean.com/fnl/plans/vegan-low-carb';
       planClass = 'vegan-l'
-    } 
+    }
     if (planName === 'mediterranean') {
       planCTA = 'https://orders.freshnlean.com/fnl/plans/mediterranean-diet';
     }
-    } else { 
+    } else {
        planName = planName.split('/')[0];
        planClass = planName;
       if (planName === 'whole30') {
@@ -1456,7 +1456,7 @@ if (document.getElementById("meal-plan-quiz-container")) {
     if ($(window).width() < 769) {
       $(".mealpopup").css({ transform: "translate(-50%, -47%)" });
     } else {
-      $(".mealpopup").css("height", "auto");  
+      $(".mealpopup").css("height", "auto");
     }
     $(".mealpopup").on("scroll", function () {
       if (window.matchMedia('(max-width: 831px)').matches) {
@@ -1468,7 +1468,7 @@ if (document.getElementById("meal-plan-quiz-container")) {
       }else {
         $(".fancybox-close-small").css("top", $(this).scrollTop());
       }
-    }); 
+    });
 
     var total = protein + carbs + fat;
     var mealClass = $(this).data("mealclass");
@@ -1740,7 +1740,7 @@ if (document.getElementById("fnl-podcast")) {
     }, 800);
   }
 
-//tastefresh UTM   
+//tastefresh UTM
 $.ajax({
     url: "/wp-json/api/v1/promos",
     type: "GET",
@@ -1757,10 +1757,10 @@ $.ajax({
     const utmDetail = dataList.find(function(item) {
       if(Object.values(item)[0].toLowerCase() === utmcode.toLowerCase()) {
         return item;
-      } 
+      }
     });
 
-    if(Object.keys(utmDetail).length > 0) { 
+    if(Object.keys(utmDetail).length > 0) {
       //update hero copy
       const utmPageHero = $(".page-with-utm .hero-full").find("h1.header");
       utmPageHero.text(utmDetail["hero_copy"]);
@@ -1771,12 +1771,12 @@ $.ajax({
 
       //Vegan page vegan button
         if (utmParam.indexOf('vegan') > 0 && newButtonUrl.indexOf("vegan-standard") > 0 ){
-           $(this).attr('href', newButtonUrl + '?promo=' + utmDetail["promo"]); 
+           $(this).attr('href', newButtonUrl + '?promo=' + utmDetail["promo"]);
            $(this).text(utmDetail["hero_copy_button"]);
         }
       //regular tastefresh page
        if(utmParam.indexOf('vegan') < 0) {
-        $(this).attr('href', newButtonUrl + '?promo=' + utmDetail["promo"]); 
+        $(this).attr('href', newButtonUrl + '?promo=' + utmDetail["promo"]);
         $(this).text(utmDetail["hero_copy_button"]);
       }
 
@@ -1865,7 +1865,7 @@ $.ajax({
 (function ($, root, undefined) {
   $(function () {
     "use strict";
-    var templateUrl = myScript.template_url;
+    var templateUrl = "http://127.0.0.1:5500/";
 
     $("html").on("click", ".trigger", function () {
       $(this).parent().toggleClass("active");
@@ -1887,7 +1887,7 @@ $.ajax({
     });
 
     $("#hamburger-menu").on("click", function () {
-      $("#main-header .menu-header-menu-container, .menu-blog-menu-container").toggleClass("open"); 
+      $("#main-header .menu-header-menu-container, .menu-blog-menu-container").toggleClass("open");
     });
     $("#content").on("click", function () {
       $("#main-header .menu-header-menu-container, .menu-blog-menu-container").removeClass("open");
@@ -1919,30 +1919,6 @@ $.ajax({
       return false;
     });
 
-    
-
-    $(".js-accordion")
-      .on("click", ".accordion-header", function () {
-        console.log("clicking");
-        if ($(this).hasClass("active")) {
-          return;
-        }
-        if (!$(this).next().is(":visible")) {
-          var closingTab = $(".accordion-header.active").data("faq");
-          if (closingTab !== undefined) {
-            closingTab.action = "collapse";
-            window.dataLayer.push(closingTab);
-          }
-          $(".accordion-header.active").removeClass("active").next().slideUp();
-          $(this).addClass("active");
-          $(this).next().slideDown("slow");
-          var tag = $(this).data("faq");
-          tag.action = "expand";
-          window.dataLayer.push(tag);
-        }
-      })
-      .find(".accordion-content")
-      .hide();
     $(".js-zip-pop-input").on("keyup change input keydown", function () {
       $(".js-zip-pop-content").text($(this).val());
     });
@@ -1979,21 +1955,6 @@ $.ajax({
     };
 
     // ================  Homepage  ==============
-
-    $(".homepage-js-accordion")
-      .on("click", ".accordion-header", function () {
-        if (!$(this).next().is(":visible")) {
-          $(".accordion-header.active").removeClass("active").next().slideUp();
-          $(this).addClass("active");
-          $(this).next().slideDown("slow");
-        } else {
-          $(this).removeClass("active");
-
-          $(this).next().slideUp("fast");
-        }
-      })
-      .find(".accordion-content")
-      .hide();
 
     $(".accordion-header:first").addClass("active");
     $(".accordion-content:first").css("display", "block");
@@ -2630,13 +2591,13 @@ $.ajax({
       $tabButtonItem.first().removeClass(activeClass);
       $tabButtonItem.filter("." + index).find("a").click();
       $tabButtonItem.filter("." + index).find(".accordion-content").show();
-     
+
       var menuTarget  = "#" + index;
       $tabSelect.val(menuTarget);
       $tabContents.hide();
       $(menuTarget).show();
 
-      
+
     }
 
     $tabButtonItem.find("a").on("click", function (e) {
@@ -2873,7 +2834,7 @@ if ($(".mobile-dropdown").length ) {
     $(this).find(".description-container").toggleClass("current");
     $(".image-and-text-content").removeClass("active");
     $(this).toggleClass("active");
-     
+
      var boxHeight = $(this).find(".description-container").height();
      $(this).css("padding-bottom", boxHeight + "px");
     }
@@ -2888,7 +2849,7 @@ if ($(".mobile-dropdown").length ) {
   });
 }
 
-  //two-column-image-text wysiwyg color change 
+  //two-column-image-text wysiwyg color change
   if ($(".two-column-image-text .overlap_applied").length) {
   const wysiwygContainer= $(".two-column-image-text").find(".overlap_applied .content-block");
   wysiwygContainer.each( function() {
@@ -2906,7 +2867,7 @@ if ($(".mobile-dropdown").length ) {
     $(this).find(".description-container").toggleClass("current");
     $(".image-and-text-content").removeClass("active");
     $(this).toggleClass("active");
-     
+
      var boxHeight = $(this).find(".description-container").height();
      $(this).css("padding-bottom", boxHeight + "px");
     }
@@ -2948,7 +2909,7 @@ $(".primary-container img").attr('tabindex', '-1');
 (function ($, root, undefined) {
   if ($(".page-template-senior-page").length) {
     $(
-      ".steps-container .step:nth-child(4), .homepage-js-accordion li:nth-child(4), .trail"
+      ".steps-container .step:nth-child(4), .trail"
     ).remove();
     $(".dot").remove();
   }
@@ -3024,7 +2985,7 @@ $(".primary-container img").attr('tabindex', '-1');
 
       $("#step-"+ slickIndex +"-content").slideDown("slow").css("display", "block");
       $("#step-"+ slickIndex +", #step-"+ slickIndex +"-second").addClass("active");
-  
+
   });
   if ($(".athlete-meals__slick").length) {
     $(".athlete-meals__slick").slick({
@@ -3167,7 +3128,7 @@ $(".primary-container img").attr('tabindex', '-1');
       cssEase: "ease-in",
       slidesToScroll: 1,
       appendArrows:timeLineCarousel.parent().find('.carousel-bottom .box .progressBarContainer')
-     
+
     });
   }
 
@@ -3191,7 +3152,7 @@ $(".primary-container img").attr('tabindex', '-1');
           breakpoint: 770,
           settings: {
             draggable: true,
-          
+
           },
         },
       ],
@@ -3204,7 +3165,7 @@ $(".primary-container img").attr('tabindex', '-1');
       slidesToShow: 1,
       slidesToScroll: 1,
       draggable: false,
-     
+
     });
   }
 
@@ -3220,7 +3181,7 @@ $(".primary-container img").attr('tabindex', '-1');
         slidesToShow: 1,
         fade: true,
         cssEase: "ease-in",
-        slidesToScroll: 1,       
+        slidesToScroll: 1,
       });
       function highlightIcon() {
         $(".icon-box").removeClass("icon-selected");
@@ -3233,13 +3194,13 @@ $(".primary-container img").attr('tabindex', '-1');
             var box = $(".icon-box#" + value);
             box.addClass("icon-selected");
           }
-  
+
         });
       }
       highlightIcon();
       iconImageSlider.on('afterChange', highlightIcon);
     }
-    
+
 
   // about us page
   if ($(".timeline-container").length) {
@@ -3283,7 +3244,7 @@ $(".primary-container img").attr('tabindex', '-1');
         '#slide-container .slick-track div[aria-hidden="false"]'
       ).data("slickIndex");
       startProgressbar();
-     
+
     } else {
 
       percentTime += 1 / (time + 5);
