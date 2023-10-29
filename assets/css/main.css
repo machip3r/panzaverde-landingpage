@@ -1,4 +1,5 @@
-/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com *//*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
 Document
@@ -22,7 +23,7 @@ Use a more readable tab size (opinionated).
 html {
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
-	   tab-size: 4;
+	tab-size: 4;
 }
 
 /**
@@ -31,8 +32,10 @@ html {
 */
 
 html {
-	line-height: 1.15; /* 1 */
-	-webkit-text-size-adjust: 100%; /* 2 */
+	line-height: 1.15;
+	/* 1 */
+	-webkit-text-size-adjust: 100%;
+	/* 2 */
 }
 
 /*
@@ -55,7 +58,8 @@ Improve consistency of default fonts in all browsers. (https://github.com/sindre
 body {
 	font-family:
 		system-ui,
-		-apple-system, /* Firefox supports this but not yet `system-ui` */
+		-apple-system,
+		/* Firefox supports this but not yet `system-ui` */
 		'Segoe UI',
 		Roboto,
 		Helvetica,
@@ -76,8 +80,10 @@ Grouping content
 */
 
 hr {
-	height: 0; /* 1 */
-	color: inherit; /* 2 */
+	height: 0;
+	/* 1 */
+	color: inherit;
+	/* 2 */
 }
 
 /*
@@ -91,7 +97,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr[title] {
 	-webkit-text-decoration: underline dotted;
-	        text-decoration: underline dotted;
+	text-decoration: underline dotted;
 }
 
 /**
@@ -118,8 +124,10 @@ pre {
 		Consolas,
 		'Liberation Mono',
 		Menlo,
-		monospace; /* 1 */
-	font-size: 1em; /* 2 */
+		monospace;
+	/* 1 */
+	font-size: 1em;
+	/* 2 */
 }
 
 /**
@@ -161,8 +169,10 @@ Tabular data
 */
 
 table {
-	text-indent: 0; /* 1 */
-	border-color: inherit; /* 2 */
+	text-indent: 0;
+	/* 1 */
+	border-color: inherit;
+	/* 2 */
 }
 
 /*
@@ -180,10 +190,14 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit; /* 1 */
-	font-size: 100%; /* 1 */
-	line-height: 1.15; /* 1 */
-	margin: 0; /* 2 */
+	font-family: inherit;
+	/* 1 */
+	font-size: 100%;
+	/* 1 */
+	line-height: 1.15;
+	/* 1 */
+	margin: 0;
+	/* 2 */
 }
 
 /**
@@ -192,7 +206,8 @@ Remove the inheritance of text transform in Edge and Firefox.
 */
 
 button,
-select { /* 1 */
+select {
+	/* 1 */
 	text-transform: none;
 }
 
@@ -264,8 +279,10 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-	-webkit-appearance: textfield; /* 1 */
-	outline-offset: -2px; /* 2 */
+	-webkit-appearance: textfield;
+	/* 1 */
+	outline-offset: -2px;
+	/* 2 */
 }
 
 /**
@@ -282,8 +299,10 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-file-upload-button {
-	-webkit-appearance: button; /* 1 */
-	font: inherit; /* 2 */
+	-webkit-appearance: button;
+	/* 1 */
+	font: inherit;
+	/* 2 */
 }
 
 /*
@@ -297,7 +316,9 @@ Add the correct display in Chrome and Safari.
 
 summary {
 	display: list-item;
-}/**
+}
+
+/**
  * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
  * A thin layer on top of normalize.css that provides a starting point more
  * suitable for web applications.
@@ -320,24 +341,24 @@ hr,
 figure,
 p,
 pre {
-  margin: 0;
+	margin: 0;
 }
 
 button {
-  background-color: transparent;
-  background-image: none;
+	background-color: transparent;
+	background-image: none;
 }
 
 fieldset {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 ol,
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /**
@@ -352,8 +373,10 @@ ul {
  */
 
 html {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
-  line-height: 1.5; /* 2 */
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	/* 1 */
+	line-height: 1.5;
+	/* 2 */
 }
 
 
@@ -363,8 +386,8 @@ html {
  */
 
 body {
-  font-family: inherit;
-  line-height: inherit;
+	font-family: inherit;
+	line-height: inherit;
 }
 
 /**
@@ -396,10 +419,14 @@ body {
 *,
 ::before,
 ::after {
-  box-sizing: border-box; /* 1 */
-  border-width: 0; /* 2 */
-  border-style: solid; /* 2 */
-  border-color: currentColor; /* 2 */
+	box-sizing: border-box;
+	/* 1 */
+	border-width: 0;
+	/* 2 */
+	border-style: solid;
+	/* 2 */
+	border-color: currentColor;
+	/* 2 */
 }
 
 /*
@@ -407,7 +434,7 @@ body {
  */
 
 hr {
-  border-top-width: 1px;
+	border-top-width: 1px;
 }
 
 /**
@@ -421,32 +448,34 @@ hr {
  */
 
 img {
-  border-style: solid;
+	border-style: solid;
 }
 
 textarea {
-  resize: vertical;
+	resize: vertical;
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  color: #a1a1aa;
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	opacity: 1;
+	color: #a1a1aa;
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  opacity: 1;
-  color: #a1a1aa;
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	opacity: 1;
+	color: #a1a1aa;
 }
 
 input::placeholder,
 textarea::placeholder {
-  opacity: 1;
-  color: #a1a1aa;
+	opacity: 1;
+	color: #a1a1aa;
 }
 
 button,
 [role="button"] {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 /**
@@ -456,13 +485,13 @@ button,
  * as it triggers the better focus styles even for links, which still use a dotted
  * outline in Firefox by default.
  */
- 
+
 :-moz-focusring {
 	outline: auto;
 }
 
 table {
-  border-collapse: collapse;
+	border-collapse: collapse;
 }
 
 h1,
@@ -471,8 +500,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
-  font-weight: inherit;
+	font-size: inherit;
+	font-weight: inherit;
 }
 
 /**
@@ -481,8 +510,8 @@ h6 {
  */
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+	color: inherit;
+	text-decoration: inherit;
 }
 
 /**
@@ -498,9 +527,9 @@ input,
 optgroup,
 select,
 textarea {
-  padding: 0;
-  line-height: inherit;
-  color: inherit;
+	padding: 0;
+	line-height: inherit;
+	color: inherit;
 }
 
 /**
@@ -514,7 +543,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -523,14 +552,14 @@ samp {
  *    CSS Remedy, with `svg` added as well.
  *
  *    https://github.com/mozdevs/cssremedy/issues/14
- * 
+ *
  * 2. Add `vertical-align: middle` to align replaced elements more
  *    sensibly by default when overriding `display` by adding a
  *    utility like `inline`.
  *
  *    This can trigger a poorly considered linting error in some
  *    tools but is included by design.
- * 
+ *
  *    https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210
  */
 
@@ -542,8 +571,10 @@ audio,
 iframe,
 embed,
 object {
-  display: block; /* 1 */
-  vertical-align: middle; /* 2 */
+	display: block;
+	/* 1 */
+	vertical-align: middle;
+	/* 2 */
 }
 
 /**
@@ -555,8 +586,8 @@ object {
 
 img,
 video {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 /**
@@ -564,10 +595,12 @@ video {
  */
 
 [hidden] {
-  display: none;
+	display: none;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
 	--tw-translate-x: 0;
 	--tw-translate-y: 0;
 	--tw-rotate: 0;
@@ -580,62 +613,98 @@ video {
 	--tw-ring-offset-shadow: 0 0 #0000;
 	--tw-ring-shadow: 0 0 #0000;
 	--tw-shadow: 0 0 #0000;
-	--tw-blur: var(--tw-empty,/*!*/ /*!*/);
-	--tw-brightness: var(--tw-empty,/*!*/ /*!*/);
-	--tw-contrast: var(--tw-empty,/*!*/ /*!*/);
-	--tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
-	--tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-	--tw-invert: var(--tw-empty,/*!*/ /*!*/);
-	--tw-saturate: var(--tw-empty,/*!*/ /*!*/);
-	--tw-sepia: var(--tw-empty,/*!*/ /*!*/);
-	--tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
+	--tw-blur: var(--tw-empty,
+			/*!*/
+			/*!*/
+		);
+	--tw-brightness: var(--tw-empty,
+			/*!*/
+			/*!*/
+		);
+	--tw-contrast: var(--tw-empty,
+			/*!*/
+			/*!*/
+		);
+	--tw-grayscale: var(--tw-empty,
+			/*!*/
+			/*!*/
+		);
+	--tw-hue-rotate: var(--tw-empty,
+			/*!*/
+			/*!*/
+		);
+	--tw-invert: var(--tw-empty,
+			/*!*/
+			/*!*/
+		);
+	--tw-saturate: var(--tw-empty,
+			/*!*/
+			/*!*/
+		);
+	--tw-sepia: var(--tw-empty,
+			/*!*/
+			/*!*/
+		);
+	--tw-drop-shadow: var(--tw-empty,
+			/*!*/
+			/*!*/
+		);
 	--tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+
 .container {
 	width: 100%;
 }
+
 @media (min-width: 431px) {
 
 	.container {
 		max-width: 431px;
 	}
 }
+
 @media (min-width: 640px) {
 
 	.container {
 		max-width: 640px;
 	}
 }
+
 @media (min-width: 768px) {
 
 	.container {
 		max-width: 768px;
 	}
 }
+
 @media (min-width: 770px) {
 
 	.container {
 		max-width: 770px;
 	}
 }
+
 @media (min-width: 1024px) {
 
 	.container {
 		max-width: 1024px;
 	}
 }
+
 @media (min-width: 1280px) {
 
 	.container {
 		max-width: 1280px;
 	}
 }
+
 @media (min-width: 1450px) {
 
 	.container {
 		max-width: 1450px;
 	}
 }
+
 @media (min-width: 1536px) {
 
 	.container {
@@ -645,54 +714,69 @@ video {
 
 /* purgecss start ignore */
 .text-white {
-  color: white;
+	color: white;
 }
+
 .col-start-3 {
-  grid-column-start: 3;
+	grid-column-start: 3;
 }
+
 .col-start-4 {
-  grid-column-start: 4;
+	grid-column-start: 4;
 }
+
 .col-end-1 {
-  grid-column-end: 1;
+	grid-column-end: 1;
 }
+
 .col-end-4 {
-  grid-column-end: 4;
+	grid-column-end: 4;
 }
+
 .row-start-1 {
-  grid-row-start: 1;
+	grid-row-start: 1;
 }
+
 .row-start-4 {
-  grid-row-start: 4;
+	grid-row-start: 4;
 }
+
 .row-end-4 {
-  grid-row-end: 4;
+	grid-row-end: 4;
 }
+
 .row-end-5 {
-  grid-row-end: 5;
+	grid-row-end: 5;
 }
+
 .row-end-6 {
-  grid-row-end: 6;
+	grid-row-end: 6;
 }
+
 @media (min-width: 426px) {
-  .tablet\:col-end-4 {
-    grid-column-end: 4;
-  }
-  .tablet\:row-start-3 {
-    grid-row-start: 3;
-  }
-  .tablet\:row-end-4 {
-    grid-row-end: 4;
-  }
-  .tablet\:row-end-6 {
-    grid-row-end: 6;
-  }
+	.tablet\:col-end-4 {
+		grid-column-end: 4;
+	}
+
+	.tablet\:row-start-3 {
+		grid-row-start: 3;
+	}
+
+	.tablet\:row-end-4 {
+		grid-row-end: 4;
+	}
+
+	.tablet\:row-end-6 {
+		grid-row-end: 6;
+	}
 }
+
 @media (min-width: 770px) {
-  .desktop\:text-white {
-    color: white !important;
-  }
+	.desktop\:text-white {
+		color: white !important;
+	}
 }
+
 /* purgecss end ignore */
 
 .pointer-events-none {
@@ -1882,21 +1966,21 @@ video {
 
 .gap-x-2 {
 	-moz-column-gap: 0.5rem;
-	     column-gap: 0.5rem;
+	column-gap: 0.5rem;
 }
 
 .gap-x-1 {
 	-moz-column-gap: 0.25rem;
-	     column-gap: 0.25rem;
+	column-gap: 0.25rem;
 }
 
-.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+.space-x-2> :not([hidden])~ :not([hidden]) {
 	--tw-space-x-reverse: 0;
 	margin-right: calc(0.5rem * var(--tw-space-x-reverse));
 	margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+.space-x-3> :not([hidden])~ :not([hidden]) {
 	--tw-space-x-reverse: 0;
 	margin-right: calc(0.75rem * var(--tw-space-x-reverse));
 	margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
@@ -2141,22 +2225,22 @@ video {
 
 .object-contain {
 	-o-object-fit: contain;
-	   object-fit: contain;
+	object-fit: contain;
 }
 
 .object-cover {
 	-o-object-fit: cover;
-	   object-fit: cover;
+	object-fit: cover;
 }
 
 .object-scale-down {
 	-o-object-fit: scale-down;
-	   object-fit: scale-down;
+	object-fit: scale-down;
 }
 
 .object-center {
 	-o-object-position: center;
-	   object-position: center;
+	object-position: center;
 }
 
 .p-\[10px\] {
@@ -2706,7 +2790,8 @@ video {
 }
 
 .shadow-navbar {
-	--tw-shadow: 0 4px 26px 0 rgb(0 0 0 / 4%);;
+	--tw-shadow: 0 4px 26px 0 rgb(0 0 0 / 4%);
+	;
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -3686,7 +3771,7 @@ video {
 
 	.desktop\:gap-x-2 {
 		-moz-column-gap: 0.5rem;
-		     column-gap: 0.5rem;
+		column-gap: 0.5rem;
 	}
 
 	.desktop\:border-b {
@@ -3847,4 +3932,46 @@ video {
 	.desktopLg\:h-auto {
 		height: auto;
 	}
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-sm-6 {
+	width: 50%;
+	padding: 15px;
+}
+
+@media (min-width: 768px) {
+	.col-md-3 {
+		width: 25%;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-lg-3 {
+		width: 25%;
+	}
+}
+
+.block {
+	border: 1px solid #ccc;
+	padding: 15px;
+}
+
+.block h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.block p {
+	font-size: 16px;
 }
