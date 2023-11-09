@@ -226,7 +226,7 @@ h6 {
 }
 
 .color-primary {
-    color: #00bf6f
+    color: #89c814
 }
 
 .color-white {
@@ -262,11 +262,11 @@ h6 {
 }
 
 .primary {
-    color: #00bf6f
+    color: #89c814
 }
 
 .bg-fresh {
-    background-color: #00bf6f
+    background-color: #89c814
 }
 
 .bg-dark-navy {
@@ -2219,7 +2219,7 @@ li.right {
 }
 
 .green {
-    color: #00bf6f
+    color: #89c814
 }
 
 .faded {
@@ -2376,7 +2376,7 @@ li.right {
 }
 
 .navbar-menu-cta {
-    background-color: #00bf6f;
+    background-color: #89c814;
     font-weight: 700 !important;
     color: #fff !important
 }
@@ -2398,7 +2398,7 @@ li.right {
 }
 
 .navbar-menu-cta-cta {
-    background-color: #00bf6f;
+    background-color: #89c814;
     font-weight: 700 !important;
     color: #fff !important
 }
@@ -2488,7 +2488,7 @@ li.right {
 .button.green,
 .btn.green {
     color: #fff;
-    background: #00bf6f;
+    background: #89c814;
     border: none
 }
 
@@ -2499,27 +2499,27 @@ li.right {
 
 .button.green-outline,
 .btn.green-outline {
-    color: #00bf6f;
+    color: #89c814;
     background: #fff;
-    border: 1px solid #00bf6f
+    border: 1px solid #89c814
 }
 
 .button.green-outline:hover,
 .btn.green-outline:hover {
-    background: #00bf6f;
+    background: #89c814;
     color: #fff
 }
 
 .button.primary-outline,
 .btn.primary-outline {
-    color: #00bf6f;
+    color: #89c814;
     background: #fff;
-    border: 1px solid #00bf6f
+    border: 1px solid #89c814
 }
 
 .button.primary-outline:hover,
 .btn.primary-outline:hover {
-    background: #00bf6f;
+    background: #89c814;
     color: #fff
 }
 
@@ -2532,7 +2532,7 @@ li.right {
 
 .button.white-outline:hover,
 .btn.white-outline:hover {
-    background: #00bf6f;
+    background: #89c814;
     color: #fff
 }
 
@@ -2551,13 +2551,13 @@ li.right {
 .button.primary,
 .btn.primary {
     color: #fff;
-    background: #00bf6f;
+    background: #89c814;
     border: none
 }
 
 .button.primary:hover,
 .btn.primary:hover {
-    background: #068e67
+    background: #67a602
 }
 
 .btn--protein {
@@ -2620,22 +2620,22 @@ li.right {
 
 .btn--bulk {
     color: #fff !important;
-    background: #00bf6f;
+    background: #89c814;
     border: none
 }
 
 .btn--bulk:hover {
-    background: #068e67
+    background: #67a602
 }
 
 .btn--primary {
-    border: 1px solid #00bf6f;
+    border: 1px solid #89c814;
     color: #fff !important;
-    background: #00bf6f
+    background: #89c814
 }
 
 .btn--primary:hover {
-    background: #068e67
+    background: #67a602
 }
 
 .btn--whole30 {
@@ -2717,14 +2717,14 @@ li.right {
 
 .border-btn--bulk,
 .border-btn--primary {
-    color: #00bf6f !important;
-    border: 1px solid #00bf6f
+    color: #89c814 !important;
+    border: 1px solid #89c814
 }
 
 .border-btn--bulk:hover,
 .border-btn--primary:hover {
-    border: 1px solid #068e67;
-    color: #068e67 !important;
+    border: 1px solid #67a602;
+    color: #67a602 !important;
     background-color: transparent
 }
 
@@ -2896,7 +2896,7 @@ a {
 }
 
 .site-content a {
-    color: #00bf6f
+    color: #89c814
 }
 
 img {
@@ -4818,7 +4818,7 @@ tbody.collapse.in {
 .two-column-image-text.tab-content .container .header:after {
     content: "";
     width: 30px;
-    border-bottom: 2px solid #00bf6f;
+    border-bottom: 2px solid #89c814;
     display: block
 }
 
@@ -5177,8 +5177,8 @@ tbody.collapse.in {
 }
 
 .btt-container .light-bg {
-    border: 2px solid #00bf6f;
-    color: #00bf6f;
+    border: 2px solid #89c814;
+    color: #89c814;
     background-color: transparent
 }
 
@@ -5237,7 +5237,7 @@ tbody.collapse.in {
 }
 
 .comparison .indicator ul li.active {
-    background-color: #00bf6f
+    background-color: #89c814
 }
 
 .comparison .indicator ul li a {
@@ -5426,7 +5426,7 @@ tbody.collapse.in {
 }
 
 .carousel-slider .progressBarContainer .time span.progressBar .inProgress {
-    background-color: #00bf6f;
+    background-color: #89c814;
     width: 0%;
     height: 4px
 }
@@ -5474,7 +5474,7 @@ tbody.collapse.in {
 }
 
 .clients-review-section .container .trustpilot-heading h3 {
-    color: #00bf6f
+    color: #89c814
 }
 
 @media only screen and (max-width: 769px) {
@@ -5551,7 +5551,7 @@ section.clients-review-section .trustpilot-heading h3 {
 }
 
 .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading {
-    color: #00bf6f;
+    color: #89c814;
     letter-spacing: 2.29px;
     line-height: 25px;
     text-align: center;
@@ -5560,7 +5560,7 @@ section.clients-review-section .trustpilot-heading h3 {
 
 @media only screen and (max-width: 768px) {
     .column-image-and-text .column-image-and-text-container .image-and-text-content .image-and-text-block .text-container .heading {
-        color: #00bf6f;
+        color: #89c814;
         text-align: center;
         text-transform: initial
     }
@@ -5652,7 +5652,7 @@ section.clients-review-section .trustpilot-heading h3 {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    border-bottom: 2px solid #00bf6f
+    border-bottom: 2px solid #89c814
 }
 
 .compare .table-scroll tbody tr th {
@@ -5674,7 +5674,7 @@ section.clients-review-section .trustpilot-heading h3 {
 }
 
 .compare .table-scroll tbody tr td.color-primary {
-    color: #00bf6f
+    color: #89c814
 }
 
 .compare .table-scroll tfoot {
@@ -5811,7 +5811,7 @@ section.clients-review-section .trustpilot-heading h3 {
 }
 
 .compare.compare-new .t-body .t-row div:nth-child(3) p {
-    color: #00bf6f;
+    color: #89c814;
     font-weight: 900;
     font-size: 18px
 }
@@ -6025,9 +6025,9 @@ section.flip-flop-grid--soup .container .flip-flop__prop {
     border-radius: 32px;
     margin: 1px 4px 4px 0px;
     font-size: 12px;
-    border: 1px solid #00bf6f;
+    border: 1px solid #89c814;
     background-color: #ebfff7;
-    color: #00bf6f;
+    color: #89c814;
     font-weight: 700
 }
 
@@ -6146,7 +6146,7 @@ section.flip-flop-grid .flip-flop__grid.even .flip-flop__text {
 }
 
 section.flip-flop-grid .flip-flop__grid .pre-heading {
-    color: #00bf6f;
+    color: #89c814;
     text-transform: uppercase
 }
 
@@ -6206,7 +6206,7 @@ section.flip-flop-grid .flip-flop__text {
 }
 
 section.flip-flop-grid .flip-flop__text .btn {
-    background-color: #00bf6f;
+    background-color: #89c814;
     color: #fff;
     width: 330px
 }
@@ -6302,7 +6302,7 @@ section.flip-flop-grid .flip-flop__body .text {
 
 .fnl-body__front .render-slide:after {
     content: "";
-    background-color: #00bf6f86;
+    background-color: #89c81486;
     border-radius: 50%;
     height: 37px;
     position: absolute;
@@ -6587,6 +6587,7 @@ section.flip-flop-grid .flip-flop__body .text {
     transform: translateY(-50%);
     top: auto;
     transform: none;
+    padding-left: 50px;
     padding-top: 6px;
     padding-bottom: 6px;
     vertical-align: middle;
@@ -6600,7 +6601,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 #main-header ul li.order-button a {
-    color: #00bf6f
+    color: #89c814
 }
 
 #main-header ul li a {
@@ -6710,7 +6711,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 #main-header .counter .content {
-    background: green;
+    background: #89c814;
     width: 100%;
     padding: 10px 20px;
     text-align: center
@@ -6748,7 +6749,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 #main-header.site-header--test .order-button {
-    background-color: #00bf6f;
+    background-color: #89c814;
     text-align: center;
     width: auto;
     margin: 10px
@@ -7034,11 +7035,11 @@ section.flip-flop-grid .flip-flop__body .text {
     max-width: 300px;
     padding: 24px 0;
     width: 100%;
-    background: #00bf6f
+    background: #89c814
 }
 
 .hero-full .hero-cta-container .hero-cta .btn:hover {
-    background: #068e67
+    background: #67a602
 }
 
 .hero-full .hero-cta-container .hero-cta p.disclaimer a.see-detail {
@@ -7300,7 +7301,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 #icon-image-slider .icon-selected {
-    border: 2px solid #00bf6f;
+    border: 2px solid #89c814;
     transition: border .3s ease-in-out
 }
 
@@ -7351,7 +7352,7 @@ section.flip-flop-grid .flip-flop__body .text {
 .icons-with-button .icons-with-button-container .header h1:before {
     content: "";
     font-family: "icomoon";
-    color: #00bf6f;
+    color: #89c814;
     font-size: .9em;
     margin-right: 10px
 }
@@ -7390,7 +7391,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 .icons-with-button .icons-with-button-container .icons-button {
-    background-color: #00bf6f;
+    background-color: #89c814;
     margin: 50px auto;
     padding: 10px 0;
     text-align: center;
@@ -7493,7 +7494,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 .learn-more {
-    background: #00bf6f;
+    background: #89c814;
     color: #fff;
     padding: 70px 80px
 }
@@ -7515,7 +7516,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 .learn-more.dark .btn {
-    background: #00bf6f;
+    background: #89c814;
     color: #fff
 }
 
@@ -7777,7 +7778,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 .meal-info .meal-info-container .mobile-header .pre-heading {
-    color: #00bf6f;
+    color: #89c814;
     letter-spacing: 1.5px;
     line-height: 41px;
     text-transform: uppercase
@@ -7929,7 +7930,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 .meal-info .meal-info-container .block-right .block-container .meal-info-header .pre-heading {
-    color: #00bf6f;
+    color: #89c814;
     text-transform: uppercase
 }
 
@@ -8014,14 +8015,14 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 .meal-info .meal-info-container .block-right .block-container .meal-info-body .btn {
-    background: #00bf6f;
+    background: #89c814;
     display: flex;
     justify-content: center;
     padding: 24px 0
 }
 
 .meal-info .meal-info-container .block-right .block-container .meal-info-body .btn:hover {
-    background: #068e67
+    background: #67a602
 }
 
 @media only screen and (max-width: 768px) {
@@ -8370,7 +8371,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 .meal-plan-tabs-v2 .meals-list-container .tab-content .meals-plan-container .meals .macro-info .link {
-    color: #00bf6f;
+    color: #89c814;
     font-family: "poppins", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -8704,12 +8705,12 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 .meal-variety .meals-list-container .tab-title .tab-link:hover {
-    border-bottom: 1px solid #00bf6f !important;
+    border-bottom: 1px solid #89c814 !important;
     text-decoration: none
 }
 
 .meal-variety .meals-list-container .tab-title .current {
-    border-bottom: 1px solid #00bf6f !important
+    border-bottom: 1px solid #89c814 !important
 }
 
 .meal-variety .meals-list-container .tab-content {
@@ -8778,7 +8779,7 @@ section.flip-flop-grid .flip-flop__body .text {
 }
 
 .meal-variety .meals-list-container .tab-content .meals-container .meals .meal-description .category {
-    color: #00bf6f
+    color: #89c814
 }
 
 .meal-variety .meals-list-container .tab-content .meals-container .meals .meal-description .title {
@@ -8926,7 +8927,7 @@ section#menu_bar .select-wrapper .color_underline li.current.keto {
 }
 
 section#menu_bar .select-wrapper .color_underline li.current.bulk {
-    border-bottom: 3px solid #00bf6f
+    border-bottom: 3px solid #89c814
 }
 
 section#menu_bar .select-wrapper .color_underline li.current.whole30 {
@@ -9062,12 +9063,12 @@ section#menu_bar .select-wrapper .color_underline li.current a img {
 }
 
 .nutrition-value:not(:last-of-type) {
-    border-right: 1px solid #00bf6f
+    border-right: 1px solid #89c814
 }
 
 .nutrition-value .name {
     text-transform: uppercase;
-    color: #00bf6f;
+    color: #89c814;
     margin-bottom: .2rem
 }
 
@@ -9100,7 +9101,7 @@ section.parallax .container .mobile-header {
 }
 
 section.parallax .container .mobile-header .preheader {
-    color: #00bf6f;
+    color: #89c814;
     letter-spacing: 1.5px;
     line-height: 41px;
     text-transform: uppercase
@@ -9143,14 +9144,14 @@ section.parallax .container .content .block-left .btn {
     width: 100%;
     margin: 50px 0;
     text-transform: uppercase;
-    border: 2px solid #00bf6f;
-    color: #00bf6f;
+    border: 2px solid #89c814;
+    color: #89c814;
     background-color: transparent
 }
 
 section.parallax .container .content .block-left .btn:hover {
-    border: 2px solid #006b4f;
-    color: #006b4f
+    border: 2px solid #89c814;
+    color: #89c814
 }
 
 @media only screen and (max-width: 830px) {
@@ -9172,7 +9173,7 @@ section.parallax .container .content .block-left .text {
 }
 
 section.parallax .container .content .block-left .text .preheader {
-    color: #00bf6f;
+    color: #89c814;
     text-transform: uppercase
 }
 
@@ -9644,7 +9645,7 @@ ul.slick-dots button {
 }
 
 ul.slick-dots .slick-active button {
-    background-color: #00bf6f;
+    background-color: #89c814;
     border: none
 }
 
@@ -9661,7 +9662,7 @@ ul.slick-dots .slick-active button {
 
 .slick-arrow:after {
     font-size: 50px;
-    color: #00bf6f;
+    color: #89c814;
     font-weight: 300
 }
 
@@ -10007,7 +10008,7 @@ section.steps .header {
     text-transform: initial
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 768px) {
     section.steps .header {
         font-weight: bold;
         padding: 25px 0
@@ -10026,7 +10027,7 @@ section.steps .steps-container {
     display: flex
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 768px) {
     section.steps .steps-container {
         display: block;
         padding-left: 0;
@@ -10038,7 +10039,7 @@ section.steps .steps-container .step .image {
     margin: 5px
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 768px) {
     section.steps .steps-container .step .image {
         margin: 0
     }
@@ -10052,7 +10053,7 @@ section.steps .steps-container .step .text-container {
     padding-top: 25px
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 768px) {
     section.steps .steps-container .step .text-container {
         display: none
     }
@@ -10063,7 +10064,7 @@ section.steps .steps-container .step .text-container .title-container {
 }
 
 section.steps .steps-container .step .text-container .title-container .title {
-    border-top: 1px solid #8ad3ab;
+    border-top: 1px solid #89c814;
     padding-top: 20px;
     text-transform: initial
 }
@@ -10074,7 +10075,7 @@ section.steps .steps-container .step .text-container .title-container .dot {
     height: 100%;
     width: 10px;
     top: -10px;
-    background-image: radial-gradient(circle at center, #8ad3ab 5px, transparent 5px);
+    background-image: radial-gradient(circle at center, #89c814 5px, transparent 5px);
     background-size: 20px 20px;
     background-position: top center;
     background-repeat: no-repeat
@@ -10118,7 +10119,7 @@ section.steps .mobile-text-accordion {
     padding: 0 50px
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 768px) {
     section.steps .mobile-text-accordion {
         display: none
     }
@@ -10214,7 +10215,7 @@ section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.ac
 }
 
 section.steps .mobile-text-accordion .homepage-js-accordion .accordion-header.active {
-    color: #00bf6f
+    color: #89c814
 }
 
 section.steps .mobile-text-accordion .homepage-js-accordion .accordion-content p {
@@ -10230,8 +10231,8 @@ section.steps .button-container {
 
 section.steps .button-container .btn {
     background-color: transparent;
-    border: 2px solid #00bf6f;
-    color: #00bf6f;
+    border: 2px solid #89c814;
+    color: #89c814;
     max-width: 330px;
     padding: 24px 0;
     text-transform: uppercase;
@@ -10245,8 +10246,8 @@ section.steps .button-container .btn {
 }
 
 section.steps .button-container .btn:hover {
-    border: 2px solid #006b4f;
-    color: #006b4f
+    border: 2px solid #89c814;
+    color: #89c814
 }
 
 .stepsV2 {
@@ -10324,7 +10325,7 @@ section.steps .button-container .btn:hover {
 }
 
 .stepsV2 .steps__second-image.active img {
-    border: 5px solid #00bf6f
+    border: 5px solid #89c814
 }
 
 .stepsV2 .steps__second img {
@@ -10475,7 +10476,7 @@ section.steps .button-container .btn:hover {
 }
 
 .stepsV2 .steps__content .step-container .accordion-header.active {
-    color: #00bf6f
+    color: #89c814
 }
 
 .stepsV2 .steps__content .step-container .accordion-content {
@@ -10523,7 +10524,7 @@ section.steps .button-container .btn:hover {
     width: 300px;
     display: block;
     margin-top: 40px;
-    border: 2px solid #00bf6f;
+    border: 2px solid #89c814;
     margin-left: 80px
 }
 
@@ -10717,14 +10718,14 @@ section.steps .button-container .btn:hover {
 }
 
 .page-template-flexible-template .btn--green {
-    background-color: #00a974;
-    border: 2px solid #00a974;
+    background-color: #67a602;
+    border: 2px solid #67a602;
     color: #fff !important
 }
 
 .page-template-flexible-template .btn--green:hover {
-    background-color: #019264;
-    border: 2px solid #019264;
+    background-color: #67a602;
+    border: 2px solid #67a602;
     color: #fff !important
 }
 
@@ -10872,13 +10873,13 @@ section.steps .button-container .btn:hover {
 }
 
 .hero-404__buttons a {
-    border-bottom: 1px solid #00bf6f;
+    border-bottom: 1px solid #89c814;
     font-family: "poppins", Helvetica, Arial, sans-serif;
     font-weight: 600;
     font-size: 16px;
     margin: 5px;
     padding: 5px;
-    color: #00bf6f !important;
+    color: #89c814 !important;
     text-decoration: none
 }
 
@@ -10997,7 +10998,7 @@ section.steps .button-container .btn:hover {
 
 #single-athlete h2 span,
 #guinness h2 span {
-    color: #00bf6f
+    color: #89c814
 }
 
 #single-athlete .primary,
@@ -11395,7 +11396,7 @@ section.steps .button-container .btn:hover {
     .athlete__profiles .profile__container:hover .profile .view-profile,
     .athlete__profiles .profile__container:focus .profile .view-profile {
         background-color: rgba(0, 0, 0, .4);
-        border: 1px solid #00bf6f;
+        border: 1px solid #89c814;
         color: #fff;
         display: block;
         left: 50%;
@@ -11438,7 +11439,7 @@ section.steps .button-container .btn:hover {
 }
 
 .athlete__profiles .profile__view {
-    color: #00bf6f;
+    color: #89c814;
     text-align: center;
     text-decoration: underline
 }
@@ -11446,7 +11447,7 @@ section.steps .button-container .btn:hover {
 .athlete__profiles .competitor-profile {
     text-align: center;
     padding: 25px;
-    border: 4px solid #00bf6f;
+    border: 4px solid #89c814;
     font-size: 24px
 }
 
@@ -12214,7 +12215,7 @@ section.steps .button-container .btn:hover {
 #author-archive .container #ajax-load-more .alm-listing article .content .posted-on,
 #author-archive .container #ajax-load-more-2 .alm-listing article .content .posted-on {
     float: right;
-    color: #00bf6f
+    color: #89c814
 }
 
 #author-archive .container #ajax-load-more .alm-listing article figure,
@@ -13138,8 +13139,8 @@ section.steps .button-container .btn:hover {
 }
 
 .flip-flop-tab .flip-flop-text__container .tab.active {
-    color: #00bf6f;
-    border-bottom: 2px solid #00bf6f
+    color: #89c814;
+    border-bottom: 2px solid #89c814
 }
 
 .flip-flop-tab .tab-grid {
@@ -13217,7 +13218,7 @@ section.steps .button-container .btn:hover {
 .fnl-about-us .image-and-text-cta .cta .header .pre-heading {
     font-family: "poppins", Helvetica, Arial, sans-serif;
     font-style: italic;
-    color: #00bf6f;
+    color: #89c814;
     font-size: 16px;
     line-height: 21px;
     text-align: left
@@ -13363,7 +13364,7 @@ section.steps .button-container .btn:hover {
 }
 
 .timeline-content h4 {
-    color: #00bf6f
+    color: #89c814
 }
 
 .timeline-content h2 {
@@ -13430,7 +13431,7 @@ section.steps .button-container .btn:hover {
 }
 
 .timeline .progressBarContainer .time p.primary {
-    color: #00bf6f
+    color: #89c814
 }
 
 .timeline .progressBarContainer .time span.progressBar {
@@ -13441,7 +13442,7 @@ section.steps .button-container .btn:hover {
 }
 
 .timeline .progressBarContainer .time span.progressBar .inProgress {
-    background-color: #00bf6f;
+    background-color: #89c814;
     width: 0%;
     height: 2px
 }
@@ -13507,8 +13508,8 @@ section.steps .button-container .btn:hover {
 }
 
 .careers-navigation .nav-container .link-container .careers-link.active {
-    color: #00bf6f;
-    border-bottom: 5px solid #00bf6f
+    color: #89c814;
+    border-bottom: 5px solid #89c814
 }
 
 .careers-navigation .nav-container .link-container .careers-link.active img {
@@ -13522,8 +13523,8 @@ section.steps .button-container .btn:hover {
 }
 
 .careers-navigation .nav-container .link-container .careers-link:hover {
-    color: #00bf6f;
-    border-bottom: 5px solid #00bf6f
+    color: #89c814;
+    border-bottom: 5px solid #89c814
 }
 
 .careers-navigation .nav-container .link-container .careers-link:hover img {
@@ -13531,8 +13532,8 @@ section.steps .button-container .btn:hover {
 }
 
 .careers-navigation .nav-container .link-container .careers-link:active {
-    color: #00bf6f;
-    border-bottom: 5px solid #00bf6f
+    color: #89c814;
+    border-bottom: 5px solid #89c814
 }
 
 .careers-navigation .nav-container .link-container .careers-link:active img {
@@ -13589,22 +13590,22 @@ section.steps .button-container .btn:hover {
 }
 
 .page-template-press-about-us #about-us-link-container {
-    border-bottom: 4px solid #00bf6f;
+    border-bottom: 4px solid #89c814;
     padding: 18px
 }
 
 .page-template-press-press-release #press-release-link-container {
-    border-bottom: 4px solid #00bf6f;
+    border-bottom: 4px solid #89c814;
     padding: 18px
 }
 
 .page-template-press-news #news-link-container {
-    border-bottom: 4px solid #00bf6f;
+    border-bottom: 4px solid #89c814;
     padding: 18px
 }
 
 .page-template-press-our-team #our-team-link-container {
-    border-bottom: 4px solid #00bf6f;
+    border-bottom: 4px solid #89c814;
     padding: 18px
 }
 
@@ -13658,7 +13659,7 @@ section.steps .button-container .btn:hover {
 }
 
 .fnl-culture .card-slide__text h4 {
-    color: #00bf6f
+    color: #89c814
 }
 
 .fnl-culture .card-slide__text h2 {
@@ -13795,7 +13796,7 @@ section.steps .button-container .btn:hover {
 }
 
 .fnl-culture .card-slide .hidden-card__back-button {
-    color: #00bf6f !important;
+    color: #89c814 !important;
     cursor: pointer
 }
 
@@ -13964,7 +13965,7 @@ section.steps .button-container .btn:hover {
 .fnl-culture .flip-flop-grid .container .flip-flop__header .pre-heading {
     font-family: "poppins", Helvetica, Arial, sans-serif;
     font-style: italic;
-    color: #00bf6f;
+    color: #89c814;
     font-size: 16px;
     line-height: 21px
 }
@@ -14072,7 +14073,7 @@ section.steps .button-container .btn:hover {
 }
 
 .fnl-culture .image-and-text-cta .cta .block-right .content .btn {
-    background-color: #00bf6f;
+    background-color: #89c814;
     width: 100%
 }
 
@@ -14084,7 +14085,7 @@ section.steps .button-container .btn:hover {
     color: #fff;
     font-family: "poppins", Helvetica, Arial, sans-serif;
     font-style: italic;
-    color: #00bf6f;
+    color: #89c814;
     font-size: 16px;
     line-height: 21px;
     text-align: left
@@ -14157,7 +14158,7 @@ section.steps .button-container .btn:hover {
 }
 
 .company-footer-banner .banner-content h3 a {
-    color: #00bf6f;
+    color: #89c814;
     font-family: "poppins", Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -14261,7 +14262,7 @@ section.steps .button-container .btn:hover {
 
 #careers-main-page .hero-careers .content .container h4,
 #news-release .hero-careers .content .container h4 {
-    color: #00bf6f;
+    color: #89c814;
     -webkit-animation: fadein .9s;
     animation: fadein .9s;
     margin-bottom: 10px;
@@ -14419,7 +14420,7 @@ section.steps .button-container .btn:hover {
 }
 
 .fnl-jobs .card-slide__text h4 {
-    color: #00bf6f
+    color: #89c814
 }
 
 .fnl-jobs .card-slide__text h2 {
@@ -14587,7 +14588,7 @@ section.steps .button-container .btn:hover {
 }
 
 .company-faq .faq-container .faq-item .accordion-header.active h4 {
-    color: #00bf6f
+    color: #89c814
 }
 
 .company-faq .faq-container .faq-item .accordion-header.active h4:after {
@@ -14638,13 +14639,13 @@ section.steps .button-container .btn:hover {
 }
 
 .job-posting:hover {
-    border: 2px solid #00bf6f;
+    border: 2px solid #89c814;
     text-decoration: none !important
 }
 
 .job-posting:hover .job-date,
 .job-posting:hover .job-cta {
-    color: #00bf6f !important
+    color: #89c814 !important
 }
 
 .job-posting__departments {
@@ -14700,13 +14701,13 @@ section.steps .button-container .btn:hover {
 }
 
 .job-posting__departments--container .department .department-name:hover {
-    color: #00bf6f;
-    border-bottom: 3px solid #00bf6f
+    color: #89c814;
+    border-bottom: 3px solid #89c814
 }
 
 .job-posting__departments--container .department .department-name.active {
-    color: #00bf6f;
-    border-bottom: 3px solid #00bf6f
+    color: #89c814;
+    border-bottom: 3px solid #89c814
 }
 
 .job-posting__container {
@@ -14733,7 +14734,7 @@ section.steps .button-container .btn:hover {
 }
 
 .job-posting__container a h5 span {
-    color: #00bf6f
+    color: #89c814
 }
 
 .job-title {
@@ -14866,7 +14867,7 @@ section.steps .button-container .btn:hover {
     z-index: -1;
     content: "";
     color: #fff !important;
-    background: #00bf6f;
+    background: #89c814;
     transition: all .4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s
 }
 
@@ -14991,7 +14992,7 @@ section.steps .button-container .btn:hover {
 }
 
 .press-release__article .press-release__text .press-release__date {
-    color: #00bf6f;
+    color: #89c814;
     font-weight: 600
 }
 
@@ -15139,7 +15140,7 @@ section.steps .button-container .btn:hover {
 }
 
 .news__text h3:hover {
-    color: #00bf6f
+    color: #89c814
 }
 
 .news__text h5 {
@@ -15235,7 +15236,7 @@ section.steps .button-container .btn:hover {
 }
 
 #careers-page .information {
-    background: #00bf6f;
+    background: #89c814;
     padding: 60px 0;
     color: #fff
 }
@@ -15349,7 +15350,7 @@ section.steps .button-container .btn:hover {
     height: 70%;
     bottom: 5%;
     width: 2px;
-    background-image: linear-gradient(to top, #00bf6f 0%, #00bf6f 100%, transparent 100%);
+    background-image: linear-gradient(to top, #89c814 0%, #89c814 100%, transparent 100%);
     background-position: right 0;
     background-size: 2px 15px;
     background-repeat: repeat-y
@@ -15370,7 +15371,7 @@ section.steps .button-container .btn:hover {
     bottom: 5%;
     width: 2px;
     visibility: hidden;
-    background-image: linear-gradient(to top, #00bf6f 0%, #00bf6f 100%, transparent 100%);
+    background-image: linear-gradient(to top, #89c814 0%, #89c814 100%, transparent 100%);
     background-position: right 0;
     background-size: 2px 15px;
     background-repeat: repeat-y
@@ -15408,7 +15409,7 @@ section.steps .button-container .btn:hover {
 }
 
 .location-features .feature-text .accordion-header.active {
-    color: #00bf6f
+    color: #89c814
 }
 
 .location-features .feature-text .accordion-header.active::before {
@@ -15516,7 +15517,7 @@ section.steps .button-container .btn:hover {
 }
 
 .location-page.rebrand .fnl-features h4 {
-    color: #00bf6f;
+    color: #89c814;
     display: flex;
     align-items: center
 }
@@ -15597,7 +15598,7 @@ section.steps .button-container .btn:hover {
 
 #low-carb-page .fnl-features h4,
 #legacy-seo .fnl-features h4 {
-    color: #00bf6f;
+    color: #89c814;
     font-weight: 600;
     display: flex;
     align-items: center
@@ -15763,7 +15764,7 @@ section.steps .button-container .btn:hover {
 .single-location .rebrand .fnl-delivery-service .green-line {
     width: 57px;
     height: 2px;
-    background-color: #00bf6f
+    background-color: #89c814
 }
 
 .single-location .rebrand .fnl-delivery-service li {
@@ -16124,7 +16125,7 @@ section.steps .button-container .btn:hover {
 }
 
 .compare-table .compare-chart__columns:first-child {
-    border-bottom: 5px solid #00bf6f
+    border-bottom: 5px solid #89c814
 }
 
 .compare-table .compare-chart__columns:nth-of-type(odd) {
@@ -16196,13 +16197,13 @@ section.steps .button-container .btn:hover {
 }
 
 #corporate-wellness section.steps .button-container .btn {
-    background-color: #00bf6f;
+    background-color: #89c814;
     color: #fff
 }
 
 #corporate-wellness section.steps .button-container .btn:hover {
-    background-color: #068e67;
-    border-color: #068e67
+    background-color: #67a602;
+    border-color: #67a602
 }
 
 @media all and (min-width: 769px) {
@@ -16332,7 +16333,7 @@ section.steps .button-container .btn:hover {
 
 .page-template-default .site-content .content-area .site-main .container ul li::before {
     content: "■";
-    color: #00bf6f;
+    color: #89c814;
     display: inline-block;
     font-size: 12px;
     width: 2em;
@@ -16461,7 +16462,7 @@ section.steps .button-container .btn:hover {
     line-height: 10px;
     transform: rotate(0deg);
     font-size: 40px;
-    color: #00bf6f;
+    color: #89c814;
     transform-origin: center
 }
 
@@ -16511,8 +16512,8 @@ section.steps .button-container .btn:hover {
 
     .faq-questions .resp-accordion.resp-tab-active {
         position: relative;
-        color: #00bf6f;
-        border-bottom: 3px solid #00bf6f !important
+        color: #89c814;
+        border-bottom: 3px solid #89c814 !important
     }
 
     .faq-questions .resp-accordion:before {
@@ -16539,7 +16540,7 @@ section.steps .button-container .btn:hover {
         transform: rotate(0deg);
         font-size: 30px;
         transition: .25s;
-        color: #00bf6f
+        color: #89c814
     }
 
     .faq-questions .resp-accordion.resp-tab-active:after {
@@ -17064,7 +17065,7 @@ section.steps .button-container .btn:hover {
 }
 
 #guinness .guinness-hero .scroll-for-more:hover {
-    color: #00bf6f;
+    color: #89c814;
     transform: translateY(-10px)
 }
 
@@ -17369,7 +17370,7 @@ section.steps .button-container .btn:hover {
 
 @media all and (min-width: 769px) {
     #guinness .guinness-bio .bio-header {
-        border-right: 1px solid #00bf6f;
+        border-right: 1px solid #89c814;
         align-items: center;
         margin-bottom: 20px
     }
@@ -17379,7 +17380,7 @@ section.steps .button-container .btn:hover {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 4px solid #00bf6f;
+    border: 4px solid #89c814;
     margin-right: 30px
 }
 
@@ -17428,7 +17429,7 @@ section.steps .button-container .btn:hover {
 }
 
 #guinness .guinness-bio .bio-stats h5 {
-    color: #00bf6f
+    color: #89c814
 }
 
 #guinness .guinness-bio .bio-copy {
@@ -17709,7 +17710,7 @@ section.steps .button-container .btn:hover {
 }
 
 .speed-container__grid .speed-container__text hr {
-    border: 1px solid #00bf6f;
+    border: 1px solid #89c814;
     margin: 5px auto;
     margin-left: 0px;
     width: 100px
@@ -18040,7 +18041,7 @@ section.steps .button-container .btn:hover {
 }
 
 .meal-plan-tabs .header .preheading {
-    color: #00bf6f;
+    color: #89c814;
     padding: 100px 0px 0px 0px;
     text-transform: uppercase
 }
@@ -18111,7 +18112,7 @@ section.steps .button-container .btn:hover {
 }
 
 .meal-plan-tabs .meals-list-container .tab-title-container .tab-title .tab-link:hover {
-    border-bottom: 1px solid #00bf6f !important;
+    border-bottom: 1px solid #89c814 !important;
     text-decoration: none
 }
 
@@ -18123,11 +18124,11 @@ section.steps .button-container .btn:hover {
 }
 
 .meal-plan-tabs .meals-list-container .tab-title-container .tab-title .tab-link.current {
-    border-bottom: 1px solid #00bf6f !important
+    border-bottom: 1px solid #89c814 !important
 }
 
 .meal-plan-tabs .meals-list-container .tab-title-container .tab-title .tab-link.current a {
-    color: #00bf6f
+    color: #89c814
 }
 
 .meal-plan-tabs .meals-list-container .tab-content .meals-plan-container .meals {
@@ -18246,7 +18247,7 @@ section.steps .button-container .btn:hover {
 }
 
 .meal-plan-tabs .meals-list-container .tab-content .meals-plan-container .meals .block-right .block-container .macro-info .link {
-    color: #00bf6f
+    color: #89c814
 }
 
 .meal-plan-tabs .meals-list-container .tab-content .meals-plan-container .meals .block-right .block-container .macro-info .link:after {
@@ -18283,13 +18284,13 @@ section.steps .button-container .btn:hover {
 }
 
 .meal-plan-tabs .meals-list-container .tab-content .meals-plan-container .meals .block-right .block-container .btn {
-    background: #00bf6f;
+    background: #89c814;
     width: 100%;
     padding: 20px
 }
 
 .meal-plan-tabs .meals-list-container .tab-content .meals-plan-container .meals .block-right .block-container .btn:hover {
-    background: #068e67
+    background: #67a602
 }
 
 @media only screen and (max-width: 768px) {
@@ -18334,7 +18335,7 @@ section.steps .button-container .btn:hover {
 }
 
 .save-hours .save-hours-cointainer .block-left .block-container .header .preheading {
-    color: #00bf6f;
+    color: #89c814;
     text-transform: uppercase
 }
 
@@ -18344,7 +18345,7 @@ section.steps .button-container .btn:hover {
 }
 
 .save-hours .save-hours-cointainer .block-left .block-container .header h2 span {
-    color: #00bf6f
+    color: #89c814
 }
 
 .save-hours .save-hours-cointainer .block-left .block-container .header .subheader {
@@ -18374,11 +18375,11 @@ section.steps .button-container .btn:hover {
 }
 
 .save-hours .save-hours-cointainer .block-left .block-container .button-container .btn {
-    background: #00bf6f
+    background: #89c814
 }
 
 .save-hours .save-hours-cointainer .block-left .block-container .button-container .btn:hover {
-    background: #068e67
+    background: #67a602
 }
 
 .save-hours .save-hours-cointainer .block-right .image-container {
@@ -18468,7 +18469,7 @@ section.steps .button-container .btn:hover {
 }
 
 .save-hours .mobile-header .preheading {
-    color: #00bf6f;
+    color: #89c814;
     margin-top: 10px;
     text-transform: uppercase
 }
@@ -18479,7 +18480,7 @@ section.steps .button-container .btn:hover {
 }
 
 .save-hours .mobile-header h2 span {
-    color: #00bf6f
+    color: #89c814
 }
 
 .save-hours .mobile-header .subheader {
@@ -18928,8 +18929,8 @@ section.steps .button-container .btn:hover {
 }
 
 .locations-tabs .locations-tab-container #tab-section ul.resp-tabs-list li.resp-tab-active h4 {
-    outline: 4px solid #00bf6f !important;
-    color: #00bf6f !important
+    outline: 4px solid #89c814 !important;
+    color: #89c814 !important
 }
 
 .locations-tabs .locations-tab-container #tab-section .locations-heading {
@@ -18978,7 +18979,7 @@ section.steps .button-container .btn:hover {
 
 .locations-tabs .locations-tab-container #tab-section .resp-tabs-container .resp-tab-content .locations-content .tab-detail p.location-icon {
     display: flex;
-    color: #00bf6f
+    color: #89c814
 }
 
 @media only screen and (max-width: 768px) {
@@ -19083,7 +19084,7 @@ section.steps .button-container .btn:hover {
 }
 
 .locations-tab-container .tab-title li.current {
-    color: #00bf6f
+    color: #89c814
 }
 
 .locations-tab-container,
@@ -19146,7 +19147,7 @@ section.steps .button-container .btn:hover {
     left: 0;
     content: "■";
     font-family: var(--font-icon);
-    color: #00bf6f
+    color: #89c814
 }
 
 @media all and (max-width: 900px) {
@@ -19162,12 +19163,12 @@ section.steps .button-container .btn:hover {
     }
 
     .locations-tab-container .resp-accordion {
-        color: #00bf6f;
+        color: #89c814;
         position: relative;
         text-align: left;
         letter-spacing: 2.29px;
         line-height: 20px;
-        border: 4px solid #00bf6f !important;
+        border: 4px solid #89c814 !important;
         margin: 0 25px 20px;
         background: #fff !important;
         padding: 30px 25px
@@ -19351,8 +19352,8 @@ section.steps .button-container .btn:hover {
 }
 
 .mobile-menu-container .locations-mobile-menu {
-    outline: 4px solid #00bf6f !important;
-    color: #00bf6f;
+    outline: 4px solid #89c814 !important;
+    color: #89c814;
     border: none;
     border-radius: 0;
     padding: 34px;
@@ -20129,7 +20130,7 @@ section.steps .button-container .btn:hover {
 }
 
 #meal-plan-quiz-container .main-button {
-    background-color: #00bf6f;
+    background-color: #89c814;
     color: #fff;
     padding: 20px 60px;
     font-size: 16px;
@@ -20142,7 +20143,7 @@ section.steps .button-container .btn:hover {
 
 #meal-plan-quiz-container #quiz-restart p {
     text-decoration: underline;
-    color: #00bf6f;
+    color: #89c814;
     font-size: 16px;
     font-family: "poppins";
     font-weight: 700;
@@ -20181,7 +20182,7 @@ section.steps .button-container .btn:hover {
 #meal-plan-quiz-container #progress {
     width: 20%;
     text-align: right;
-    border-top: 5px solid #00bf6f;
+    border-top: 5px solid #89c814;
     margin-top: -5px;
     font-family: "heebo";
     transition: width 1s ease-out
@@ -20239,13 +20240,13 @@ section.steps .button-container .btn:hover {
 
 #meal-plan-quiz-container .result {
     padding: 20px;
-    border: 2px solid #00bf6f;
+    border: 2px solid #89c814;
     border-radius: 3px;
     margin: 10px
 }
 
 #meal-plan-quiz-container .result:hover {
-    background-color: #00bf6f;
+    background-color: #89c814;
     color: #fff
 }
 
@@ -20358,7 +20359,7 @@ section.steps .button-container .btn:hover {
 #media-kit-page .h-divider {
     width: 100px;
     margin: 80px auto 0;
-    border-top: 5px solid #00bf6f
+    border-top: 5px solid #89c814
 }
 
 @media all and (max-width: 769px) {
@@ -20487,7 +20488,7 @@ section.steps .button-container .btn:hover {
 }
 
 #media-kit-page .mk-assets .download-button:hover {
-    color: #00bf6f
+    color: #89c814
 }
 
 #media-kit-page .mk-assets .download-button:hover img {
@@ -20498,7 +20499,7 @@ section.steps .button-container .btn:hover {
 .menu-page .btt-container a {
     margin: auto;
     margin-bottom: 25px;
-    border: 2px solid #00bf6f
+    border: 2px solid #89c814
 }
 
 .menu-page section.column-image-text-description {
@@ -20869,7 +20870,7 @@ section.steps .button-container .btn:hover {
 }
 
 .mealpopup .mealpop-plan.bulk {
-    color: #00bf6f
+    color: #89c814
 }
 
 .mealpopup .mealpop-plan.whole30 {
@@ -20948,7 +20949,7 @@ section.steps .button-container .btn:hover {
 }
 
 .mealpopup .mealpop-benefits.bulk .benefit {
-    border: 1px solid #00bf6f;
+    border: 1px solid #89c814;
     background-color: #b7f0e1
 }
 
@@ -20963,7 +20964,7 @@ section.steps .button-container .btn:hover {
 }
 
 .mealpopup .mealpop-benefits.primary .benefit {
-    border: 1px solid #00bf6f;
+    border: 1px solid #89c814;
     background-color: #b7f0e1
 }
 
@@ -21023,7 +21024,7 @@ section.steps .button-container .btn:hover {
 }
 
 .mealpopup .mealpop-calories .render-calories.bulk {
-    color: #00bf6f
+    color: #89c814
 }
 
 .mealpopup .mealpop-calories .render-calories.whole30 {
@@ -21072,7 +21073,7 @@ section.steps .button-container .btn:hover {
 }
 
 .mealpopup .mealpop-macros.primary div {
-    background-color: #00bf6f
+    background-color: #89c814
 }
 
 .mealpopup .mealpop-macros.protein div {
@@ -21096,7 +21097,7 @@ section.steps .button-container .btn:hover {
 }
 
 .mealpopup .mealpop-macros.bulk div {
-    background-color: #00bf6f
+    background-color: #89c814
 }
 
 .mealpopup .mealpop-macros.whole30 div {
@@ -21162,7 +21163,7 @@ section.steps .button-container .btn:hover {
 }
 
 .mealpopup .mealpop-protein.primary img {
-    background-color: #00bf6f
+    background-color: #89c814
 }
 
 .mealpopup .mealpop-protein.keto img {
@@ -21182,7 +21183,7 @@ section.steps .button-container .btn:hover {
 }
 
 .mealpopup .mealpop-protein.bulk img {
-    background-color: #00bf6f
+    background-color: #89c814
 }
 
 .mealpopup .mealpop-protein.whole30 img {
@@ -21276,7 +21277,7 @@ section.steps .button-container .btn:hover {
     font-weight: 300;
     text-align: center;
     transform: rotate(90deg);
-    color: #00bf6f;
+    color: #89c814;
     transition: .25s
 }
 
@@ -21458,7 +21459,7 @@ section.steps .button-container .btn:hover {
     font-weight: 300;
     text-align: center;
     transform: rotate(90deg);
-    color: #00bf6f;
+    color: #89c814;
     transition: .25s;
     transform-origin: 50% 50%
 }
@@ -21512,7 +21513,7 @@ section.steps .button-container .btn:hover {
 }
 
 .menu-grid__plans li.current .accordion-header.bulk img {
-    background-color: #00bf6f
+    background-color: #89c814
 }
 
 .menu-grid__plans li.current .accordion-header.whole30 img {
@@ -21825,8 +21826,8 @@ section.steps .button-container .btn:hover {
 
 .menu-tab-list button:first-child {
     border-right: 1px solid #d9dbec;
-    border-bottom: 5px solid #00bf6f;
-    color: #00bf6f
+    border-bottom: 5px solid #89c814;
+    color: #89c814
 }
 
 @media all and (max-width: 769px) {
@@ -22022,7 +22023,7 @@ section.steps .button-container .btn:hover {
 .fnl-checklist h3:before {
     content: "";
     font-family: icomoon;
-    color: #00bf6f;
+    color: #89c814;
     font-size: .9em;
     margin-right: 10px
 }
@@ -23937,7 +23938,7 @@ section.steps .button-container .btn:hover {
     line-height: 60px;
     font-size: 70px;
     font-style: italic;
-    color: #00bf6f;
+    color: #89c814;
     font-family: "Industry", Helvetica, Arial, sans-serif
 }
 
@@ -23981,7 +23982,7 @@ section.steps .button-container .btn:hover {
 .step-list-item:before {
     content: "";
     font-family: "icomoon";
-    color: #00bf6f;
+    color: #89c814;
     font-size: .9em;
     margin-right: 10px
 }
@@ -25240,7 +25241,7 @@ section.steps .button-container .btn:hover {
 }
 
 .recipe-search-input:focus {
-    border-color: #00bf6f !important;
+    border-color: #89c814 !important;
     transition: border-color .6s
 }
 
@@ -25250,7 +25251,7 @@ section.steps .button-container .btn:hover {
     right: 0;
     height: 100%;
     padding: 0 24px !important;
-    background-color: #00bf6f;
+    background-color: #89c814;
     color: #fff;
     border-radius: 50px;
     border: none;
@@ -25259,11 +25260,11 @@ section.steps .button-container .btn:hover {
 }
 
 .recipe-search-btn:hover {
-    background-color: #00bf6f
+    background-color: #89c814
 }
 
 .recipe-search-btn:hover~.recipe-search-input {
-    border-color: #00bf6f !important;
+    border-color: #89c814 !important;
     transition: border-color .6s
 }
 
@@ -25342,14 +25343,14 @@ section.steps .button-container .btn:hover {
 .filter-btn {
     text-align: center;
     padding: 15px !important;
-    color: #00bf6f;
+    color: #89c814;
     background-color: transparent;
     font-size: 20px;
     text-transform: uppercase;
     transition: color .3s ease-in-out;
     line-height: 13px;
     cursor: pointer;
-    border: 2px solid #00bf6f;
+    border: 2px solid #89c814;
     border-radius: 50px;
     font-size: 13px;
     width: 140px;
@@ -25359,7 +25360,7 @@ section.steps .button-container .btn:hover {
 .filter-btn:hover,
 .filter-btn:hover::after {
     color: #fff;
-    background-color: #00bf6f;
+    background-color: #89c814;
     transition: color .3s ease-in-out, background-color .3s ease-in-out
 }
 
@@ -25371,7 +25372,7 @@ section.steps .button-container .btn:hover {
     font-weight: 300;
     margin-left: 8px;
     transform: rotate(90deg);
-    color: #00bf6f;
+    color: #89c814;
     transition: color .3s ease-in-out
 }
 
@@ -25433,8 +25434,8 @@ section.steps .button-container .btn:hover {
 
 .recipe-filter-container a {
     font-family: "poppins", Helvetica, Arial, sans-serif;
-    color: #00bf6f !important;
-    border: 1px solid #00bf6f;
+    color: #89c814 !important;
+    border: 1px solid #89c814;
     padding: 12px 20px;
     border-radius: 50px;
     text-transform: uppercase;
@@ -25446,12 +25447,12 @@ section.steps .button-container .btn:hover {
 
 .recipe-filter-container a:hover {
     text-decoration: none !important;
-    background-color: #00bf6f;
+    background-color: #89c814;
     color: #fff !important
 }
 
 .recipe-filter-container a.selected {
-    background-color: #00bf6f;
+    background-color: #89c814;
     color: #fff !important
 }
 
@@ -25565,7 +25566,7 @@ section.steps .button-container .btn:hover {
     font-weight: 300;
     margin-left: 8px;
     transform: rotate(90deg);
-    color: #00bf6f
+    color: #89c814
 }
 
 @media all and (max-width: 769px) {
@@ -25713,7 +25714,7 @@ section.steps .button-container .btn:hover {
 
 .tag-btn {
     display: inline-block;
-    background-color: #00bf6f;
+    background-color: #89c814;
     padding: 12px 17px;
     border-radius: 50px;
     margin-right: 5px;
@@ -25924,7 +25925,7 @@ section.steps .button-container .btn:hover {
     font-weight: 300;
     margin-left: 8px;
     transform: rotate(90deg);
-    color: #00bf6f
+    color: #89c814
 }
 
 @media all and (max-width: 769px) {
@@ -26032,7 +26033,7 @@ section.steps .button-container .btn:hover {
 
 .macro .name {
     font-size: 12px;
-    color: #00bf6f;
+    color: #89c814;
     text-transform: uppercase;
     margin-bottom: 10px
 }
@@ -26068,13 +26069,13 @@ section.steps .button-container .btn:hover {
     width: 100%;
     text-align: center;
     border-radius: 50px;
-    border: 2px solid #00bf6f
+    border: 2px solid #89c814
 }
 
 .a2a-button:hover,
 .a2a_dd:hover {
     text-decoration: none !important;
-    background-color: #00bf6f;
+    background-color: #89c814;
     color: #fff
 }
 
@@ -26115,7 +26116,7 @@ section.steps .button-container .btn:hover {
     font-size: 12px !important;
     letter-spacing: 1px !important;
     font-weight: 500 !important;
-    color: #00bf6f !important;
+    color: #89c814 !important;
     padding: 6px 8px !important
 }
 
@@ -26273,7 +26274,7 @@ section.steps .button-container .btn:hover {
 }
 
 .recipe-step.selected .recipe-step-value {
-    background-color: #00bf6f;
+    background-color: #89c814;
     transform: scale(1.16);
     transition: transform .2s ease-in-out
 }
@@ -26388,7 +26389,7 @@ section.steps .button-container .btn:hover {
 }
 
 .recipe-post-item:hover h4 {
-    color: #00bf6f
+    color: #89c814
 }
 
 .recipe-post-item p {
@@ -26536,12 +26537,12 @@ section.steps .button-container .btn:hover {
 }
 
 .recipe-tab-list__item a:hover {
-    color: #00bf6f !important;
+    color: #89c814 !important;
     text-decoration: none !important
 }
 
 .recipe-tab-list__item a[aria-selected=true] {
-    color: #00bf6f !important;
+    color: #89c814 !important;
     width: 100%
 }
 
@@ -26551,7 +26552,7 @@ section.steps .button-container .btn:hover {
     top: 0;
     left: 0;
     width: 100%;
-    border-top: 4px solid #00bf6f
+    border-top: 4px solid #89c814
 }
 
 @media all and (max-width: 769px) {
@@ -26602,7 +26603,7 @@ section.steps .button-container .btn:hover {
 }
 
 .scholarship .scholarship-button {
-    background: green;
+    background: #89c814;
     color: #fff;
     padding: 10px 30px;
     font-weight: 600
@@ -26672,7 +26673,7 @@ section.steps .button-container .btn:hover {
     }
 }
 
-@media all and (min-width: 1250px) {
+@media all and (min-width: 768px) {
     #senior-page .steps .mobile-text-accordion {
         padding: initial
     }
@@ -26705,7 +26706,7 @@ section.steps .button-container .btn:hover {
 
 #senior-page .body p:after {
     border: 16px solid transparent;
-    border-top-color: #00bf6f;
+    border-top-color: #89c814;
     content: "";
     bottom: -12px;
     position: absolute;
@@ -26717,7 +26718,7 @@ section.steps .button-container .btn:hover {
     width: 4px;
     position: absolute;
     height: 80%;
-    background-color: #00bf6f;
+    background-color: #89c814;
     left: 22px
 }
 
@@ -26732,7 +26733,7 @@ section.steps .button-container .btn:hover {
     left: 8px;
     height: 10px;
     width: 31px;
-    background-color: #00bf6f;
+    background-color: #89c814;
     border: none;
     border-top-color: none
 }
@@ -26745,7 +26746,7 @@ section.steps .button-container .btn:hover {
     content: "";
     width: 53%;
     position: absolute;
-    background-color: #00bf6f;
+    background-color: #89c814;
     height: 3px;
     top: 49%;
     right: 30px
@@ -26754,7 +26755,7 @@ section.steps .button-container .btn:hover {
 #senior-page section.steps .title::after {
     content: "";
     border: 16px solid transparent;
-    border-left-color: #00bf6f;
+    border-left-color: #89c814;
     position: absolute;
     right: 0;
     top: 27%
@@ -26773,7 +26774,7 @@ section.steps .button-container .btn:hover {
     position: absolute;
     height: 30px;
     width: 10px;
-    background-color: #00bf6f;
+    background-color: #89c814;
     border: none;
     border-top-color: none
 }
@@ -26922,7 +26923,7 @@ section.steps .button-container .btn:hover {
     font-family: "icomoon";
     font-size: 25px;
     font-weight: 300;
-    color: #00bf6f;
+    color: #89c814;
     margin-right: 10px
 }
 
@@ -27250,7 +27251,7 @@ section.steps .button-container .btn:hover {
 }
 
 .tf-cher__header h5 {
-    color: #00bf6f
+    color: #89c814
 }
 
 @media all and (min-width: 769px) {
@@ -27351,8 +27352,8 @@ section.steps .button-container .btn:hover {
 }
 
 .tf-cher__tab.active {
-    color: #00bf6f;
-    border-bottom: 2px solid #00bf6f
+    color: #89c814;
+    border-bottom: 2px solid #89c814
 }
 
 .tf-hero {
@@ -27562,8 +27563,8 @@ section.steps .button-container .btn:hover {
 .tf-mealplan__tabs ul li[aria-selected=true] {
     background-color: #d6f5e8;
     border-radius: 3px;
-    border: 1px solid #00bf6f;
-    color: #00bf6f
+    border: 1px solid #89c814;
+    color: #89c814
 }
 
 .tf-mealplan__tabs ul li:last-child {
@@ -27725,7 +27726,7 @@ section.steps .button-container .btn:hover {
 
 .tf-navbar__text h3 {
     font-family: "poppins", Helvetica, Arial, sans-serif;
-    color: #00bf6f;
+    color: #89c814;
     font-size: 25px;
     line-height: 25px
 }
@@ -27876,7 +27877,7 @@ section.steps .button-container .btn:hover {
     font-weight: 300;
     text-align: center;
     transform: rotate(90deg);
-    color: #00bf6f;
+    color: #89c814;
     transition: .25s;
     transform-origin: 50% 50%
 }
@@ -28365,7 +28366,7 @@ section.steps .button-container .btn:hover {
     font-weight: 300;
     text-align: center;
     transform: rotate(90deg);
-    color: #00bf6f;
+    color: #89c814;
     transition: .25s;
     transform-origin: 50% 50%
 }
@@ -28528,7 +28529,7 @@ section.steps .button-container .btn:hover {
 }
 
 .great_deal__text .bg-white h5 {
-    color: #00bf6f
+    color: #89c814
 }
 
 .great_deal__list ul {
@@ -28864,7 +28865,7 @@ section.steps .button-container .btn:hover {
 }
 
 .image-and-text-cta2 .cta .block-right .content .header .pre-heading {
-    color: #00bf6f;
+    color: #89c814;
     text-transform: uppercase
 }
 
@@ -28890,11 +28891,11 @@ section.steps .button-container .btn:hover {
 }
 
 .image-and-text-cta2 .cta .block-right .content .btn {
-    background: #00bf6f
+    background: #89c814
 }
 
 .image-and-text-cta2 .cta .block-right .content .btn:hover {
-    background: #068e67
+    background: #67a602
 }
 
 .image-and-text-cta2 .right .block-left {
@@ -28915,7 +28916,7 @@ section.steps .button-container .btn:hover {
 }
 
 .image-and-text-cta2 .mobile-header .header .pre-heading {
-    color: #00bf6f;
+    color: #89c814;
     text-transform: uppercase
 }
 
@@ -29011,7 +29012,7 @@ section.steps .button-container .btn:hover {
 
 #intro-dish .intro-dish__title .preheader,
 #intro-dish-vegan .intro-dish__title .preheader {
-    color: #00bf6f;
+    color: #89c814;
     padding-bottom: 0px
 }
 
@@ -29458,11 +29459,11 @@ section.steps .button-container .btn:hover {
 }
 
 .page-template-vegan .meal-info .meal-info-container .block-right .block-container .meal-info-body .btn {
-    background: #00bf6f
+    background: #89c814
 }
 
 .page-template-vegan .meal-info .meal-info-container .block-right .block-container .meal-info-body .btn:hover {
-    background: #068e67
+    background: #67a602
 }
 
 .page-template-vegan .mealpopup .mealpop-cta__container a {
@@ -31129,7 +31130,7 @@ body.search #main-header #close {
 .fact-check__btn {
     padding: 5px 12px !important;
     font-size: 13px !important;
-    color: #00bf6f !important
+    color: #89c814 !important
 }
 
 .fact-check__btn:hover {

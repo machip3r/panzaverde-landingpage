@@ -2386,7 +2386,7 @@ $(".primary-container img").attr('tabindex', '-1');
 (function ($, root, undefined) {
   if ($(".page-template-senior-page").length) {
     $(
-      ".steps-container .step:nth-child(5), .homepage-js-accordion li:nth-child(5), .trail"
+      ".steps-container .step:nth-child(4), .homepage-js-accordion li:nth-child(4), .trail"
     ).remove();
     $(".dot").remove();
   }
@@ -2428,7 +2428,7 @@ $(".primary-container img").attr('tabindex', '-1');
   });
   $(".steps__second").slick({
     arrows: false,
-    slidesToShow: 5,
+    slidesToShow: 4,
   });
 
   $(
